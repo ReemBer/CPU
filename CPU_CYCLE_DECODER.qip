@@ -1,0 +1,6 @@
+set_global_assignment -name IP_TOOL_NAME "LPM_DECODE"
+set_global_assignment -name IP_TOOL_VERSION "9.1"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "CPU_CYCLE_DECODER.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "CPU_CYCLE_DECODER.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "CPU_CYCLE_DECODER_inst.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "CPU_CYCLE_DECODER.cmp"]
