@@ -118,7 +118,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 264 656 489 672)
+	(rect 264 656 440 672)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "command_data_bus[15..0]" (rect 90 0 220 12)(font "Arial" ))
 	(pt 0 8)
@@ -134,7 +134,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 448 472 631 488)
+	(rect 448 472 624 488)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "COMMAND[47..0]" (rect 90 0 178 12)(font "Arial" ))
 	(pt 0 8)

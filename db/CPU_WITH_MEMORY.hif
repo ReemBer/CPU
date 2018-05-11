@@ -6625,6 +6625,46 @@ a36c8ec425c8a2589af98b2d4daabc3
 
 # end
 # entity
+CPU_WITH_MEMORY
+# storage
+db|CPU_WITH_MEMORY.(1).cnf
+db|CPU_WITH_MEMORY.(1).cnf
+# case_insensitive
+# source_file
+cpu_with_memory.bdf
+d12a780464624dacbfd62ccdadd482
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+CONTROL_DEVICE
+# storage
+db|CPU_WITH_MEMORY.(12).cnf
+db|CPU_WITH_MEMORY.(12).cnf
+# case_insensitive
+# source_file
+control_device.bdf
+47623c917b9b4ba94dccc6bc631994d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CPU:inst2|CONTROL_DEVICE:inst
+}
+# macro_sequence
+
+# end
+# entity
 altsyncram_ig71
 # storage
 db|CPU_WITH_MEMORY.(14).cnf
@@ -6725,50 +6765,10 @@ address_a0
 }
 # memory_file {
 rom_init.hex
-228daef92847cb1772636aa99e02742
+e58d7653938186c5886cc98c5ea9b4e4
 }
 # hierarchies {
 ROM:inst|altsyncram:altsyncram_component|altsyncram_ig71:auto_generated
-}
-# macro_sequence
-
-# end
-# entity
-CONTROL_DEVICE
-# storage
-db|CPU_WITH_MEMORY.(12).cnf
-db|CPU_WITH_MEMORY.(12).cnf
-# case_insensitive
-# source_file
-control_device.bdf
-f455ee4dadf43f8dc1541664e25293
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-CPU:inst2|CONTROL_DEVICE:inst
-}
-# macro_sequence
-
-# end
-# entity
-CPU_WITH_MEMORY
-# storage
-db|CPU_WITH_MEMORY.(1).cnf
-db|CPU_WITH_MEMORY.(1).cnf
-# case_insensitive
-# source_file
-cpu_with_memory.bdf
-77936c2dce2b7b1e094bff20b2be1
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
 }
 # macro_sequence
 

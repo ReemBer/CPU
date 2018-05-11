@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPU_WITH_MEMORY
-Fri May 11 06:09:42 2018
+Fri May 11 23:36:30 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -59,7 +59,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Fri May 11 06:09:42 2018   ;
+; Analysis & Synthesis Status   ; Successful - Fri May 11 23:36:29 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; CPU_WITH_MEMORY                         ;
 ; Top-level Entity Name         ; CPU_WITH_MEMORY                         ;
@@ -217,10 +217,10 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Total combinational functions                 ; 29                                  ;
 ; Combinational ALUT usage by number of inputs  ;                                     ;
 ;     -- 7 input functions                      ; 0                                   ;
-;     -- 6 input functions                      ; 0                                   ;
-;     -- 5 input functions                      ; 6                                   ;
-;     -- 4 input functions                      ; 3                                   ;
-;     -- <=3 input functions                    ; 20                                  ;
+;     -- 6 input functions                      ; 2                                   ;
+;     -- 5 input functions                      ; 4                                   ;
+;     -- 4 input functions                      ; 0                                   ;
+;     -- <=3 input functions                    ; 23                                  ;
 ;                                               ;                                     ;
 ; Combinational ALUTs by mode                   ;                                     ;
 ;     -- normal mode                            ; 12                                  ;
@@ -240,8 +240,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Total block memory bits                       ; 65536                               ;
 ; Maximum fan-out node                          ; CPU:inst2|CONTROL_DEVICE:inst|inst9 ;
 ; Maximum fan-out                               ; 48                                  ;
-; Total fan-out                                 ; 542                                 ;
-; Average fan-out                               ; 2.77                                ;
+; Total fan-out                                 ; 539                                 ;
+; Average fan-out                               ; 2.75                                ;
 +-----------------------------------------------+-------------------------------------+
 
 
@@ -252,7 +252,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; |CPU_WITH_MEMORY                                ; 29 (1)            ; 65 (0)       ; 65536             ; 0            ; 0       ; 0         ; 0         ; 86   ; 0            ; |CPU_WITH_MEMORY                                                                                                                 ; work         ;
 ;    |CPU:inst2|                                  ; 28 (0)            ; 65 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2                                                                                                       ;              ;
-;       |CONTROL_DEVICE:inst|                     ; 28 (7)            ; 65 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst                                                                                   ; work         ;
+;       |CONTROL_DEVICE:inst|                     ; 28 (8)            ; 65 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst                                                                                   ; work         ;
 ;          |COMMAND_WORD_BUFFER:inst6|            ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6                                                         ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6|lpm_ff:lpm_ff_component                                 ; work         ;
 ;          |COMMAND_WORD_BUFFER:inst7|            ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst7                                                         ; work         ;
@@ -265,8 +265,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |CPU_CYCLE_DECODER:inst|               ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst                                                            ; work         ;
 ;             |lpm_decode:lpm_decode_component|   ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component                            ; work         ;
 ;                |decode_d9f:auto_generated|      ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component|decode_d9f:auto_generated  ; work         ;
-;          |CPU_CYCLE_RESET_OR:inst32|            ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32                                                         ; work         ;
-;             |lpm_or:lpm_or_component|           ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|lpm_or:lpm_or_component                                 ; work         ;
+;          |CPU_CYCLE_RESET_OR:inst32|            ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32                                                         ; work         ;
+;             |lpm_or:lpm_or_component|           ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|lpm_or:lpm_or_component                                 ; work         ;
 ;          |NEW_IP_TEST:inst39|                   ; 12 (0)            ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39                                                                ; work         ;
 ;             |lpm_counter:lpm_counter_component| ; 12 (0)            ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component                              ; work         ;
 ;                |cntr_6bj:auto_generated|        ; 12 (12)           ; 12 (12)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated      ; work         ;
@@ -655,7 +655,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Fri May 11 06:09:36 2018
+    Info: Processing started: Fri May 11 23:36:21 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPU -c CPU_WITH_MEMORY
 Warning: Tcl Script File RAM_TEST_BUSTRI.qip not found
     Info: set_global_assignment -name QIP_FILE RAM_TEST_BUSTRI.qip
@@ -795,6 +795,7 @@ Info: Instantiated megafunction "ROM:inst|altsyncram:altsyncram_component" with 
 Info: Found 1 design units, including 1 entities, in source file db/altsyncram_ig71.tdf
     Info: Found entity 1: altsyncram_ig71
 Info: Elaborating entity "altsyncram_ig71" for hierarchy "ROM:inst|altsyncram:altsyncram_component|altsyncram_ig71:auto_generated"
+Critical Warning: Memory depth (4096) in the design file differs from memory depth (65536) in the Memory Initialization File "ROM_INIT.hex" -- truncated remaining initial content value to fit RAM
 Info: Elaborating entity "RW_RAM_BUSTRI" for hierarchy "RW_RAM_BUSTRI:inst3"
 Info: Elaborating entity "lpm_bustri" for hierarchy "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component"
 Info: Elaborated megafunction instantiation "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component"
@@ -1087,7 +1088,7 @@ Warning: Synthesized away the following node(s):
         Warning (14320): Synthesized away node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_71a1:auto_generated|ram_block1a254"
         Warning (14320): Synthesized away node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_71a1:auto_generated|ram_block1a255"
 Warning: Clock multiplexers are found and protected
-    Warning: Found clock multiplexer CPU:inst2|CONTROL_DEVICE:inst|inst16~synth
+    Warning: Found clock multiplexer CPU:inst2|CONTROL_DEVICE:inst|inst5~synth
 Info: 4 registers lost all their fanouts during netlist optimizations. The first 4 are displayed below.
     Info: Register "CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated|safe_q[15]" lost all its fanouts during netlist optimizations.
     Info: Register "CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated|safe_q[14]" lost all its fanouts during netlist optimizations.
@@ -1102,10 +1103,10 @@ Info: Implemented 179 device resources after synthesis - the final resource coun
     Info: Implemented 81 output pins
     Info: Implemented 77 logic cells
     Info: Implemented 16 RAM segments
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 274 warnings
-    Info: Peak virtual memory: 320 megabytes
-    Info: Processing ended: Fri May 11 06:09:42 2018
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:12
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 275 warnings
+    Info: Peak virtual memory: 333 megabytes
+    Info: Processing ended: Fri May 11 23:36:30 2018
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:16
 
 

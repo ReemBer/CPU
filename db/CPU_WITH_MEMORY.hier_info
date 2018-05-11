@@ -233,7 +233,7 @@ data_bus_in[15] => ~NO_FANOUT~
 
 
 |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst
-read_command <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+read_command <= inst5.DB_MAX_OUTPUT_PORT_TYPE
 command[0] <= COMMAND_WORD_BUFFER:inst6.q[0]
 command[1] <= COMMAND_WORD_BUFFER:inst6.q[1]
 command[2] <= COMMAND_WORD_BUFFER:inst6.q[2]
