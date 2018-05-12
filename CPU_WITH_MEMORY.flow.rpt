@@ -1,5 +1,5 @@
 Flow report for CPU_WITH_MEMORY
-Fri May 11 23:36:50 2018
+Sat May 12 03:54:37 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,19 +38,19 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Flow Summary                                                            ;
 +-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Fri May 11 23:36:50 2018   ;
+; Flow Status                   ; Successful - Sat May 12 03:54:37 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; CPU_WITH_MEMORY                         ;
-; Top-level Entity Name         ; CPU_WITH_MEMORY                         ;
+; Top-level Entity Name         ; GENERAL_REGISTERS_TEST                  ;
 ; Family                        ; Stratix II                              ;
-; Met timing requirements       ; No                                      ;
-; Logic utilization             ; < 1 %                                   ;
-;     Combinational ALUTs       ; 29 / 12,480 ( < 1 % )                   ;
-;     Dedicated logic registers ; 65 / 12,480 ( < 1 % )                   ;
-; Total registers               ; 65                                      ;
-; Total pins                    ; 86 / 343 ( 25 % )                       ;
+; Met timing requirements       ; Yes                                     ;
+; Logic utilization             ; 2 %                                     ;
+;     Combinational ALUTs       ; 96 / 12,480 ( < 1 % )                   ;
+;     Dedicated logic registers ; 256 / 12,480 ( 2 % )                    ;
+; Total registers               ; 256                                     ;
+; Total pins                    ; 38 / 343 ( 11 % )                       ;
 ; Total virtual pins            ; 0                                       ;
-; Total block memory bits       ; 65,536 / 419,328 ( 16 % )               ;
+; Total block memory bits       ; 0 / 419,328 ( 0 % )                     ;
 ; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                          ;
 ; Total PLLs                    ; 0 / 6 ( 0 % )                           ;
 ; Total DLLs                    ; 0 / 2 ( 0 % )                           ;
@@ -64,99 +64,120 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/11/2018 23:36:22 ;
+; Start date & time ; 05/12/2018 03:54:03 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPU_WITH_MEMORY     ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                        ;
-+------------------------------------+--------------------------------+--------------------+-------------+----------------+
-; Assignment Name                    ; Value                          ; Default Value      ; Entity Name ; Section Id     ;
-+------------------------------------+--------------------------------+--------------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 44883555018623.152607098216900 ; --                 ; --          ; --             ;
-; FITTER_EFFORT                      ; Standard Fit                   ; Auto Fit           ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_ROM                        ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_BUSTRI                     ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_DECODE                     ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_COUNTER                    ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_FF                         ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_DECODE                     ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_FF                         ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_COUNTER                    ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_FF                         ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_BUSTRI                     ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_OR                         ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_BUSTRI                     ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_FF                         ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_COUNTER                    ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_COUNTER                    ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                            ; --                 ; --          ; --             ;
-; MISC_FILE                          ; ROM.bsf                        ; --                 ; --          ; --             ;
-; MISC_FILE                          ; ROM_inst.vhd                   ; --                 ; --          ; --             ;
-; MISC_FILE                          ; ROM.cmp                        ; --                 ; --          ; --             ;
-; MISC_FILE                          ; RW_RAM_BUSTRI.bsf              ; --                 ; --          ; --             ;
-; MISC_FILE                          ; RW_RAM_BUSTRI_inst.vhd         ; --                 ; --          ; --             ;
-; MISC_FILE                          ; RW_RAM_BUSTRI.cmp              ; --                 ; --          ; --             ;
-; MISC_FILE                          ; CPU_CYCLE_DECODER.bsf          ; --                 ; --          ; --             ;
-; MISC_FILE                          ; CPU_CYCLE_DECODER_inst.vhd     ; --                 ; --          ; --             ;
-; MISC_FILE                          ; CPU_CYCLE_DECODER.cmp          ; --                 ; --          ; --             ;
-; MISC_FILE                          ; CPU_CYCLE_COUNTER.bsf          ; --                 ; --          ; --             ;
-; MISC_FILE                          ; CPU_CYCLE_COUNTER_inst.vhd     ; --                 ; --          ; --             ;
-; MISC_FILE                          ; CPU_CYCLE_COUNTER.cmp          ; --                 ; --          ; --             ;
-; MISC_FILE                          ; COMMAND_WORD_BUFFER.bsf        ; --                 ; --          ; --             ;
-; MISC_FILE                          ; COMMAND_WORD_BUFFER_inst.vhd   ; --                 ; --          ; --             ;
-; MISC_FILE                          ; COMMAND_WORD_BUFFER.cmp        ; --                 ; --          ; --             ;
-; MISC_FILE                          ; COMMAND_DECODER.bsf            ; --                 ; --          ; --             ;
-; MISC_FILE                          ; COMMAND_DECODER_inst.vhd       ; --                 ; --          ; --             ;
-; MISC_FILE                          ; COMMAND_DECODER.cmp            ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_TEST_ENTITY.bsf             ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_TEST_ENTITY_inst.vhd        ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_TEST_ENTITY.cmp             ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_COUNTER_TEST.bsf            ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_COUNTER_TEST_inst.vhd       ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_COUNTER_TEST.cmp            ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_REG_TEST.bsf                ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_REG_TEST_inst.vhd           ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_REG_TEST.cmp                ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_BUSTRI.bsf                  ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_BUSTRI_inst.vhd             ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_BUSTRI.cmp                  ; --                 ; --          ; --             ;
-; MISC_FILE                          ; CPU_CYCLE_RESET_OR.bsf         ; --                 ; --          ; --             ;
-; MISC_FILE                          ; CPU_CYCLE_RESET_OR_inst.vhd    ; --                 ; --          ; --             ;
-; MISC_FILE                          ; CPU_CYCLE_RESET_OR.cmp         ; --                 ; --          ; --             ;
-; MISC_FILE                          ; ROM_OUT_BUSTRI.bsf             ; --                 ; --          ; --             ;
-; MISC_FILE                          ; ROM_OUT_BUSTRI_inst.vhd        ; --                 ; --          ; --             ;
-; MISC_FILE                          ; ROM_OUT_BUSTRI.cmp             ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_REGISTER.bsf                ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_REGISTER_inst.vhd           ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_REGISTER.cmp                ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_COUNTER.bsf                 ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_COUNTER_inst.vhd            ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_COUNTER.cmp                 ; --                 ; --          ; --             ;
-; MISC_FILE                          ; NEW_IP_TEST.bsf                ; --                 ; --          ; --             ;
-; MISC_FILE                          ; NEW_IP_TEST_inst.vhd           ; --                 ; --          ; --             ;
-; MISC_FILE                          ; NEW_IP_TEST.cmp                ; --                 ; --          ; --             ;
-; OPTIMIZE_POWER_DURING_FITTING      ; Extra effort                   ; Normal compilation ; --          ; --             ;
-; PARTITION_COLOR                    ; 16764057                       ; --                 ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --                 ; --          ; Top            ;
-; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                            ; --                 ; --          ; eda_blast_fpga ;
-+------------------------------------+--------------------------------+--------------------+-------------+----------------+
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                          ;
++------------------------------------+---------------------------------------+--------------------+------------------------+----------------+
+; Assignment Name                    ; Value                                 ; Default Value      ; Entity Name            ; Section Id     ;
++------------------------------------+---------------------------------------+--------------------+------------------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 44883555018623.152608644321244        ; --                 ; --                     ; --             ;
+; FITTER_EFFORT                      ; Standard Fit                          ; Auto Fit           ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_ROM                               ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_DECODE                            ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                           ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_DECODE                            ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                           ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_OR                                ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                           ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                           ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_DECODE                            ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                               ; --                 ; --                     ; --             ;
+; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; ROM.bsf                               ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; ROM_inst.vhd                          ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; ROM.cmp                               ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; RW_RAM_BUSTRI.bsf                     ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; RW_RAM_BUSTRI_inst.vhd                ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; RW_RAM_BUSTRI.cmp                     ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; CPU_CYCLE_DECODER.bsf                 ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; CPU_CYCLE_DECODER_inst.vhd            ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; CPU_CYCLE_DECODER.cmp                 ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; CPU_CYCLE_COUNTER.bsf                 ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; CPU_CYCLE_COUNTER_inst.vhd            ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; CPU_CYCLE_COUNTER.cmp                 ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; COMMAND_WORD_BUFFER.bsf               ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; COMMAND_WORD_BUFFER_inst.vhd          ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; COMMAND_WORD_BUFFER.cmp               ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; COMMAND_DECODER.bsf                   ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; COMMAND_DECODER_inst.vhd              ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; COMMAND_DECODER.cmp                   ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_TEST_ENTITY.bsf                    ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_TEST_ENTITY_inst.vhd               ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_TEST_ENTITY.cmp                    ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_COUNTER_TEST.bsf                   ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_COUNTER_TEST_inst.vhd              ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_COUNTER_TEST.cmp                   ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_REG_TEST.bsf                       ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_REG_TEST_inst.vhd                  ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_REG_TEST.cmp                       ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_BUSTRI.bsf                         ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_BUSTRI_inst.vhd                    ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_BUSTRI.cmp                         ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; CPU_CYCLE_RESET_OR.bsf                ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; CPU_CYCLE_RESET_OR_inst.vhd           ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; CPU_CYCLE_RESET_OR.cmp                ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; ROM_OUT_BUSTRI.bsf                    ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; ROM_OUT_BUSTRI_inst.vhd               ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; ROM_OUT_BUSTRI.cmp                    ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_REGISTER.bsf                       ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_REGISTER_inst.vhd                  ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_REGISTER.cmp                       ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_COUNTER.bsf                        ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_COUNTER_inst.vhd                   ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; IP_COUNTER.cmp                        ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; NEW_IP_TEST.bsf                       ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; NEW_IP_TEST_inst.vhd                  ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; NEW_IP_TEST.cmp                       ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; GENERAL_REGISTER.bsf                  ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; GENERAL_REGISTER_inst.vhd             ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; GENERAL_REGISTER.cmp                  ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; GENERAL_REGISTERS_DECODER.bsf         ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; GENERAL_REGISTERS_DECODER_inst.vhd    ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; GENERAL_REGISTERS_DECODER.cmp         ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; GENERAL_REGISTER_READ_MUX.bsf         ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; GENERAL_REGISTER_READ_MUX_inst.vhd    ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; GENERAL_REGISTER_READ_MUX.cmp         ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; GENERAL_REGISTER_READ_BUSTRI.bsf      ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; GENERAL_REGISTER_READ_BUSTRI_inst.vhd ; --                 ; --                     ; --             ;
+; MISC_FILE                          ; GENERAL_REGISTER_READ_BUSTRI.cmp      ; --                 ; --                     ; --             ;
+; OPTIMIZE_POWER_DURING_FITTING      ; Extra effort                          ; Normal compilation ; --                     ; --             ;
+; PARTITION_COLOR                    ; 16764057                              ; --                 ; GENERAL_REGISTERS_TEST ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                ; --                 ; GENERAL_REGISTERS_TEST ; Top            ;
+; TOP_LEVEL_ENTITY                   ; GENERAL_REGISTERS_TEST                ; CPU_WITH_MEMORY    ; --                     ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                   ; --                 ; --                     ; eda_blast_fpga ;
++------------------------------------+---------------------------------------+--------------------+------------------------+----------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------+
@@ -164,11 +185,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:08     ; 1.0                     ; 333 MB              ; 00:00:15                           ;
-; Fitter                  ; 00:00:13     ; 1.0                     ; 368 MB              ; 00:00:17                           ;
-; Assembler               ; 00:00:03     ; 1.0                     ; 299 MB              ; 00:00:03                           ;
-; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 230 MB              ; 00:00:01                           ;
-; Total                   ; 00:00:25     ; --                      ; --                  ; 00:00:36                           ;
+; Analysis & Synthesis    ; 00:00:09     ; 1.0                     ; 308 MB              ; 00:00:13                           ;
+; Fitter                  ; 00:00:13     ; 1.0                     ; 368 MB              ; 00:00:12                           ;
+; Assembler               ; 00:00:02     ; 1.0                     ; 299 MB              ; 00:00:03                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 230 MB              ; 00:00:02                           ;
+; Total                   ; 00:00:25     ; --                      ; --                  ; 00:00:30                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY CPU_WITH_MEMORY
+set_global_assignment -name TOP_LEVEL_ENTITY GENERAL_REGISTERS_TEST
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:17:55  MAY 08, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION 9.1
@@ -67,18 +67,25 @@ set_global_assignment -name QIP_FILE IP_COUNTER_TEST.qip
 set_global_assignment -name QIP_FILE IP_REG_TEST.qip
 set_global_assignment -name ADD_DEFAULT_PINS_TO_SIMULATION_OUTPUT_WAVEFORMS OFF
 set_global_assignment -name QIP_FILE IP_BUSTRI.qip
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
-set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_global_assignment -name QIP_FILE CPU_CYCLE_RESET_OR.qip
 set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
 set_global_assignment -name OPTIMIZE_POWER_DURING_FITTING "EXTRA EFFORT"
 set_global_assignment -name STRATIXII_OPTIMIZATION_TECHNIQUE BALANCED
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE CPU_WITH_MEMORY.vwf
 set_global_assignment -name QIP_FILE ROM_OUT_BUSTRI.qip
 set_global_assignment -name QIP_FILE IP_REGISTER.qip
 set_global_assignment -name QIP_FILE IP_COUNTER.qip
 set_global_assignment -name QIP_FILE NEW_IP_TEST.qip
 set_global_assignment -name END_TIME "2 us"
+set_global_assignment -name BDF_FILE GENERAL_REGISTERS.bdf
+set_global_assignment -name QIP_FILE GENERAL_REGISTER.qip
+set_global_assignment -name QIP_FILE GENERAL_REGISTERS_DECODER.qip
+set_global_assignment -name QIP_FILE GENERAL_REGISTER_READ_MUX.qip
+set_global_assignment -name QIP_FILE GENERAL_REGISTER_READ_BUSTRI.qip
+set_global_assignment -name BDF_FILE GENERAL_REGISTERS_TEST.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name VECTOR_WAVEFORM_FILE GENERAL_REGISTERS_TEST.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE GENERAL_REGISTERS_TEST.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

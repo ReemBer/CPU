@@ -100,13 +100,6 @@ applicable agreement for further details.
 		(text "general_register[3..0]" (rect 234 107 355 121)(font "Arial" (font_size 8)))
 		(line (pt 376 112)(pt 360 112)(line_width 3))
 	)
-	(port
-		(pt 376 128)
-		(output)
-		(text "COMMAND[47..0]" (rect 0 0 97 14)(font "Arial" (font_size 8)))
-		(text "COMMAND[47..0]" (rect 258 123 355 137)(font "Arial" (font_size 8)))
-		(line (pt 376 128)(pt 360 128)(line_width 3))
-	)
 	(drawing
 		(rectangle (rect 16 16 360 144)(line_width 1))
 	)

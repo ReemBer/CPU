@@ -61,16 +61,16 @@ applicable agreement for further details.
 	(port
 		(pt 320 64)
 		(output)
-		(text "GENERAL_REG[3..0]" (rect 0 0 116 14)(font "Arial" (font_size 8)))
-		(text "GENERAL_REG[3..0]" (rect 183 59 299 73)(font "Arial" (font_size 8)))
+		(text "general_reg_id[3..0]" (rect 0 0 113 14)(font "Arial" (font_size 8)))
+		(text "general_reg_id[3..0]" (rect 186 59 299 73)(font "Arial" (font_size 8)))
 		(line (pt 320 64)(pt 304 64)(line_width 3))
 	)
 	(port
 		(pt 320 80)
 		(output)
-		(text "command[47..0]" (rect 0 0 89 14)(font "Arial" (font_size 8)))
-		(text "command[47..0]" (rect 210 75 299 89)(font "Arial" (font_size 8)))
-		(line (pt 320 80)(pt 304 80)(line_width 3))
+		(text "is_gen_reg_read" (rect 0 0 96 14)(font "Arial" (font_size 8)))
+		(text "is_gen_reg_read" (rect 203 75 299 89)(font "Arial" (font_size 8)))
+		(line (pt 320 80)(pt 304 80)(line_width 1))
 	)
 	(drawing
 		(rectangle (rect 16 16 304 112)(line_width 1))
