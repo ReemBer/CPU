@@ -42,7 +42,7 @@ USE altera_mf.all;
 ENTITY ROM IS
 	PORT
 	(
-		address		: IN STD_LOGIC_VECTOR (11 DOWNTO 0);
+		address		: IN STD_LOGIC_VECTOR (10 DOWNTO 0);
 		clock		: IN STD_LOGIC ;
 		q		: OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
 	);
@@ -73,7 +73,7 @@ ARCHITECTURE SYN OF rom IS
 	);
 	PORT (
 			clock0	: IN STD_LOGIC ;
-			address_a	: IN STD_LOGIC_VECTOR (11 DOWNTO 0);
+			address_a	: IN STD_LOGIC_VECTOR (10 DOWNTO 0);
 			q_a	: OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
 	);
 	END COMPONENT;
@@ -89,11 +89,11 @@ BEGIN
 		intended_device_family => "Stratix II",
 		lpm_hint => "ENABLE_RUNTIME_MOD=NO",
 		lpm_type => "altsyncram",
-		numwords_a => 4096,
+		numwords_a => 2048,
 		operation_mode => "ROM",
 		outdata_aclr_a => "NONE",
 		outdata_reg_a => "CLOCK0",
-		widthad_a => 12,
+		widthad_a => 11,
 		width_a => 16,
 		width_byteena_a => 1
 	)
@@ -128,14 +128,14 @@ END SYN;
 -- Retrieval info: PRIVATE: JTAG_ID STRING "NONE"
 -- Retrieval info: PRIVATE: MAXIMUM_DEPTH NUMERIC "0"
 -- Retrieval info: PRIVATE: MIFfilename STRING "ROM_INIT.hex"
--- Retrieval info: PRIVATE: NUMWORDS_A NUMERIC "4096"
+-- Retrieval info: PRIVATE: NUMWORDS_A NUMERIC "2048"
 -- Retrieval info: PRIVATE: RAM_BLOCK_TYPE NUMERIC "0"
 -- Retrieval info: PRIVATE: RegAddr NUMERIC "1"
 -- Retrieval info: PRIVATE: RegOutput NUMERIC "1"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 -- Retrieval info: PRIVATE: SingleClock NUMERIC "1"
 -- Retrieval info: PRIVATE: UseDQRAM NUMERIC "0"
--- Retrieval info: PRIVATE: WidthAddr NUMERIC "12"
+-- Retrieval info: PRIVATE: WidthAddr NUMERIC "11"
 -- Retrieval info: PRIVATE: WidthData NUMERIC "16"
 -- Retrieval info: PRIVATE: rden NUMERIC "0"
 -- Retrieval info: CONSTANT: CLOCK_ENABLE_INPUT_A STRING "BYPASS"
@@ -144,17 +144,17 @@ END SYN;
 -- Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "Stratix II"
 -- Retrieval info: CONSTANT: LPM_HINT STRING "ENABLE_RUNTIME_MOD=NO"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "altsyncram"
--- Retrieval info: CONSTANT: NUMWORDS_A NUMERIC "4096"
+-- Retrieval info: CONSTANT: NUMWORDS_A NUMERIC "2048"
 -- Retrieval info: CONSTANT: OPERATION_MODE STRING "ROM"
 -- Retrieval info: CONSTANT: OUTDATA_ACLR_A STRING "NONE"
 -- Retrieval info: CONSTANT: OUTDATA_REG_A STRING "CLOCK0"
--- Retrieval info: CONSTANT: WIDTHAD_A NUMERIC "12"
+-- Retrieval info: CONSTANT: WIDTHAD_A NUMERIC "11"
 -- Retrieval info: CONSTANT: WIDTH_A NUMERIC "16"
 -- Retrieval info: CONSTANT: WIDTH_BYTEENA_A NUMERIC "1"
--- Retrieval info: USED_PORT: address 0 0 12 0 INPUT NODEFVAL address[11..0]
+-- Retrieval info: USED_PORT: address 0 0 11 0 INPUT NODEFVAL address[10..0]
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL clock
 -- Retrieval info: USED_PORT: q 0 0 16 0 OUTPUT NODEFVAL q[15..0]
--- Retrieval info: CONNECT: @address_a 0 0 12 0 address 0 0 12 0
+-- Retrieval info: CONNECT: @address_a 0 0 11 0 address 0 0 11 0
 -- Retrieval info: CONNECT: q 0 0 16 0 @q_a 0 0 16 0
 -- Retrieval info: CONNECT: @clock0 0 0 0 0 clock 0 0 0 0
 -- Retrieval info: LIBRARY: altera_mf altera_mf.altera_mf_components.all

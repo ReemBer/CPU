@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY GENERAL_REGISTERS_TEST
+set_global_assignment -name TOP_LEVEL_ENTITY CPU_WITH_MEMORY
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:17:55  MAY 08, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION 9.1
@@ -53,9 +53,6 @@ set_global_assignment -name QIP_FILE RW_RAM_BUSTRI.qip
 set_global_assignment -name BDF_FILE CONTROL_DEVICE.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE CPU_WITH_MEMORY.vwf
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
-set_global_assignment -name QIP_FILE RAM_TEST_BUSTRI.qip
-set_global_assignment -name HEX_FILE RAM_TEST_INIT.hex
-set_global_assignment -name VECTOR_WAVEFORM_FILE RAM_TEST.vwf
 set_global_assignment -name QIP_FILE CPU_CYCLE_DECODER.qip
 set_global_assignment -name QIP_FILE CPU_CYCLE_COUNTER.qip
 set_global_assignment -name QIP_FILE COMMAND_WORD_BUFFER.qip
@@ -81,11 +78,10 @@ set_global_assignment -name QIP_FILE GENERAL_REGISTER.qip
 set_global_assignment -name QIP_FILE GENERAL_REGISTERS_DECODER.qip
 set_global_assignment -name QIP_FILE GENERAL_REGISTER_READ_MUX.qip
 set_global_assignment -name QIP_FILE GENERAL_REGISTER_READ_BUSTRI.qip
-set_global_assignment -name BDF_FILE GENERAL_REGISTERS_TEST.bdf
+set_global_assignment -name QIP_FILE RAM_ADDRESS_BUSTRI.qip
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
-set_global_assignment -name VECTOR_WAVEFORM_FILE GENERAL_REGISTERS_TEST.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE GENERAL_REGISTERS_TEST.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE CPU_WITH_MEMORY.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
