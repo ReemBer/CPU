@@ -303,14 +303,14 @@ command_data_bus[14] => COMMAND_WORD_BUFFER:inst6.data[14]
 command_data_bus[15] => COMMAND_WORD_BUFFER:inst6.data[15]
 int => lpm_ff0:inst105.aset
 int => inst107.IN1
-is_gen_reg_read <= inst82.DB_MAX_OUTPUT_PORT_TYPE
+is_gen_reg_read <= inst109.DB_MAX_OUTPUT_PORT_TYPE
 ram_inclock <= ram_inclock~0.DB_MAX_OUTPUT_PORT_TYPE
 ram_outclock <= ram_outclock~0.DB_MAX_OUTPUT_PORT_TYPE
-ram_we <= inst79.DB_MAX_OUTPUT_PORT_TYPE
+ram_we <= inst113.DB_MAX_OUTPUT_PORT_TYPE
 ram_outenab <= inst96.DB_MAX_OUTPUT_PORT_TYPE
 is_gen_reg_write <= inst70.DB_MAX_OUTPUT_PORT_TYPE
 is_read_data <= inst61.DB_MAX_OUTPUT_PORT_TYPE
-is_write_data <= inst84.DB_MAX_OUTPUT_PORT_TYPE
+is_write_data <= inst115.DB_MAX_OUTPUT_PORT_TYPE
 general_reg_id[0] <= COMMAND[39].DB_MAX_OUTPUT_PORT_TYPE
 general_reg_id[1] <= COMMAND[40].DB_MAX_OUTPUT_PORT_TYPE
 general_reg_id[2] <= COMMAND[41].DB_MAX_OUTPUT_PORT_TYPE
@@ -1353,20 +1353,6 @@ tridata[0] <> lpm_bustri:lpm_bustri_component.tridata[0]
 
 
 |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst66|lpm_bustri:lpm_bustri_component
-tridata[0] <> dout[0]
-data[0] => dout[0].DATAIN
-enabletr => ~NO_FANOUT~
-enabledt => dout[0].OE
-result[0] <= result[0]~0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst89
-data => lpm_bustri:lpm_bustri_component.data[0]
-enabledt => lpm_bustri:lpm_bustri_component.enabledt
-tridata[0] <> lpm_bustri:lpm_bustri_component.tridata[0]
-
-
-|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst89|lpm_bustri:lpm_bustri_component
 tridata[0] <> dout[0]
 data[0] => dout[0].DATAIN
 enabletr => ~NO_FANOUT~
