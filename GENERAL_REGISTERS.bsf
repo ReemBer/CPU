@@ -61,9 +61,16 @@ applicable agreement for further details.
 	(port
 		(pt 232 32)
 		(output)
-		(text "reg_data[15..0]" (rect 0 0 86 14)(font "Arial" (font_size 8)))
-		(text "reg_data[15..0]" (rect 125 27 211 41)(font "Arial" (font_size 8)))
+		(text "REG[15..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
+		(text "REG[15..0]" (rect 151 27 211 41)(font "Arial" (font_size 8)))
 		(line (pt 232 32)(pt 216 32)(line_width 3))
+	)
+	(port
+		(pt 232 48)
+		(output)
+		(text "reg_data[15..0]" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "reg_data[15..0]" (rect 125 43 211 57)(font "Arial" (font_size 8)))
+		(line (pt 232 48)(pt 216 48)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 216 112)(line_width 1))

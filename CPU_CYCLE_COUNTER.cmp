@@ -16,6 +16,8 @@
 component CPU_CYCLE_COUNTER
 	PORT
 	(
+		aclr		: IN STD_LOGIC ;
+		clk_en		: IN STD_LOGIC ;
 		clock		: IN STD_LOGIC ;
 		sclr		: IN STD_LOGIC ;
 		q		: OUT STD_LOGIC_VECTOR (4 DOWNTO 0)

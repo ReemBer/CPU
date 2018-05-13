@@ -57,11 +57,6 @@ set_global_assignment -name QIP_FILE CPU_CYCLE_DECODER.qip
 set_global_assignment -name QIP_FILE CPU_CYCLE_COUNTER.qip
 set_global_assignment -name QIP_FILE COMMAND_WORD_BUFFER.qip
 set_global_assignment -name QIP_FILE COMMAND_DECODER.qip
-set_global_assignment -name QIP_FILE IP_TEST_ENTITY.qip
-set_global_assignment -name BDF_FILE IP_TEST.bdf
-set_global_assignment -name VECTOR_WAVEFORM_FILE IP_TEST.vwf
-set_global_assignment -name QIP_FILE IP_COUNTER_TEST.qip
-set_global_assignment -name QIP_FILE IP_REG_TEST.qip
 set_global_assignment -name ADD_DEFAULT_PINS_TO_SIMULATION_OUTPUT_WAVEFORMS OFF
 set_global_assignment -name QIP_FILE IP_BUSTRI.qip
 set_global_assignment -name QIP_FILE CPU_CYCLE_RESET_OR.qip
@@ -83,9 +78,12 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE CPU_WITH_MEMORY.vwf
 set_global_assignment -name QIP_FILE RAM_DIRECT_ADDRESS.qip
 set_global_assignment -name QIP_FILE INDIRECT_ADDRESSING_MUX.qip
 set_global_assignment -name QIP_FILE SINGLE_BUSTRI.qip
 set_global_assignment -name QIP_FILE RAM_INDIRECT_ADDRESS_BUSTRI.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE RAM_TEST.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE CPU_WITH_MEMORY.vwf
+set_global_assignment -name QIP_FILE RAM_OUTENAB_MUX.qip
+set_global_assignment -name QIP_FILE lpm_ff0.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

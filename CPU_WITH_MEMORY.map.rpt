@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPU_WITH_MEMORY
-Sun May 13 14:52:43 2018
+Sun May 13 22:40:33 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -15,58 +15,57 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis RAM Summary
   9. Registers Removed During Synthesis
- 10. Removed Registers Triggering Further Register Optimizations
- 11. General Register Statistics
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Source assignments for CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component
- 14. Source assignments for CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component
- 15. Source assignments for ROM:inst|altsyncram:altsyncram_component|altsyncram_cg71:auto_generated
- 16. Source assignments for LPM_RAM_IO:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated
- 17. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component
- 18. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component
- 19. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|LPM_OR:lpm_or_component
- 20. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component
- 21. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst8|lpm_ff:lpm_ff_component
- 22. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst7|lpm_ff:lpm_ff_component
- 23. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6|lpm_ff:lpm_ff_component
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Source assignments for CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component
+ 13. Source assignments for CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component
+ 14. Source assignments for ROM:inst|altsyncram:altsyncram_component|altsyncram_cg71:auto_generated
+ 15. Source assignments for LPM_RAM_IO:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated
+ 16. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component
+ 17. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component
+ 18. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|LPM_OR:lpm_or_component
+ 19. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component
+ 20. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst8|lpm_ff:lpm_ff_component
+ 21. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst7|lpm_ff:lpm_ff_component
+ 22. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6|lpm_ff:lpm_ff_component
+ 23. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component
  24. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component
  25. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst59|lpm_bustri:lpm_bustri_component
  26. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst71|lpm_bustri:lpm_bustri_component
- 27. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst50|lpm_bustri:lpm_bustri_component
- 28. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst64|lpm_bustri:lpm_bustri_component
- 29. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst66|lpm_bustri:lpm_bustri_component
- 30. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst49|lpm_bustri:lpm_bustri_component
- 31. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst62|lpm_bustri:lpm_bustri_component
- 32. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst65|lpm_bustri:lpm_bustri_component
- 33. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component
- 34. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component
- 35. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|RAM_INDIRECT_ADDRESS_BUSTRI:inst60|lpm_bustri:lpm_bustri_component
- 36. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|INDIRECT_ADDRESSING_MUX:inst17|LPM_MUX:lpm_mux_component
- 37. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component
- 38. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst19|lpm_bustri:lpm_bustri_component
- 39. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17|LPM_MUX:lpm_mux_component
- 40. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component
- 41. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component
+ 27. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst77|lpm_bustri:lpm_bustri_component
+ 28. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst50|lpm_bustri:lpm_bustri_component
+ 29. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst64|lpm_bustri:lpm_bustri_component
+ 30. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst66|lpm_bustri:lpm_bustri_component
+ 31. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst89|lpm_bustri:lpm_bustri_component
+ 32. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component
+ 33. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component
+ 34. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|RAM_INDIRECT_ADDRESS_BUSTRI:inst60|lpm_bustri:lpm_bustri_component
+ 35. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|INDIRECT_ADDRESSING_MUX:inst17|LPM_MUX:lpm_mux_component
+ 36. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component
+ 37. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component
+ 38. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component
+ 39. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst19|lpm_bustri:lpm_bustri_component
+ 40. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17|LPM_MUX:lpm_mux_component
+ 41. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component
  42. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component
  43. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component
  44. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component
  45. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component
  46. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component
- 47. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component
- 48. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component
- 49. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component
- 50. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component
- 51. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component
- 52. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component
- 53. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component
- 54. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component
- 55. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component
- 56. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component
- 57. Parameter Settings for User Entity Instance: ROM:inst|altsyncram:altsyncram_component
- 58. Parameter Settings for User Entity Instance: RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component
- 59. Parameter Settings for User Entity Instance: LPM_RAM_IO:inst1
- 60. altsyncram Parameter Settings by Entity Instance
- 61. Analysis & Synthesis Messages
+ 47. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component
+ 48. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component
+ 49. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component
+ 50. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component
+ 51. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component
+ 52. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component
+ 53. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component
+ 54. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component
+ 55. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component
+ 56. Parameter Settings for User Entity Instance: ROM:inst|altsyncram:altsyncram_component
+ 57. Parameter Settings for User Entity Instance: RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component
+ 58. Parameter Settings for User Entity Instance: LPM_RAM_IO:inst1
+ 59. altsyncram Parameter Settings by Entity Instance
+ 60. Analysis & Synthesis Messages
 
 
 
@@ -92,16 +91,16 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Sun May 13 14:52:43 2018   ;
+; Analysis & Synthesis Status   ; Successful - Sun May 13 22:40:33 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; CPU_WITH_MEMORY                         ;
 ; Top-level Entity Name         ; CPU_WITH_MEMORY                         ;
 ; Family                        ; Stratix II                              ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 78                                      ;
-;     Dedicated logic registers ; 77                                      ;
-; Total registers               ; 77                                      ;
-; Total pins                    ; 50                                      ;
+;     Combinational ALUTs       ; 201                                     ;
+;     Dedicated logic registers ; 338                                     ;
+; Total registers               ; 338                                     ;
+; Total pins                    ; 142                                     ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 98,304                                  ;
 ; DSP block 9-bit elements      ; 0                                       ;
@@ -229,18 +228,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; INDIRECT_ADDRESSING_MUX.vhd      ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/INDIRECT_ADDRESSING_MUX.vhd      ;
 ; SINGLE_BUSTRI.vhd                ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/SINGLE_BUSTRI.vhd                ;
 ; RAM_INDIRECT_ADDRESS_BUSTRI.vhd  ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/RAM_INDIRECT_ADDRESS_BUSTRI.vhd  ;
+; lpm_ff0.vhd                      ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/lpm_ff0.vhd                      ;
 ; lpm_decode.tdf                   ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_decode.tdf           ;
 ; db/decode_d9f.tdf                ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/decode_d9f.tdf                ;
 ; lpm_counter.tdf                  ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_counter.tdf          ;
-; db/cntr_f4i.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/cntr_f4i.tdf                  ;
+; db/cntr_t6j.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/cntr_t6j.tdf                  ;
 ; lpm_or.tdf                       ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_or.tdf               ;
 ; lpm_ff.tdf                       ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_ff.tdf               ;
+; lpm_constant.tdf                 ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_constant.tdf         ;
 ; lpm_bustri.tdf                   ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_bustri.tdf           ;
 ; db/cntr_6bj.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/cntr_6bj.tdf                  ;
 ; lpm_mux.tdf                      ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_mux.tdf              ;
 ; db/mux_o5e.tdf                   ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/mux_o5e.tdf                   ;
-; db/mux_g7e.tdf                   ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/mux_g7e.tdf                   ;
 ; db/decode_ltf.tdf                ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/decode_ltf.tdf                ;
+; db/mux_g7e.tdf                   ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/mux_g7e.tdf                   ;
 ; altsyncram.tdf                   ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/altsyncram.tdf           ;
 ; db/altsyncram_cg71.tdf           ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/altsyncram_cg71.tdf           ;
 ; lpm_ram_io.tdf                   ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_ram_io.tdf           ;
@@ -249,84 +250,134 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+---------------------------------------+---------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                                         ;
-+-----------------------------------------------+-------------------------------------+
-; Resource                                      ; Usage                               ;
-+-----------------------------------------------+-------------------------------------+
-; Estimated ALUTs Used                          ; 78                                  ;
-; Dedicated logic registers                     ; 77                                  ;
-;                                               ;                                     ;
-; Estimated ALUTs Unavailable                   ; 0                                   ;
-;                                               ;                                     ;
-; Total combinational functions                 ; 78                                  ;
-; Combinational ALUT usage by number of inputs  ;                                     ;
-;     -- 7 input functions                      ; 0                                   ;
-;     -- 6 input functions                      ; 20                                  ;
-;     -- 5 input functions                      ; 26                                  ;
-;     -- 4 input functions                      ; 3                                   ;
-;     -- <=3 input functions                    ; 29                                  ;
-;                                               ;                                     ;
-; Combinational ALUTs by mode                   ;                                     ;
-;     -- normal mode                            ; 61                                  ;
-;     -- extended LUT mode                      ; 0                                   ;
-;     -- arithmetic mode                        ; 17                                  ;
-;     -- shared arithmetic mode                 ; 0                                   ;
-;                                               ;                                     ;
-; Estimated ALUT/register pairs used            ; 112                                 ;
-;                                               ;                                     ;
-; Total registers                               ; 77                                  ;
-;     -- Dedicated logic registers              ; 77                                  ;
-;     -- I/O registers                          ; 0                                   ;
-;                                               ;                                     ;
-; Estimated ALMs:  partially or completely used ; 56                                  ;
-;                                               ;                                     ;
-; I/O pins                                      ; 50                                  ;
-; Total block memory bits                       ; 98304                               ;
-; Maximum fan-out node                          ; CPU:inst2|CONTROL_DEVICE:inst|inst9 ;
-; Maximum fan-out                               ; 44                                  ;
-; Total fan-out                                 ; 1028                                ;
-; Average fan-out                               ; 4.34                                ;
-+-----------------------------------------------+-------------------------------------+
++-------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary           ;
++-----------------------------------------------+-------+
+; Resource                                      ; Usage ;
++-----------------------------------------------+-------+
+; Estimated ALUTs Used                          ; 201   ;
+; Dedicated logic registers                     ; 338   ;
+;                                               ;       ;
+; Estimated ALUTs Unavailable                   ; 0     ;
+;                                               ;       ;
+; Total combinational functions                 ; 201   ;
+; Combinational ALUT usage by number of inputs  ;       ;
+;     -- 7 input functions                      ; 0     ;
+;     -- 6 input functions                      ; 89    ;
+;     -- 5 input functions                      ; 45    ;
+;     -- 4 input functions                      ; 38    ;
+;     -- <=3 input functions                    ; 29    ;
+;                                               ;       ;
+; Combinational ALUTs by mode                   ;       ;
+;     -- normal mode                            ; 184   ;
+;     -- extended LUT mode                      ; 0     ;
+;     -- arithmetic mode                        ; 17    ;
+;     -- shared arithmetic mode                 ; 0     ;
+;                                               ;       ;
+; Estimated ALUT/register pairs used            ; 483   ;
+;                                               ;       ;
+; Total registers                               ; 338   ;
+;     -- Dedicated logic registers              ; 338   ;
+;     -- I/O registers                          ; 0     ;
+;                                               ;       ;
+; Estimated ALMs:  partially or completely used ; 242   ;
+;                                               ;       ;
+; I/O pins                                      ; 142   ;
+; Total block memory bits                       ; 98304 ;
+; Maximum fan-out node                          ; clk   ;
+; Maximum fan-out                               ; 283   ;
+; Total fan-out                                 ; 2538  ;
+; Average fan-out                               ; 3.56  ;
++-----------------------------------------------+-------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                             ;
-+-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------+--------------+
-; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                              ; Library Name ;
-+-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |CPU_WITH_MEMORY                                ; 78 (1)            ; 77 (0)       ; 98304             ; 0            ; 0       ; 0         ; 0         ; 50   ; 0            ; |CPU_WITH_MEMORY                                                                                                                 ; work         ;
-;    |CPU:inst2|                                  ; 61 (0)            ; 77 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2                                                                                                       ;              ;
-;       |CONTROL_DEVICE:inst|                     ; 61 (23)           ; 77 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst                                                                                   ; work         ;
-;          |COMMAND_WORD_BUFFER:inst6|            ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6                                                         ; work         ;
-;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6|lpm_ff:lpm_ff_component                                 ; work         ;
-;          |COMMAND_WORD_BUFFER:inst7|            ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst7                                                         ; work         ;
-;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst7|lpm_ff:lpm_ff_component                                 ; work         ;
-;          |COMMAND_WORD_BUFFER:inst8|            ; 0 (0)             ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst8                                                         ; work         ;
-;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 12 (12)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst8|lpm_ff:lpm_ff_component                                 ; work         ;
-;          |CPU_CYCLE_COUNTER:inst2|              ; 5 (0)             ; 5 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2                                                           ; work         ;
-;             |lpm_counter:lpm_counter_component| ; 5 (0)             ; 5 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component                         ; work         ;
-;                |cntr_f4i:auto_generated|        ; 5 (5)             ; 5 (5)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component|cntr_f4i:auto_generated ; work         ;
-;          |CPU_CYCLE_DECODER:inst|               ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst                                                            ; work         ;
-;             |lpm_decode:lpm_decode_component|   ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component                            ; work         ;
-;                |decode_d9f:auto_generated|      ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component|decode_d9f:auto_generated  ; work         ;
-;          |CPU_CYCLE_RESET_OR:inst32|            ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32                                                         ; work         ;
-;             |lpm_or:lpm_or_component|           ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|lpm_or:lpm_or_component                                 ; work         ;
-;          |NEW_IP_TEST:inst39|                   ; 12 (0)            ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39                                                                ; work         ;
-;             |lpm_counter:lpm_counter_component| ; 12 (0)            ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component                              ; work         ;
-;                |cntr_6bj:auto_generated|        ; 12 (12)           ; 12 (12)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated      ; work         ;
-;          |RAM_ADDRESS_BUSTRI:inst10|            ; 17 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10                                                         ; work         ;
-;             |lpm_bustri:lpm_bustri_component|   ; 17 (17)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component                         ; work         ;
-;          |RAM_DIRECT_ADDRESS:inst5|             ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5                                                          ; work         ;
-;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component                                  ; work         ;
-;    |ROM:inst|                                   ; 0 (0)             ; 0 (0)        ; 32768             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|ROM:inst                                                                                                        ; work         ;
-;       |altsyncram:altsyncram_component|         ; 0 (0)             ; 0 (0)        ; 32768             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|ROM:inst|altsyncram:altsyncram_component                                                                        ; work         ;
-;          |altsyncram_cg71:auto_generated|       ; 0 (0)             ; 0 (0)        ; 32768             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|ROM:inst|altsyncram:altsyncram_component|altsyncram_cg71:auto_generated                                         ; work         ;
-;    |lpm_ram_io:inst1|                           ; 16 (16)           ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|lpm_ram_io:inst1                                                                                                ;              ;
-;       |altram:sram|                             ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|lpm_ram_io:inst1|altram:sram                                                                                    ;              ;
-;          |altsyncram:ram_block|                 ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|lpm_ram_io:inst1|altram:sram|altsyncram:ram_block                                                               ;              ;
-;             |altsyncram_dv91:auto_generated|    ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated                                ;              ;
-+-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                        ;
++-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                         ; Library Name ;
++-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------+--------------+
+; |CPU_WITH_MEMORY                                ; 201 (1)           ; 338 (0)      ; 98304             ; 0            ; 0       ; 0         ; 0         ; 142  ; 0            ; |CPU_WITH_MEMORY                                                                                                                            ; work         ;
+;    |CPU:inst2|                                  ; 167 (0)           ; 338 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2                                                                                                                  ;              ;
+;       |CONTROL_DEVICE:inst|                     ; 70 (21)           ; 82 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst                                                                                              ; work         ;
+;          |COMMAND_DECODER:inst1|                ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1                                                                        ; work         ;
+;             |lpm_decode:lpm_decode_component|   ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component                                        ; work         ;
+;                |decode_d9f:auto_generated|      ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component|decode_d9f:auto_generated              ; work         ;
+;          |COMMAND_WORD_BUFFER:inst6|            ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6|lpm_ff:lpm_ff_component                                            ; work         ;
+;          |COMMAND_WORD_BUFFER:inst7|            ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst7                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst7|lpm_ff:lpm_ff_component                                            ; work         ;
+;          |COMMAND_WORD_BUFFER:inst8|            ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst8                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst8|lpm_ff:lpm_ff_component                                            ; work         ;
+;          |CPU_CYCLE_COUNTER:inst2|              ; 5 (0)             ; 5 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2                                                                      ; work         ;
+;             |lpm_counter:lpm_counter_component| ; 5 (0)             ; 5 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component                                    ; work         ;
+;                |cntr_t6j:auto_generated|        ; 5 (5)             ; 5 (5)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component|cntr_t6j:auto_generated            ; work         ;
+;          |CPU_CYCLE_DECODER:inst|               ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst                                                                       ; work         ;
+;             |lpm_decode:lpm_decode_component|   ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component                                       ; work         ;
+;                |decode_d9f:auto_generated|      ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component|decode_d9f:auto_generated             ; work         ;
+;          |CPU_CYCLE_RESET_OR:inst32|            ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32                                                                    ; work         ;
+;             |lpm_or:lpm_or_component|           ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|lpm_or:lpm_or_component                                            ; work         ;
+;          |NEW_IP_TEST:inst39|                   ; 12 (0)            ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39                                                                           ; work         ;
+;             |lpm_counter:lpm_counter_component| ; 12 (0)            ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component                                         ; work         ;
+;                |cntr_6bj:auto_generated|        ; 12 (12)           ; 12 (12)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated                 ; work         ;
+;          |RAM_ADDRESS_BUSTRI:inst10|            ; 17 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10                                                                    ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 17 (17)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component                                    ; work         ;
+;          |RAM_DIRECT_ADDRESS:inst5|             ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5                                                                     ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component                                             ; work         ;
+;          |SINGLE_BUSTRI:inst48|                 ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48                                                                         ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component                                         ; work         ;
+;          |SINGLE_BUSTRI:inst50|                 ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst50                                                                         ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst50|lpm_bustri:lpm_bustri_component                                         ; work         ;
+;          |lpm_ff0:inst105|                      ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105                                                                              ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component                                                      ; work         ;
+;       |GENERAL_REGISTERS:inst1|                 ; 97 (0)            ; 256 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1                                                                                          ; work         ;
+;          |GENERAL_REGISTER:ah|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:al|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:bh|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:bl|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:ch|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:cl|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:dh|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:dl|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:eh|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:el|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:fh|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:fl|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:gh|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:gl|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:hh|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTER:hl|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl                                                                      ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component                                              ; work         ;
+;          |GENERAL_REGISTERS_DECODER:inst|       ; 17 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst                                                           ; work         ;
+;             |lpm_decode:lpm_decode_component|   ; 17 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component                           ; work         ;
+;                |decode_ltf:auto_generated|      ; 17 (17)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component|decode_ltf:auto_generated ; work         ;
+;          |GENERAL_REGISTER_READ_MUX:inst17|     ; 80 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17                                                         ; work         ;
+;             |lpm_mux:lpm_mux_component|         ; 80 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17|lpm_mux:lpm_mux_component                               ; work         ;
+;                |mux_g7e:auto_generated|         ; 80 (80)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17|lpm_mux:lpm_mux_component|mux_g7e:auto_generated        ; work         ;
+;    |ROM:inst|                                   ; 0 (0)             ; 0 (0)        ; 32768             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|ROM:inst                                                                                                                   ; work         ;
+;       |altsyncram:altsyncram_component|         ; 0 (0)             ; 0 (0)        ; 32768             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|ROM:inst|altsyncram:altsyncram_component                                                                                   ; work         ;
+;          |altsyncram_cg71:auto_generated|       ; 0 (0)             ; 0 (0)        ; 32768             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|ROM:inst|altsyncram:altsyncram_component|altsyncram_cg71:auto_generated                                                    ; work         ;
+;    |RW_RAM_BUSTRI:inst3|                        ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|RW_RAM_BUSTRI:inst3                                                                                                        ; work         ;
+;       |lpm_bustri:lpm_bustri_component|         ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component                                                                        ;              ;
+;    |lpm_ram_io:inst1|                           ; 17 (17)           ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|lpm_ram_io:inst1                                                                                                           ;              ;
+;       |altram:sram|                             ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|lpm_ram_io:inst1|altram:sram                                                                                               ;              ;
+;          |altsyncram:ram_block|                 ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|lpm_ram_io:inst1|altram:sram|altsyncram:ram_block                                                                          ;              ;
+;             |altsyncram_dv91:auto_generated|    ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated                                           ;              ;
++-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -346,120 +397,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Register name                                                                                                             ; Reason for Removal ;
 +---------------------------------------------------------------------------------------------------------------------------+--------------------+
 ; CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated|safe_q[12..15] ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[15]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[14]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[13]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[12]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[11]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[10]                                    ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[9]                                     ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[9]                                     ; Lost fanout        ;
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[9]                                     ; Lost fanout        ;
-; Total Number of Removed Registers = 264                                                                                   ;                    ;
+; Total Number of Removed Registers = 4                                                                                     ;                    ;
 +---------------------------------------------------------------------------------------------------------------------------+--------------------+
-* Table truncated at 100 items. To change the number of removed registers reported, set the "Number of Removed Registers Reported" option under Assignments->Settings->Analysis and Synthesis Settings->More Settings
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                                                                             ;
-+----------------------------------------------------------------------------------------+--------------------+-------------------------------------------------------------------------------------------+
-; Register name                                                                          ; Reason for Removal ; Registers Removed due to This Register                                                    ;
-+----------------------------------------------------------------------------------------+--------------------+-------------------------------------------------------------------------------------------+
-; CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[15] ; Lost Fanouts       ; CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst8|lpm_ff:lpm_ff_component|dffs[8],  ;
-;                                                                                        ;                    ; CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst8|lpm_ff:lpm_ff_component|dffs[9],  ;
-;                                                                                        ;                    ; CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst8|lpm_ff:lpm_ff_component|dffs[10], ;
-;                                                                                        ;                    ; CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst8|lpm_ff:lpm_ff_component|dffs[7]   ;
-+----------------------------------------------------------------------------------------+--------------------+-------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -467,12 +406,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 77    ;
+; Total registers                              ; 338   ;
 ; Number of registers using Synchronous Clear  ; 5     ;
 ; Number of registers using Synchronous Load   ; 12    ;
-; Number of registers using Asynchronous Clear ; 0     ;
-; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 28    ;
+; Number of registers using Asynchronous Clear ; 6     ;
+; Number of registers using Asynchronous Load  ; 1     ;
+; Number of registers using Clock Enable       ; 289   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -567,7 +506,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; CARRY_CNT_EN           ; SMART       ; Untyped                                                                                       ;
 ; LABWIDE_SCLR           ; ON          ; Untyped                                                                                       ;
 ; USE_NEW_VERSION        ; TRUE        ; Untyped                                                                                       ;
-; CBXI_PARAMETER         ; cntr_f4i    ; Untyped                                                                                       ;
+; CBXI_PARAMETER         ; cntr_t6j    ; Untyped                                                                                       ;
 +------------------------+-------------+-----------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -667,6 +606,25 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++--------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component ;
++------------------------+------------+------------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                         ;
++------------------------+------------+------------------------------------------------------------------------------+
+; LPM_WIDTH              ; 1          ; Signed Integer                                                               ;
+; LPM_AVALUE             ; 1          ; Untyped                                                                      ;
+; LPM_SVALUE             ; UNUSED     ; Untyped                                                                      ;
+; LPM_FFTYPE             ; DFF        ; Untyped                                                                      ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                      ;
+; CBXI_PARAMETER         ; NOTHING    ; Untyped                                                                      ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                               ;
++------------------------+------------+------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +---------------------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+--------------------------------------------------------------------------------------------------------+
@@ -689,6 +647,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +---------------------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst71|lpm_bustri:lpm_bustri_component ;
++----------------+-------+--------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                   ;
++----------------+-------+--------------------------------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 1     ; Signed Integer                                                                                         ;
++----------------+-------+--------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst77|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+--------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                   ;
 +----------------+-------+--------------------------------------------------------------------------------------------------------+
@@ -728,27 +696,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst49|lpm_bustri:lpm_bustri_component ;
-+----------------+-------+--------------------------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                                                   ;
-+----------------+-------+--------------------------------------------------------------------------------------------------------+
-; LPM_WIDTH      ; 1     ; Signed Integer                                                                                         ;
-+----------------+-------+--------------------------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst62|lpm_bustri:lpm_bustri_component ;
-+----------------+-------+--------------------------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                                                   ;
-+----------------+-------+--------------------------------------------------------------------------------------------------------+
-; LPM_WIDTH      ; 1     ; Signed Integer                                                                                         ;
-+----------------+-------+--------------------------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst65|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst89|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+--------------------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                                   ;
 +----------------+-------+--------------------------------------------------------------------------------------------------------+
@@ -842,6 +790,44 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component ;
++------------------------+------------+--------------------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                                 ;
++------------------------+------------+--------------------------------------------------------------------------------------+
+; LPM_WIDTH              ; 16         ; Signed Integer                                                                       ;
+; LPM_AVALUE             ; UNUSED     ; Untyped                                                                              ;
+; LPM_SVALUE             ; UNUSED     ; Untyped                                                                              ;
+; LPM_FFTYPE             ; DFF        ; Untyped                                                                              ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                              ;
+; CBXI_PARAMETER         ; NOTHING    ; Untyped                                                                              ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                           ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                         ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                         ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                       ;
++------------------------+------------+--------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component ;
++------------------------+------------+---------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                                                    ;
++------------------------+------------+---------------------------------------------------------------------------------------------------------+
+; LPM_WIDTH              ; 4          ; Signed Integer                                                                                          ;
+; LPM_DECODES            ; 16         ; Signed Integer                                                                                          ;
+; LPM_PIPELINE           ; 0          ; Untyped                                                                                                 ;
+; CASCADE_CHAIN          ; MANUAL     ; Untyped                                                                                                 ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                                                 ;
+; CBXI_PARAMETER         ; decode_ltf ; Untyped                                                                                                 ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                                              ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                                            ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                                            ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                                          ;
++------------------------+------------+---------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +----------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst19|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
@@ -887,25 +873,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                         ;
 ; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                       ;
 +------------------------+------------+--------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component ;
-+------------------------+------------+---------------------------------------------------------------------------------------------------------+
-; Parameter Name         ; Value      ; Type                                                                                                    ;
-+------------------------+------------+---------------------------------------------------------------------------------------------------------+
-; LPM_WIDTH              ; 4          ; Signed Integer                                                                                          ;
-; LPM_DECODES            ; 16         ; Signed Integer                                                                                          ;
-; LPM_PIPELINE           ; 0          ; Untyped                                                                                                 ;
-; CASCADE_CHAIN          ; MANUAL     ; Untyped                                                                                                 ;
-; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                                                 ;
-; CBXI_PARAMETER         ; decode_ltf ; Untyped                                                                                                 ;
-; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                                              ;
-; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                                            ;
-; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                                            ;
-; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                                          ;
-+------------------------+------------+---------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -987,25 +954,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +----------------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component ;
-+------------------------+------------+--------------------------------------------------------------------------------------+
-; Parameter Name         ; Value      ; Type                                                                                 ;
-+------------------------+------------+--------------------------------------------------------------------------------------+
-; LPM_WIDTH              ; 16         ; Signed Integer                                                                       ;
-; LPM_AVALUE             ; UNUSED     ; Untyped                                                                              ;
-; LPM_SVALUE             ; UNUSED     ; Untyped                                                                              ;
-; LPM_FFTYPE             ; DFF        ; Untyped                                                                              ;
-; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                              ;
-; CBXI_PARAMETER         ; NOTHING    ; Untyped                                                                              ;
-; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                           ;
-; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                         ;
-; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                         ;
-; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                       ;
-+------------------------+------------+--------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component ;
 +------------------------+------------+--------------------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                                 ;
 +------------------------+------------+--------------------------------------------------------------------------------------+
@@ -1311,7 +1259,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Sun May 13 14:52:36 2018
+    Info: Processing started: Sun May 13 22:40:24 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPU -c CPU_WITH_MEMORY
 Info: Found 2 design units, including 1 entities, in source file rom.vhd
     Info: Found design unit 1: rom-SYN
@@ -1337,17 +1285,6 @@ Info: Found 2 design units, including 1 entities, in source file command_word_bu
 Info: Found 2 design units, including 1 entities, in source file command_decoder.vhd
     Info: Found design unit 1: command_decoder-SYN
     Info: Found entity 1: COMMAND_DECODER
-Info: Found 2 design units, including 1 entities, in source file ip_test_entity.vhd
-    Info: Found design unit 1: ip_test_entity-SYN
-    Info: Found entity 1: IP_TEST_ENTITY
-Info: Found 1 design units, including 1 entities, in source file ip_test.bdf
-    Info: Found entity 1: IP_TEST
-Info: Found 2 design units, including 1 entities, in source file ip_counter_test.vhd
-    Info: Found design unit 1: ip_counter_test-SYN
-    Info: Found entity 1: IP_COUNTER_TEST
-Info: Found 2 design units, including 1 entities, in source file ip_reg_test.vhd
-    Info: Found design unit 1: ip_reg_test-SYN
-    Info: Found entity 1: IP_REG_TEST
 Info: Found 2 design units, including 1 entities, in source file ip_bustri.vhd
     Info: Found design unit 1: ip_bustri-SYN
     Info: Found entity 1: IP_BUSTRI
@@ -1395,12 +1332,24 @@ Info: Found 2 design units, including 1 entities, in source file single_bustri.v
 Info: Found 2 design units, including 1 entities, in source file ram_indirect_address_bustri.vhd
     Info: Found design unit 1: ram_indirect_address_bustri-SYN
     Info: Found entity 1: RAM_INDIRECT_ADDRESS_BUSTRI
+Info: Found 2 design units, including 1 entities, in source file ram_outenab_mux.vhd
+    Info: Found design unit 1: ram_outenab_mux-SYN
+    Info: Found entity 1: RAM_OUTENAB_MUX
+Info: Found 2 design units, including 1 entities, in source file lpm_ff0.vhd
+    Info: Found design unit 1: lpm_ff0-SYN
+    Info: Found entity 1: lpm_ff0
 Info: Elaborating entity "CPU_WITH_MEMORY" for the top level hierarchy
+Warning: Pin "data_bus_in_test[15..0]" is missing source
+Warning: Pin "is_read_data_test" not connected
+Warning: Pin "inclock_test" not connected
+Warning: Pin "outclock_test" not connected
+Warning: Pin "we_test" not connected
+Warning: Pin "outenab_test" not connected
+Warning: Pin "is_write_data_test" not connected
+Warning: Pin "data_address_bus_test" not connected
+Warning: Pin "data_bus_out_test" not connected
 Info: Elaborating entity "CPU" for hierarchy "CPU:inst2"
-Warning: Pin "int" not connected
 Info: Elaborating entity "CONTROL_DEVICE" for hierarchy "CPU:inst2|CONTROL_DEVICE:inst"
-Warning: Pin "is_gen_reg_read" is missing source
-Warning: Pin "ram_we" is missing source
 Warning: Primitive "WIRE" of instance "inst46" not used
 Info: Elaborating entity "CPU_CYCLE_DECODER" for hierarchy "CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst"
 Info: Elaborating entity "lpm_decode" for hierarchy "CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component"
@@ -1420,9 +1369,9 @@ Info: Instantiated megafunction "CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER
     Info: Parameter "lpm_port_updown" = "PORT_UNUSED"
     Info: Parameter "lpm_type" = "LPM_COUNTER"
     Info: Parameter "lpm_width" = "5"
-Info: Found 1 design units, including 1 entities, in source file db/cntr_f4i.tdf
-    Info: Found entity 1: cntr_f4i
-Info: Elaborating entity "cntr_f4i" for hierarchy "CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component|cntr_f4i:auto_generated"
+Info: Found 1 design units, including 1 entities, in source file db/cntr_t6j.tdf
+    Info: Found entity 1: cntr_t6j
+Info: Elaborating entity "cntr_t6j" for hierarchy "CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component|cntr_t6j:auto_generated"
 Info: Elaborating entity "CPU_CYCLE_RESET_OR" for hierarchy "CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32"
 Info: Elaborating entity "LPM_OR" for hierarchy "CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|LPM_OR:lpm_or_component"
 Info: Elaborated megafunction instantiation "CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|LPM_OR:lpm_or_component"
@@ -1445,6 +1394,16 @@ Info: Instantiated megafunction "CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFF
     Info: Parameter "lpm_fftype" = "DFF"
     Info: Parameter "lpm_type" = "LPM_FF"
     Info: Parameter "lpm_width" = "16"
+Info: Elaborating entity "lpm_ff0" for hierarchy "CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105"
+Info: Elaborating entity "lpm_ff" for hierarchy "CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component"
+Info: Elaborated megafunction instantiation "CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component"
+Info: Instantiated megafunction "CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component" with the following parameter:
+    Info: Parameter "lpm_avalue" = "1"
+    Info: Parameter "lpm_fftype" = "DFF"
+    Info: Parameter "lpm_type" = "LPM_FF"
+    Info: Parameter "lpm_width" = "1"
+Info: Elaborating entity "lpm_constant" for hierarchy "CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component|lpm_constant:ac"
+Info: Elaborated megafunction instantiation "CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component|lpm_constant:ac", which is child of megafunction instantiation "CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component"
 Info: Elaborating entity "SINGLE_BUSTRI" for hierarchy "CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48"
 Info: Elaborating entity "lpm_bustri" for hierarchy "CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component"
 Info: Elaborated megafunction instantiation "CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component"
@@ -1490,6 +1449,17 @@ Info: Instantiated megafunction "CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRES
     Info: Parameter "lpm_type" = "LPM_FF"
     Info: Parameter "lpm_width" = "16"
 Info: Elaborating entity "GENERAL_REGISTERS" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1"
+Info: Elaborating entity "GENERAL_REGISTER" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh"
+Info: Elaborating entity "GENERAL_REGISTERS_DECODER" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst"
+Info: Elaborating entity "lpm_decode" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component"
+Info: Elaborated megafunction instantiation "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component"
+Info: Instantiated megafunction "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component" with the following parameter:
+    Info: Parameter "lpm_decodes" = "16"
+    Info: Parameter "lpm_type" = "LPM_DECODE"
+    Info: Parameter "lpm_width" = "4"
+Info: Found 1 design units, including 1 entities, in source file db/decode_ltf.tdf
+    Info: Found entity 1: decode_ltf
+Info: Elaborating entity "decode_ltf" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component|decode_ltf:auto_generated"
 Info: Elaborating entity "GENERAL_REGISTER_READ_BUSTRI" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst19"
 Info: Elaborating entity "GENERAL_REGISTER_READ_MUX" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17"
 Info: Elaborating entity "LPM_MUX" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17|LPM_MUX:lpm_mux_component"
@@ -1504,17 +1474,6 @@ Info: Instantiated megafunction "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGIS
 Info: Found 1 design units, including 1 entities, in source file db/mux_g7e.tdf
     Info: Found entity 1: mux_g7e
 Info: Elaborating entity "mux_g7e" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17|LPM_MUX:lpm_mux_component|mux_g7e:auto_generated"
-Info: Elaborating entity "GENERAL_REGISTER" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al"
-Info: Elaborating entity "GENERAL_REGISTERS_DECODER" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst"
-Info: Elaborating entity "lpm_decode" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component"
-Info: Elaborated megafunction instantiation "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component"
-Info: Instantiated megafunction "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component" with the following parameter:
-    Info: Parameter "lpm_decodes" = "16"
-    Info: Parameter "lpm_type" = "LPM_DECODE"
-    Info: Parameter "lpm_width" = "4"
-Info: Found 1 design units, including 1 entities, in source file db/decode_ltf.tdf
-    Info: Found entity 1: decode_ltf
-Info: Elaborating entity "decode_ltf" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component|decode_ltf:auto_generated"
 Info: Elaborating entity "ROM" for hierarchy "ROM:inst"
 Info: Elaborating entity "altsyncram" for hierarchy "ROM:inst|altsyncram:altsyncram_component"
 Info: Elaborated megafunction instantiation "ROM:inst|altsyncram:altsyncram_component"
@@ -1560,31 +1519,6 @@ Info: Found 1 design units, including 1 entities, in source file db/altsyncram_d
     Info: Found entity 1: altsyncram_dv91
 Info: Elaborating entity "altsyncram_dv91" for hierarchy "LPM_RAM_IO:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated"
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
-    Warning: Converted tri-state node "CPU:inst2|CONTROL_DEVICE:inst|ram_inclock" into a selector
-    Warning: Converted tri-state node "CPU:inst2|CONTROL_DEVICE:inst|ram_outclock" into a selector
-Warning: Clock multiplexers are found and protected
-    Warning: Found clock multiplexer CPU:inst2|CONTROL_DEVICE:inst|ram_inclock~synth
-    Warning: Found clock multiplexer CPU:inst2|CONTROL_DEVICE:inst|ram_outclock~synth
-Warning: Clock multiplexers are found and protected
-    Warning: Found clock multiplexer CPU:inst2|CONTROL_DEVICE:inst|inst20~synth
-Warning: Removed fan-outs from the following always-disabled I/O buffers
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[15]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[15]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[14]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[14]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[13]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[13]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[12]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[12]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[11]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[11]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[10]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[10]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[9]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[9]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[8]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[8]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[7]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[7]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[6]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[6]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[5]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[5]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[4]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[4]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[3]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[3]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[2]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[2]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[1]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[1]"
-    Warning: Removed fan-out from the always-disabled I/O buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|dout[0]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]"
-Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|din[15]" to the node "CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component|dffs[15]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|din[14]" to the node "CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component|dffs[14]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|din[13]" to the node "CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component|dffs[13]" into an OR gate
@@ -1601,6 +1535,7 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|din[2]" to the node "CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|din[1]" to the node "CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component|din[0]" to the node "CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
+Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "lpm_ram_io:inst1|datatri[15]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[15]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "lpm_ram_io:inst1|datatri[14]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[14]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "lpm_ram_io:inst1|datatri[13]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[13]" into an OR gate
@@ -1617,8 +1552,8 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "lpm_ram_io:inst1|datatri[2]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[2]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "lpm_ram_io:inst1|datatri[1]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "lpm_ram_io:inst1|datatri[0]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]" into an OR gate
-Warning: Tri-state node(s) do not directly drive top-level pin(s)
-    Warning: Converted the fan-out from the tri-state buffer "CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst49|lpm_bustri:lpm_bustri_component|dout[0]" to the node "lpm_ram_io:inst1|datatri[15]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component|dout[0]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst50|lpm_bustri:lpm_bustri_component|dout[0]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component|dout[11]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component|dout[10]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component|dout[9]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]" into an OR gate
@@ -1631,121 +1566,78 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component|dout[2]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component|dout[1]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component|dout[0]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]" into an OR gate
-Info: 264 registers lost all their fanouts during netlist optimizations. The first 100 are displayed below.
+Warning: Output pins are stuck at VCC or GND
+    Warning (13410): Pin "data_bus_in_test[15]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[14]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[13]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[12]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[11]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[10]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[9]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[8]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[7]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[6]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[5]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[4]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[3]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[2]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[1]" is stuck at GND
+    Warning (13410): Pin "data_bus_in_test[0]" is stuck at GND
+Info: 4 registers lost all their fanouts during netlist optimizations. The first 4 are displayed below.
     Info: Register "CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated|safe_q[15]" lost all its fanouts during netlist optimizations.
     Info: Register "CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated|safe_q[14]" lost all its fanouts during netlist optimizations.
     Info: Register "CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated|safe_q[13]" lost all its fanouts during netlist optimizations.
     Info: Register "CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated|safe_q[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[15]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[14]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[13]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[12]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[11]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: Register "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[10]" lost all its fanouts during netlist optimizations.
-    Info: List truncated at 100 items
-Warning: Design contains 3 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "int"
+Warning: Design contains 40 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "flag[1]"
     Warning (15610): No output dependent on input pin "flag[0]"
-Info: Implemented 220 device resources after synthesis - the final resource count might be different
-    Info: Implemented 5 input pins
-    Info: Implemented 45 output pins
-    Info: Implemented 138 logic cells
+    Warning (15610): No output dependent on input pin "is_read_data_test"
+    Warning (15610): No output dependent on input pin "inclock_test"
+    Warning (15610): No output dependent on input pin "outclock_test"
+    Warning (15610): No output dependent on input pin "we_test"
+    Warning (15610): No output dependent on input pin "outenab_test"
+    Warning (15610): No output dependent on input pin "is_write_data_test"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[15]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[14]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[13]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[12]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[11]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[10]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[9]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[8]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[7]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[6]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[5]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[4]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[3]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[2]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[1]"
+    Warning (15610): No output dependent on input pin "data_address_bus_test[0]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[15]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[14]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[13]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[12]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[11]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[10]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[9]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[8]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[7]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[6]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[5]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[4]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[3]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[2]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[1]"
+    Warning (15610): No output dependent on input pin "data_bus_out_test[0]"
+Info: Implemented 695 device resources after synthesis - the final resource count might be different
+    Info: Implemented 43 input pins
+    Info: Implemented 99 output pins
+    Info: Implemented 521 logic cells
     Info: Implemented 32 RAM segments
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 81 warnings
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 117 warnings
     Info: Peak virtual memory: 319 megabytes
-    Info: Processing ended: Sun May 13 14:52:43 2018
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:07
+    Info: Processing ended: Sun May 13 22:40:33 2018
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:11
 
 

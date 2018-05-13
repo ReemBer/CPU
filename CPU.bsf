@@ -124,9 +124,16 @@ applicable agreement for further details.
 	(port
 		(pt 376 176)
 		(output)
+		(text "is_write_data" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "is_write_data" (rect 278 171 355 185)(font "Arial" (font_size 8)))
+		(line (pt 376 176)(pt 360 176)(line_width 1))
+	)
+	(port
+		(pt 376 192)
+		(output)
 		(text "R[15..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
-		(text "R[15..0]" (rect 312 171 355 185)(font "Arial" (font_size 8)))
-		(line (pt 376 176)(pt 360 176)(line_width 3))
+		(text "R[15..0]" (rect 312 187 355 201)(font "Arial" (font_size 8)))
+		(line (pt 376 192)(pt 360 192)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 360 208)(line_width 1))

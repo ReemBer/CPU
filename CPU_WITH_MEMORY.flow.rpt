@@ -1,5 +1,5 @@
 Flow report for CPU_WITH_MEMORY
-Sun May 13 14:53:08 2018
+Sun May 13 22:40:59 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,17 +38,17 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Flow Summary                                                            ;
 +-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Sun May 13 14:53:07 2018   ;
+; Flow Status                   ; Successful - Sun May 13 22:40:59 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; CPU_WITH_MEMORY                         ;
 ; Top-level Entity Name         ; CPU_WITH_MEMORY                         ;
 ; Family                        ; Stratix II                              ;
 ; Met timing requirements       ; No                                      ;
-; Logic utilization             ; < 1 %                                   ;
-;     Combinational ALUTs       ; 78 / 12,480 ( < 1 % )                   ;
-;     Dedicated logic registers ; 77 / 12,480 ( < 1 % )                   ;
-; Total registers               ; 77                                      ;
-; Total pins                    ; 50 / 343 ( 15 % )                       ;
+; Logic utilization             ; 3 %                                     ;
+;     Combinational ALUTs       ; 203 / 12,480 ( 2 % )                    ;
+;     Dedicated logic registers ; 340 / 12,480 ( 3 % )                    ;
+; Total registers               ; 340                                     ;
+; Total pins                    ; 142 / 343 ( 41 % )                      ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 98,304 / 419,328 ( 23 % )               ;
 ; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                          ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/13/2018 14:52:37 ;
+; Start date & time ; 05/13/2018 22:40:25 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPU_WITH_MEMORY     ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +------------------------------------+---------------------------------------+--------------------+-------------+----------------+
 ; Assignment Name                    ; Value                                 ; Default Value      ; Entity Name ; Section Id     ;
 +------------------------------------+---------------------------------------+--------------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 44883555018623.152621235712988        ; --                 ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 44883555018623.152624042425080        ; --                 ; --          ; --             ;
 ; FITTER_EFFORT                      ; Standard Fit                          ; Auto Fit           ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_ROM                               ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --          ; --             ;
@@ -83,9 +83,6 @@ applicable agreement for further details.
 ; IP_TOOL_NAME                       ; LPM_COUNTER                           ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_DECODE                            ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_COUNTER                           ; --                 ; --          ; --             ;
-; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_OR                                ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --          ; --             ;
@@ -101,7 +98,8 @@ applicable agreement for further details.
 ; IP_TOOL_NAME                       ; LPM_MUX                               ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --          ; --             ;
-; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                               ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
@@ -143,15 +141,6 @@ applicable agreement for further details.
 ; MISC_FILE                          ; COMMAND_DECODER.bsf                   ; --                 ; --          ; --             ;
 ; MISC_FILE                          ; COMMAND_DECODER_inst.vhd              ; --                 ; --          ; --             ;
 ; MISC_FILE                          ; COMMAND_DECODER.cmp                   ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_TEST_ENTITY.bsf                    ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_TEST_ENTITY_inst.vhd               ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_TEST_ENTITY.cmp                    ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_COUNTER_TEST.bsf                   ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_COUNTER_TEST_inst.vhd              ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_COUNTER_TEST.cmp                   ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_REG_TEST.bsf                       ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_REG_TEST_inst.vhd                  ; --                 ; --          ; --             ;
-; MISC_FILE                          ; IP_REG_TEST.cmp                       ; --                 ; --          ; --             ;
 ; MISC_FILE                          ; IP_BUSTRI.bsf                         ; --                 ; --          ; --             ;
 ; MISC_FILE                          ; IP_BUSTRI_inst.vhd                    ; --                 ; --          ; --             ;
 ; MISC_FILE                          ; IP_BUSTRI.cmp                         ; --                 ; --          ; --             ;
@@ -197,6 +186,12 @@ applicable agreement for further details.
 ; MISC_FILE                          ; RAM_INDIRECT_ADDRESS_BUSTRI.bsf       ; --                 ; --          ; --             ;
 ; MISC_FILE                          ; RAM_INDIRECT_ADDRESS_BUSTRI_inst.vhd  ; --                 ; --          ; --             ;
 ; MISC_FILE                          ; RAM_INDIRECT_ADDRESS_BUSTRI.cmp       ; --                 ; --          ; --             ;
+; MISC_FILE                          ; RAM_OUTENAB_MUX.bsf                   ; --                 ; --          ; --             ;
+; MISC_FILE                          ; RAM_OUTENAB_MUX_inst.vhd              ; --                 ; --          ; --             ;
+; MISC_FILE                          ; RAM_OUTENAB_MUX.cmp                   ; --                 ; --          ; --             ;
+; MISC_FILE                          ; lpm_ff0.bsf                           ; --                 ; --          ; --             ;
+; MISC_FILE                          ; lpm_ff0_inst.vhd                      ; --                 ; --          ; --             ;
+; MISC_FILE                          ; lpm_ff0.cmp                           ; --                 ; --          ; --             ;
 ; OPTIMIZE_POWER_DURING_FITTING      ; Extra effort                          ; Normal compilation ; --          ; --             ;
 ; PARTITION_COLOR                    ; 16764057                              ; --                 ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE             ; SOURCE                                ; --                 ; --          ; Top            ;
@@ -209,11 +204,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:07     ; 1.0                     ; 319 MB              ; 00:00:07                           ;
-; Fitter                  ; 00:00:10     ; 1.0                     ; 369 MB              ; 00:00:13                           ;
+; Analysis & Synthesis    ; 00:00:08     ; 1.0                     ; 319 MB              ; 00:00:10                           ;
+; Fitter                  ; 00:00:19     ; 1.0                     ; 370 MB              ; 00:00:20                           ;
 ; Assembler               ; 00:00:03     ; 1.0                     ; 300 MB              ; 00:00:03                           ;
-; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 230 MB              ; 00:00:01                           ;
-; Total                   ; 00:00:20     ; --                      ; --                  ; 00:00:24                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 234 MB              ; 00:00:01                           ;
+; Total                   ; 00:00:31     ; --                      ; --                  ; 00:00:34                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
