@@ -1,4 +1,4 @@
-Fitter Status : Successful - Sat May 12 07:37:46 2018
+Fitter Status : Successful - Sun May 13 14:52:57 2018
 Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
 Revision Name : CPU_WITH_MEMORY
 Top-level Entity Name : CPU_WITH_MEMORY
@@ -6,9 +6,9 @@ Family : Stratix II
 Device : EP2S15F484C3
 Timing Models : Final
 Logic utilization : < 1 %
-    Combinational ALUTs : 65 / 12,480 ( < 1 % )
-    Dedicated logic registers : 69 / 12,480 ( < 1 % )
-Total registers : 69
+    Combinational ALUTs : 78 / 12,480 ( < 1 % )
+    Dedicated logic registers : 77 / 12,480 ( < 1 % )
+Total registers : 77
 Total pins : 50 / 343 ( 15 % )
 Total virtual pins : 0
 Total block memory bits : 98,304 / 419,328 ( 23 % )

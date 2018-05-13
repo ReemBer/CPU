@@ -84,4 +84,8 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE CPU_WITH_MEMORY.vwf
+set_global_assignment -name QIP_FILE RAM_DIRECT_ADDRESS.qip
+set_global_assignment -name QIP_FILE INDIRECT_ADDRESSING_MUX.qip
+set_global_assignment -name QIP_FILE SINGLE_BUSTRI.qip
+set_global_assignment -name QIP_FILE RAM_INDIRECT_ADDRESS_BUSTRI.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

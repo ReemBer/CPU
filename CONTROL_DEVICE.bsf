@@ -45,6 +45,13 @@ applicable agreement for further details.
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
+		(pt 0 80)
+		(input)
+		(text "data_bus[15..0]" (rect 0 0 88 14)(font "Arial" (font_size 8)))
+		(text "data_bus[15..0]" (rect 21 75 109 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
 		(pt 320 32)
 		(output)
 		(text "read_command" (rect 0 0 87 14)(font "Arial" (font_size 8)))
@@ -110,9 +117,16 @@ applicable agreement for further details.
 	(port
 		(pt 320 176)
 		(output)
+		(text "is_read_data" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "is_read_data" (rect 225 171 299 185)(font "Arial" (font_size 8)))
+		(line (pt 320 176)(pt 304 176)(line_width 1))
+	)
+	(port
+		(pt 320 192)
+		(output)
 		(text "ram_address[15..0]" (rect 0 0 110 14)(font "Arial" (font_size 8)))
-		(text "ram_address[15..0]" (rect 189 171 299 185)(font "Arial" (font_size 8)))
-		(line (pt 320 176)(pt 304 176)(line_width 3))
+		(text "ram_address[15..0]" (rect 189 187 299 201)(font "Arial" (font_size 8)))
+		(line (pt 320 192)(pt 304 192)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 304 208)(line_width 1))
