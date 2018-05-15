@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPU_WITH_MEMORY
-Tue May 15 19:57:38 2018
+Tue May 15 23:53:21 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -20,64 +20,81 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
  12. Source assignments for CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component
  13. Source assignments for CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component
  14. Source assignments for CPU:inst2|ALU:inst18|INCS_COUNTER:inst|lpm_counter:lpm_counter_component
- 15. Source assignments for ROM:inst|altsyncram:altsyncram_component|altsyncram_cg71:auto_generated
- 16. Source assignments for LPM_RAM_IO:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated
- 17. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component
- 18. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component
- 19. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|LPM_OR:lpm_or_component
- 20. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component
- 21. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst8|lpm_ff:lpm_ff_component
- 22. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst7|lpm_ff:lpm_ff_component
- 23. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6|lpm_ff:lpm_ff_component
- 24. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component
- 25. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component
- 26. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst71|lpm_bustri:lpm_bustri_component
- 27. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst77|lpm_bustri:lpm_bustri_component
- 28. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst59|lpm_bustri:lpm_bustri_component
- 29. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst50|lpm_bustri:lpm_bustri_component
- 30. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst66|lpm_bustri:lpm_bustri_component
- 31. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst64|lpm_bustri:lpm_bustri_component
- 32. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component
- 33. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component
- 34. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|RAM_INDIRECT_ADDRESS_BUSTRI:inst60|lpm_bustri:lpm_bustri_component
- 35. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|INDIRECT_ADDRESSING_MUX:inst17|LPM_MUX:lpm_mux_component
- 36. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component
- 37. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|C_FLAG:inst4|lpm_ff:lpm_ff_component
- 38. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|S_FLAG:inst2|lpm_ff:lpm_ff_component
- 39. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst1|lpm_bustri:lpm_bustri_component
- 40. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|INCS_COUNTER:inst|lpm_counter:lpm_counter_component
- 41. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst33|lpm_bustri:lpm_bustri_component
- 42. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_NOTZ_OUT_MUX:inst35|LPM_MUX:lpm_mux_component
- 43. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|Z_FLAG:inst3|lpm_ff:lpm_ff_component
- 44. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|Z_FLAG_OR:inst15|LPM_OR:lpm_or_component
- 45. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_NOTZ_REGISTER:inst32|lpm_ff:lpm_ff_component
- 46. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|NOTZ_INVERTOR:inst34|lpm_inv:lpm_inv_component
- 47. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst19|lpm_bustri:lpm_bustri_component
- 48. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17|LPM_MUX:lpm_mux_component
- 49. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component
- 50. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component
- 51. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component
- 52. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component
- 53. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component
- 54. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component
- 55. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component
- 56. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component
- 57. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component
- 58. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component
- 59. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component
- 60. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component
- 61. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component
- 62. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component
- 63. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component
- 64. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component
- 65. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component
- 66. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component
- 67. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst18|LPM_MUX:lpm_mux_component
- 68. Parameter Settings for User Entity Instance: ROM:inst|altsyncram:altsyncram_component
- 69. Parameter Settings for User Entity Instance: RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component
- 70. Parameter Settings for User Entity Instance: LPM_RAM_IO:inst1
- 71. altsyncram Parameter Settings by Entity Instance
- 72. Analysis & Synthesis Messages
+ 15. Source assignments for CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component
+ 16. Source assignments for ROM:inst|altsyncram:altsyncram_component|altsyncram_cg71:auto_generated
+ 17. Source assignments for LPM_RAM_IO:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated
+ 18. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component
+ 19. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component
+ 20. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|LPM_OR:lpm_or_component
+ 21. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component
+ 22. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst8|lpm_ff:lpm_ff_component
+ 23. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst7|lpm_ff:lpm_ff_component
+ 24. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6|lpm_ff:lpm_ff_component
+ 25. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component
+ 26. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component
+ 27. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst71|lpm_bustri:lpm_bustri_component
+ 28. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst77|lpm_bustri:lpm_bustri_component
+ 29. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst59|lpm_bustri:lpm_bustri_component
+ 30. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst50|lpm_bustri:lpm_bustri_component
+ 31. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst66|lpm_bustri:lpm_bustri_component
+ 32. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst64|lpm_bustri:lpm_bustri_component
+ 33. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component
+ 34. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component
+ 35. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|RAM_INDIRECT_ADDRESS_BUSTRI:inst60|lpm_bustri:lpm_bustri_component
+ 36. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|INDIRECT_ADDRESSING_MUX:inst17|LPM_MUX:lpm_mux_component
+ 37. Parameter Settings for User Entity Instance: CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component
+ 38. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|C_FLAG:inst4|lpm_ff:lpm_ff_component
+ 39. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|S_FLAG:inst2|lpm_ff:lpm_ff_component
+ 40. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst1|lpm_bustri:lpm_bustri_component
+ 41. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|INCS_COUNTER:inst|lpm_counter:lpm_counter_component
+ 42. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst33|lpm_bustri:lpm_bustri_component
+ 43. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_NOTZ_OUT_MUX:inst35|LPM_MUX:lpm_mux_component
+ 44. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|Z_FLAG:inst3|lpm_ff:lpm_ff_component
+ 45. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|Z_FLAG_OR:inst15|LPM_OR:lpm_or_component
+ 46. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_NOTZ_REGISTER:inst32|lpm_ff:lpm_ff_component
+ 47. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|NOTZ_INVERTOR:inst34|lpm_inv:lpm_inv_component
+ 48. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst40|lpm_bustri:lpm_bustri_component
+ 49. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|NXOR_INVERTOR:inst38|lpm_inv:lpm_inv_component
+ 50. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|NXOR_XOR:inst39|LPM_XOR:lpm_xor_component
+ 51. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_NXOR_FIRST_REGISTER:inst36|lpm_ff:lpm_ff_component
+ 52. Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_NXOR_SECOND_REGISTER:inst37|lpm_ff:lpm_ff_component
+ 53. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst19|lpm_bustri:lpm_bustri_component
+ 54. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17|LPM_MUX:lpm_mux_component
+ 55. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component
+ 56. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component
+ 57. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component
+ 58. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component
+ 59. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component
+ 60. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component
+ 61. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component
+ 62. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component
+ 63. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component
+ 64. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component
+ 65. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component
+ 66. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component
+ 67. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component
+ 68. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component
+ 69. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component
+ 70. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component
+ 71. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component
+ 72. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component
+ 73. Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst18|LPM_MUX:lpm_mux_component
+ 74. Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component
+ 75. Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_OUTPUT_MUX:inst10|LPM_MUX:lpm_mux_component
+ 76. Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component
+ 77. Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_POINTER_DECODER:inst9|lpm_decode:lpm_decode_component
+ 78. Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component
+ 79. Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_CLEAR_COMPARATOR:inst2|lpm_compare:lpm_compare_component
+ 80. Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_SET_COMPARATOR:inst3|lpm_compare:lpm_compare_component
+ 81. Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component
+ 82. Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component
+ 83. Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component
+ 84. Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component
+ 85. Parameter Settings for User Entity Instance: ROM:inst|altsyncram:altsyncram_component
+ 86. Parameter Settings for User Entity Instance: RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component
+ 87. Parameter Settings for User Entity Instance: LPM_RAM_IO:inst1
+ 88. altsyncram Parameter Settings by Entity Instance
+ 89. Analysis & Synthesis Messages
 
 
 
@@ -103,16 +120,16 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Tue May 15 19:57:38 2018   ;
+; Analysis & Synthesis Status   ; Successful - Tue May 15 23:53:21 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; CPU_WITH_MEMORY                         ;
 ; Top-level Entity Name         ; CPU_WITH_MEMORY                         ;
 ; Family                        ; Stratix II                              ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 298                                     ;
-;     Dedicated logic registers ; 372                                     ;
-; Total registers               ; 372                                     ;
-; Total pins                    ; 147                                     ;
+;     Combinational ALUTs       ; 419                                     ;
+;     Dedicated logic registers ; 404                                     ;
+; Total registers               ; 404                                     ;
+; Total pins                    ; 153                                     ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 98,304                                  ;
 ; DSP block 9-bit elements      ; 0                                       ;
@@ -212,65 +229,83 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                           ;
-+----------------------------------+-----------------+---------------------------------------+---------------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                             ; File Name with Absolute Path                                        ;
-+----------------------------------+-----------------+---------------------------------------+---------------------------------------------------------------------+
-; ROM_INIT.hex                     ; yes             ; User Hexadecimal (Intel-Format) File  ; D:/University/6th sem/SiFO/kursach/ROM_INIT.hex                     ;
-; ROM.vhd                          ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/ROM.vhd                          ;
-; RAM_INIT.hex                     ; yes             ; User Hexadecimal (Intel-Format) File  ; D:/University/6th sem/SiFO/kursach/RAM_INIT.hex                     ;
-; CPU_WITH_MEMORY.bdf              ; yes             ; User Block Diagram/Schematic File     ; D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.bdf              ;
-; CPU.bdf                          ; yes             ; User Block Diagram/Schematic File     ; D:/University/6th sem/SiFO/kursach/CPU.bdf                          ;
-; RW_RAM_BUSTRI.vhd                ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/RW_RAM_BUSTRI.vhd                ;
-; CONTROL_DEVICE.bdf               ; yes             ; User Block Diagram/Schematic File     ; D:/University/6th sem/SiFO/kursach/CONTROL_DEVICE.bdf               ;
-; CPU_CYCLE_DECODER.vhd            ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/CPU_CYCLE_DECODER.vhd            ;
-; CPU_CYCLE_COUNTER.vhd            ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/CPU_CYCLE_COUNTER.vhd            ;
-; COMMAND_WORD_BUFFER.vhd          ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/COMMAND_WORD_BUFFER.vhd          ;
-; COMMAND_DECODER.vhd              ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/COMMAND_DECODER.vhd              ;
-; CPU_CYCLE_RESET_OR.vhd           ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/CPU_CYCLE_RESET_OR.vhd           ;
-; NEW_IP_TEST.vhd                  ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/NEW_IP_TEST.vhd                  ;
-; GENERAL_REGISTERS.bdf            ; yes             ; User Block Diagram/Schematic File     ; D:/University/6th sem/SiFO/kursach/GENERAL_REGISTERS.bdf            ;
-; GENERAL_REGISTER.vhd             ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/GENERAL_REGISTER.vhd             ;
-; GENERAL_REGISTERS_DECODER.vhd    ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/GENERAL_REGISTERS_DECODER.vhd    ;
-; GENERAL_REGISTER_READ_MUX.vhd    ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/GENERAL_REGISTER_READ_MUX.vhd    ;
-; GENERAL_REGISTER_READ_BUSTRI.vhd ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/GENERAL_REGISTER_READ_BUSTRI.vhd ;
-; RAM_ADDRESS_BUSTRI.vhd           ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/RAM_ADDRESS_BUSTRI.vhd           ;
-; RAM_DIRECT_ADDRESS.vhd           ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/RAM_DIRECT_ADDRESS.vhd           ;
-; INDIRECT_ADDRESSING_MUX.vhd      ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/INDIRECT_ADDRESSING_MUX.vhd      ;
-; SINGLE_BUSTRI.vhd                ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/SINGLE_BUSTRI.vhd                ;
-; RAM_INDIRECT_ADDRESS_BUSTRI.vhd  ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/RAM_INDIRECT_ADDRESS_BUSTRI.vhd  ;
-; lpm_ff0.vhd                      ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/lpm_ff0.vhd                      ;
-; ALU.bdf                          ; yes             ; User Block Diagram/Schematic File     ; D:/University/6th sem/SiFO/kursach/ALU.bdf                          ;
-; INCS_COUNTER.vhd                 ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/INCS_COUNTER.vhd                 ;
-; ALU_RESULT_BUSTRI.vhd            ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/ALU_RESULT_BUSTRI.vhd            ;
-; S_FLAG.vhd                       ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/S_FLAG.vhd                       ;
-; Z_FLAG.vhd                       ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/Z_FLAG.vhd                       ;
-; C_FLAG.vhd                       ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/C_FLAG.vhd                       ;
-; Z_FLAG_OR.vhd                    ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/Z_FLAG_OR.vhd                    ;
-; NOTZ_INVERTOR.vhd                ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/NOTZ_INVERTOR.vhd                ;
-; ALU_NOTZ_REGISTER.vhd            ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/ALU_NOTZ_REGISTER.vhd            ;
-; ALU_NOTZ_OUT_MUX.vhd             ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/ALU_NOTZ_OUT_MUX.vhd             ;
-; lpm_decode.tdf                   ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_decode.tdf           ;
-; db/decode_d9f.tdf                ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/decode_d9f.tdf                ;
-; lpm_counter.tdf                  ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_counter.tdf          ;
-; db/cntr_t6j.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/cntr_t6j.tdf                  ;
-; lpm_or.tdf                       ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_or.tdf               ;
-; lpm_ff.tdf                       ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_ff.tdf               ;
-; lpm_constant.tdf                 ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_constant.tdf         ;
-; lpm_bustri.tdf                   ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_bustri.tdf           ;
-; db/cntr_6bj.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/cntr_6bj.tdf                  ;
-; lpm_mux.tdf                      ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_mux.tdf              ;
-; db/mux_o5e.tdf                   ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/mux_o5e.tdf                   ;
-; lpm_inv.tdf                      ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_inv.tdf              ;
-; db/mux_g7e.tdf                   ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/mux_g7e.tdf                   ;
-; db/decode_ltf.tdf                ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/decode_ltf.tdf                ;
-; altsyncram.tdf                   ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/altsyncram.tdf           ;
-; db/altsyncram_cg71.tdf           ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/altsyncram_cg71.tdf           ;
-; lpm_ram_io.tdf                   ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_ram_io.tdf           ;
-; altram.tdf                       ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/altram.tdf               ;
-; db/altsyncram_dv91.tdf           ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/altsyncram_dv91.tdf           ;
-+----------------------------------+-----------------+---------------------------------------+---------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                           ;
++------------------------------------------+-----------------+---------------------------------------+-----------------------------------------------------------------------------+
+; File Name with User-Entered Path         ; Used in Netlist ; File Type                             ; File Name with Absolute Path                                                ;
++------------------------------------------+-----------------+---------------------------------------+-----------------------------------------------------------------------------+
+; ROM_INIT.hex                             ; yes             ; User Hexadecimal (Intel-Format) File  ; D:/University/6th sem/SiFO/kursach/ROM_INIT.hex                             ;
+; ROM.vhd                                  ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/ROM.vhd                                  ;
+; RAM_INIT.hex                             ; yes             ; User Hexadecimal (Intel-Format) File  ; D:/University/6th sem/SiFO/kursach/RAM_INIT.hex                             ;
+; CPU_WITH_MEMORY.bdf                      ; yes             ; User Block Diagram/Schematic File     ; D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.bdf                      ;
+; CPU.bdf                                  ; yes             ; User Block Diagram/Schematic File     ; D:/University/6th sem/SiFO/kursach/CPU.bdf                                  ;
+; RW_RAM_BUSTRI.vhd                        ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/RW_RAM_BUSTRI.vhd                        ;
+; CONTROL_DEVICE.bdf                       ; yes             ; User Block Diagram/Schematic File     ; D:/University/6th sem/SiFO/kursach/CONTROL_DEVICE.bdf                       ;
+; CPU_CYCLE_DECODER.vhd                    ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/CPU_CYCLE_DECODER.vhd                    ;
+; CPU_CYCLE_COUNTER.vhd                    ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/CPU_CYCLE_COUNTER.vhd                    ;
+; COMMAND_WORD_BUFFER.vhd                  ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/COMMAND_WORD_BUFFER.vhd                  ;
+; COMMAND_DECODER.vhd                      ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/COMMAND_DECODER.vhd                      ;
+; CPU_CYCLE_RESET_OR.vhd                   ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/CPU_CYCLE_RESET_OR.vhd                   ;
+; NEW_IP_TEST.vhd                          ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/NEW_IP_TEST.vhd                          ;
+; GENERAL_REGISTERS.bdf                    ; yes             ; User Block Diagram/Schematic File     ; D:/University/6th sem/SiFO/kursach/GENERAL_REGISTERS.bdf                    ;
+; GENERAL_REGISTER.vhd                     ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/GENERAL_REGISTER.vhd                     ;
+; GENERAL_REGISTERS_DECODER.vhd            ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/GENERAL_REGISTERS_DECODER.vhd            ;
+; GENERAL_REGISTER_READ_MUX.vhd            ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/GENERAL_REGISTER_READ_MUX.vhd            ;
+; GENERAL_REGISTER_READ_BUSTRI.vhd         ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/GENERAL_REGISTER_READ_BUSTRI.vhd         ;
+; RAM_ADDRESS_BUSTRI.vhd                   ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/RAM_ADDRESS_BUSTRI.vhd                   ;
+; RAM_DIRECT_ADDRESS.vhd                   ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/RAM_DIRECT_ADDRESS.vhd                   ;
+; INDIRECT_ADDRESSING_MUX.vhd              ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/INDIRECT_ADDRESSING_MUX.vhd              ;
+; SINGLE_BUSTRI.vhd                        ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/SINGLE_BUSTRI.vhd                        ;
+; RAM_INDIRECT_ADDRESS_BUSTRI.vhd          ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/RAM_INDIRECT_ADDRESS_BUSTRI.vhd          ;
+; lpm_ff0.vhd                              ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/lpm_ff0.vhd                              ;
+; ALU.bdf                                  ; yes             ; User Block Diagram/Schematic File     ; D:/University/6th sem/SiFO/kursach/ALU.bdf                                  ;
+; INCS_COUNTER.vhd                         ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/INCS_COUNTER.vhd                         ;
+; ALU_RESULT_BUSTRI.vhd                    ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/ALU_RESULT_BUSTRI.vhd                    ;
+; S_FLAG.vhd                               ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/S_FLAG.vhd                               ;
+; Z_FLAG.vhd                               ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/Z_FLAG.vhd                               ;
+; C_FLAG.vhd                               ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/C_FLAG.vhd                               ;
+; Z_FLAG_OR.vhd                            ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/Z_FLAG_OR.vhd                            ;
+; NXOR_INVERTOR.vhd                        ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/NXOR_INVERTOR.vhd                        ;
+; NOTZ_INVERTOR.vhd                        ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/NOTZ_INVERTOR.vhd                        ;
+; NXOR_XOR.vhd                             ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/NXOR_XOR.vhd                             ;
+; ALU_NOTZ_REGISTER.vhd                    ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/ALU_NOTZ_REGISTER.vhd                    ;
+; ALU_NOTZ_OUT_MUX.vhd                     ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/ALU_NOTZ_OUT_MUX.vhd                     ;
+; STACK_POINTER_COUNTER.vhd                ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/STACK_POINTER_COUNTER.vhd                ;
+; STACK.bdf                                ; yes             ; User Block Diagram/Schematic File     ; D:/University/6th sem/SiFO/kursach/STACK.bdf                                ;
+; STACK_POINTER_ASYNC_CLEAR_COMPARATOR.vhd ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/STACK_POINTER_ASYNC_CLEAR_COMPARATOR.vhd ;
+; STACK_POINTER_ASYNC_SET_COMPARATOR.vhd   ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/STACK_POINTER_ASYNC_SET_COMPARATOR.vhd   ;
+; STACK_REGISTER.vhd                       ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/STACK_REGISTER.vhd                       ;
+; STACK_POINTER_DECODER.vhd                ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/STACK_POINTER_DECODER.vhd                ;
+; STACK_OUTPUT_MUX.vhd                     ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/STACK_OUTPUT_MUX.vhd                     ;
+; STACK_OUT_BUSTRI.vhd                     ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/STACK_OUT_BUSTRI.vhd                     ;
+; ALU_NXOR_FIRST_REGISTER.vhd              ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/ALU_NXOR_FIRST_REGISTER.vhd              ;
+; ALU_NXOR_SECOND_REGISTER.vhd             ; yes             ; User Wizard-Generated File            ; D:/University/6th sem/SiFO/kursach/ALU_NXOR_SECOND_REGISTER.vhd             ;
+; lpm_decode.tdf                           ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_decode.tdf                   ;
+; db/decode_d9f.tdf                        ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/decode_d9f.tdf                        ;
+; lpm_counter.tdf                          ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_counter.tdf                  ;
+; db/cntr_t6j.tdf                          ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/cntr_t6j.tdf                          ;
+; lpm_or.tdf                               ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_or.tdf                       ;
+; lpm_ff.tdf                               ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_ff.tdf                       ;
+; lpm_constant.tdf                         ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_constant.tdf                 ;
+; lpm_bustri.tdf                           ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_bustri.tdf                   ;
+; db/cntr_6bj.tdf                          ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/cntr_6bj.tdf                          ;
+; lpm_mux.tdf                              ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_mux.tdf                      ;
+; db/mux_o5e.tdf                           ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/mux_o5e.tdf                           ;
+; lpm_inv.tdf                              ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_inv.tdf                      ;
+; lpm_xor.tdf                              ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_xor.tdf                      ;
+; db/mux_g7e.tdf                           ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/mux_g7e.tdf                           ;
+; db/decode_ltf.tdf                        ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/decode_ltf.tdf                        ;
+; db/mux_t5e.tdf                           ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/mux_t5e.tdf                           ;
+; db/decode_u7f.tdf                        ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/decode_u7f.tdf                        ;
+; db/cntr_afi.tdf                          ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/cntr_afi.tdf                          ;
+; lpm_compare.tdf                          ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_compare.tdf                  ;
+; db/cmpr_h8j.tdf                          ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/cmpr_h8j.tdf                          ;
+; altsyncram.tdf                           ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/altsyncram.tdf                   ;
+; db/altsyncram_cg71.tdf                   ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/altsyncram_cg71.tdf                   ;
+; lpm_ram_io.tdf                           ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/lpm_ram_io.tdf                   ;
+; altram.tdf                               ; yes             ; Megafunction                          ; d:/quartus/quartus/libraries/megafunctions/altram.tdf                       ;
+; db/altsyncram_dv91.tdf                   ; yes             ; Auto-Generated Megafunction           ; D:/University/6th sem/SiFO/kursach/db/altsyncram_dv91.tdf                   ;
++------------------------------------------+-----------------+---------------------------------------+-----------------------------------------------------------------------------+
 
 
 +-------------------------------------------------------+
@@ -278,39 +313,39 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------+-------+
 ; Resource                                      ; Usage ;
 +-----------------------------------------------+-------+
-; Estimated ALUTs Used                          ; 298   ;
-; Dedicated logic registers                     ; 372   ;
+; Estimated ALUTs Used                          ; 419   ;
+; Dedicated logic registers                     ; 404   ;
 ;                                               ;       ;
 ; Estimated ALUTs Unavailable                   ; 1     ;
 ;                                               ;       ;
-; Total combinational functions                 ; 298   ;
+; Total combinational functions                 ; 419   ;
 ; Combinational ALUT usage by number of inputs  ;       ;
 ;     -- 7 input functions                      ; 1     ;
-;     -- 6 input functions                      ; 121   ;
-;     -- 5 input functions                      ; 87    ;
-;     -- 4 input functions                      ; 30    ;
-;     -- <=3 input functions                    ; 59    ;
+;     -- 6 input functions                      ; 203   ;
+;     -- 5 input functions                      ; 102   ;
+;     -- 4 input functions                      ; 49    ;
+;     -- <=3 input functions                    ; 64    ;
 ;                                               ;       ;
 ; Combinational ALUTs by mode                   ;       ;
-;     -- normal mode                            ; 264   ;
+;     -- normal mode                            ; 385   ;
 ;     -- extended LUT mode                      ; 1     ;
 ;     -- arithmetic mode                        ; 33    ;
 ;     -- shared arithmetic mode                 ; 0     ;
 ;                                               ;       ;
-; Estimated ALUT/register pairs used            ; 584   ;
+; Estimated ALUT/register pairs used            ; 705   ;
 ;                                               ;       ;
-; Total registers                               ; 372   ;
-;     -- Dedicated logic registers              ; 372   ;
+; Total registers                               ; 404   ;
+;     -- Dedicated logic registers              ; 404   ;
 ;     -- I/O registers                          ; 0     ;
 ;                                               ;       ;
-; Estimated ALMs:  partially or completely used ; 292   ;
+; Estimated ALMs:  partially or completely used ; 353   ;
 ;                                               ;       ;
-; I/O pins                                      ; 147   ;
+; I/O pins                                      ; 153   ;
 ; Total block memory bits                       ; 98304 ;
 ; Maximum fan-out node                          ; clk   ;
-; Maximum fan-out                               ; 286   ;
-; Total fan-out                                 ; 3161  ;
-; Average fan-out                               ; 3.72  ;
+; Maximum fan-out                               ; 288   ;
+; Total fan-out                                 ; 3914  ;
+; Average fan-out                               ; 3.88  ;
 +-----------------------------------------------+-------+
 
 
@@ -319,11 +354,22 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                         ; Library Name ;
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |CPU_WITH_MEMORY                                ; 298 (1)           ; 372 (0)      ; 98304             ; 0            ; 0       ; 0         ; 0         ; 147  ; 0            ; |CPU_WITH_MEMORY                                                                                                                            ; work         ;
-;    |CPU:inst2|                                  ; 231 (0)           ; 372 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2                                                                                                                  ;              ;
-;       |ALU:inst18|                              ; 21 (0)            ; 34 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18                                                                                                       ; work         ;
+; |CPU_WITH_MEMORY                                ; 419 (1)           ; 404 (0)      ; 98304             ; 0            ; 0       ; 0         ; 0         ; 153  ; 0            ; |CPU_WITH_MEMORY                                                                                                                            ; work         ;
+;    |CPU:inst2|                                  ; 351 (0)           ; 404 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2                                                                                                                  ;              ;
+;       |ALU:inst18|                              ; 69 (0)            ; 66 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18                                                                                                       ; work         ;
+;          |ALU_NOTZ_OUT_MUX:inst35|              ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_NOTZ_OUT_MUX:inst35                                                                               ; work         ;
+;             |lpm_mux:lpm_mux_component|         ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_NOTZ_OUT_MUX:inst35|lpm_mux:lpm_mux_component                                                     ; work         ;
+;                |mux_o5e:auto_generated|         ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_NOTZ_OUT_MUX:inst35|lpm_mux:lpm_mux_component|mux_o5e:auto_generated                              ; work         ;
 ;          |ALU_NOTZ_REGISTER:inst32|             ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_NOTZ_REGISTER:inst32                                                                              ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_NOTZ_REGISTER:inst32|lpm_ff:lpm_ff_component                                                      ; work         ;
+;          |ALU_NXOR_FIRST_REGISTER:inst36|       ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_NXOR_FIRST_REGISTER:inst36                                                                        ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_NXOR_FIRST_REGISTER:inst36|lpm_ff:lpm_ff_component                                                ; work         ;
+;          |ALU_NXOR_SECOND_REGISTER:inst37|      ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_NXOR_SECOND_REGISTER:inst37                                                                       ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_NXOR_SECOND_REGISTER:inst37|lpm_ff:lpm_ff_component                                               ; work         ;
+;          |ALU_RESULT_BUSTRI:inst1|              ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst1                                                                               ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst1|lpm_bustri:lpm_bustri_component                                               ; work         ;
+;          |ALU_RESULT_BUSTRI:inst40|             ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst40                                                                              ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst40|lpm_bustri:lpm_bustri_component                                              ; work         ;
 ;          |INCS_COUNTER:inst|                    ; 16 (0)            ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|INCS_COUNTER:inst                                                                                     ; work         ;
 ;             |lpm_counter:lpm_counter_component| ; 16 (0)            ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|INCS_COUNTER:inst|lpm_counter:lpm_counter_component                                                   ; work         ;
 ;                |cntr_6bj:auto_generated|        ; 16 (16)           ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|INCS_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated                           ; work         ;
@@ -333,10 +379,10 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|Z_FLAG:inst3|lpm_ff:lpm_ff_component                                                                  ; work         ;
 ;          |Z_FLAG_OR:inst15|                     ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|Z_FLAG_OR:inst15                                                                                      ; work         ;
 ;             |lpm_or:lpm_or_component|           ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|Z_FLAG_OR:inst15|lpm_or:lpm_or_component                                                              ; work         ;
-;       |CONTROL_DEVICE:inst|                     ; 98 (44)           ; 82 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst                                                                                              ; work         ;
-;          |COMMAND_DECODER:inst1|                ; 6 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1                                                                        ; work         ;
-;             |lpm_decode:lpm_decode_component|   ; 6 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component                                        ; work         ;
-;                |decode_d9f:auto_generated|      ; 6 (6)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component|decode_d9f:auto_generated              ; work         ;
+;       |CONTROL_DEVICE:inst|                     ; 102 (45)          ; 82 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst                                                                                              ; work         ;
+;          |COMMAND_DECODER:inst1|                ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1                                                                        ; work         ;
+;             |lpm_decode:lpm_decode_component|   ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component                                        ; work         ;
+;                |decode_d9f:auto_generated|      ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component|decode_d9f:auto_generated              ; work         ;
 ;          |COMMAND_WORD_BUFFER:inst6|            ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6                                                                    ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6|lpm_ff:lpm_ff_component                                            ; work         ;
 ;          |COMMAND_WORD_BUFFER:inst7|            ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst7                                                                    ; work         ;
@@ -346,11 +392,11 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |CPU_CYCLE_COUNTER:inst2|              ; 5 (0)             ; 5 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2                                                                      ; work         ;
 ;             |lpm_counter:lpm_counter_component| ; 5 (0)             ; 5 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component                                    ; work         ;
 ;                |cntr_t6j:auto_generated|        ; 5 (5)             ; 5 (5)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component|cntr_t6j:auto_generated            ; work         ;
-;          |CPU_CYCLE_DECODER:inst|               ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst                                                                       ; work         ;
-;             |lpm_decode:lpm_decode_component|   ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component                                       ; work         ;
-;                |decode_d9f:auto_generated|      ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component|decode_d9f:auto_generated             ; work         ;
-;          |CPU_CYCLE_RESET_OR:inst32|            ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32                                                                    ; work         ;
-;             |lpm_or:lpm_or_component|           ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|lpm_or:lpm_or_component                                            ; work         ;
+;          |CPU_CYCLE_DECODER:inst|               ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst                                                                       ; work         ;
+;             |lpm_decode:lpm_decode_component|   ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component                                       ; work         ;
+;                |decode_d9f:auto_generated|      ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component|decode_d9f:auto_generated             ; work         ;
+;          |CPU_CYCLE_RESET_OR:inst32|            ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32                                                                    ; work         ;
+;             |lpm_or:lpm_or_component|           ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|lpm_or:lpm_or_component                                            ; work         ;
 ;          |NEW_IP_TEST:inst39|                   ; 12 (0)            ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39                                                                           ; work         ;
 ;             |lpm_counter:lpm_counter_component| ; 12 (0)            ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component                                         ; work         ;
 ;                |cntr_6bj:auto_generated|        ; 12 (12)           ; 12 (12)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated                 ; work         ;
@@ -358,13 +404,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_bustri:lpm_bustri_component|   ; 17 (17)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component                                    ; work         ;
 ;          |RAM_DIRECT_ADDRESS:inst5|             ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5                                                                     ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component                                             ; work         ;
-;          |SINGLE_BUSTRI:inst48|                 ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48                                                                         ; work         ;
-;             |lpm_bustri:lpm_bustri_component|   ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component                                         ; work         ;
+;          |SINGLE_BUSTRI:inst48|                 ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48                                                                         ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component                                         ; work         ;
 ;          |SINGLE_BUSTRI:inst50|                 ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst50                                                                         ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst50|lpm_bustri:lpm_bustri_component                                         ; work         ;
 ;          |lpm_ff0:inst105|                      ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105                                                                              ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component                                                      ; work         ;
-;       |GENERAL_REGISTERS:inst1|                 ; 112 (0)           ; 256 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1                                                                                          ; work         ;
+;       |GENERAL_REGISTERS:inst1|                 ; 180 (0)           ; 256 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1                                                                                          ; work         ;
 ;          |GENERAL_REGISTER:ah|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah                                                                      ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component                                              ; work         ;
 ;          |GENERAL_REGISTER:al|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al                                                                      ; work         ;
@@ -397,19 +443,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component                                              ; work         ;
 ;          |GENERAL_REGISTER:hl|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl                                                                      ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component                                              ; work         ;
-;          |GENERAL_REGISTERS_DECODER:inst|       ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst                                                           ; work         ;
-;             |lpm_decode:lpm_decode_component|   ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component                           ; work         ;
-;                |decode_ltf:auto_generated|      ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component|decode_ltf:auto_generated ; work         ;
-;          |GENERAL_REGISTER_READ_BUSTRI:inst19|  ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst19                                                      ; work         ;
-;             |lpm_bustri:lpm_bustri_component|   ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst19|lpm_bustri:lpm_bustri_component                      ; work         ;
+;          |GENERAL_REGISTERS_DECODER:inst|       ; 20 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst                                                           ; work         ;
+;             |lpm_decode:lpm_decode_component|   ; 20 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component                           ; work         ;
+;                |decode_ltf:auto_generated|      ; 20 (20)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component|decode_ltf:auto_generated ; work         ;
 ;          |GENERAL_REGISTER_READ_MUX:inst17|     ; 80 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17                                                         ; work         ;
 ;             |lpm_mux:lpm_mux_component|         ; 80 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17|lpm_mux:lpm_mux_component                               ; work         ;
 ;                |mux_g7e:auto_generated|         ; 80 (80)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17|lpm_mux:lpm_mux_component|mux_g7e:auto_generated        ; work         ;
+;          |GENERAL_REGISTER_READ_MUX:inst18|     ; 80 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst18                                                         ; work         ;
+;             |lpm_mux:lpm_mux_component|         ; 80 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst18|lpm_mux:lpm_mux_component                               ; work         ;
+;                |mux_g7e:auto_generated|         ; 80 (80)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst18|lpm_mux:lpm_mux_component|mux_g7e:auto_generated        ; work         ;
 ;    |ROM:inst|                                   ; 0 (0)             ; 0 (0)        ; 32768             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|ROM:inst                                                                                                                   ; work         ;
 ;       |altsyncram:altsyncram_component|         ; 0 (0)             ; 0 (0)        ; 32768             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|ROM:inst|altsyncram:altsyncram_component                                                                                   ; work         ;
 ;          |altsyncram_cg71:auto_generated|       ; 0 (0)             ; 0 (0)        ; 32768             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|ROM:inst|altsyncram:altsyncram_component|altsyncram_cg71:auto_generated                                                    ; work         ;
-;    |RW_RAM_BUSTRI:inst3|                        ; 49 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|RW_RAM_BUSTRI:inst3                                                                                                        ; work         ;
-;       |lpm_bustri:lpm_bustri_component|         ; 49 (49)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component                                                                        ;              ;
+;    |RW_RAM_BUSTRI:inst3|                        ; 50 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|RW_RAM_BUSTRI:inst3                                                                                                        ; work         ;
+;       |lpm_bustri:lpm_bustri_component|         ; 50 (50)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|RW_RAM_BUSTRI:inst3|lpm_bustri:lpm_bustri_component                                                                        ;              ;
 ;    |lpm_ram_io:inst1|                           ; 17 (17)           ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|lpm_ram_io:inst1                                                                                                           ;              ;
 ;       |altram:sram|                             ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|lpm_ram_io:inst1|altram:sram                                                                                               ;              ;
 ;          |altsyncram:ram_block|                 ; 0 (0)             ; 0 (0)        ; 65536             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|lpm_ram_io:inst1|altram:sram|altsyncram:ram_block                                                                          ;              ;
@@ -433,9 +480,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 ; Register name                                                                                                             ; Reason for Removal                   ;
 +---------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
+; CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[0..15]                                           ; Stuck at GND due to stuck port clock ;
+; CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[0..15]                                           ; Stuck at GND due to stuck port clock ;
+; CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[0..15]                                           ; Stuck at GND due to stuck port clock ;
+; CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[0..15]                                           ; Stuck at GND due to stuck port clock ;
+; CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[0..15]                                           ; Stuck at GND due to stuck port clock ;
 ; CPU:inst2|ALU:inst18|C_FLAG:inst4|lpm_ff:lpm_ff_component|dffs[0]                                                         ; Stuck at GND due to stuck port clock ;
+; CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q[0..2]  ; Stuck at GND due to stuck port clock ;
 ; CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated|safe_q[12..15] ; Lost fanout                          ;
-; Total Number of Removed Registers = 5                                                                                     ;                                      ;
+; Total Number of Removed Registers = 88                                                                                    ;                                      ;
 +---------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 
 
@@ -444,23 +497,24 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 372   ;
+; Total registers                              ; 404   ;
 ; Number of registers using Synchronous Clear  ; 5     ;
 ; Number of registers using Synchronous Load   ; 28    ;
 ; Number of registers using Asynchronous Clear ; 6     ;
 ; Number of registers using Asynchronous Load  ; 1     ;
-; Number of registers using Clock Enable       ; 323   ;
+; Number of registers using Clock Enable       ; 355   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                                                           ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                                                 ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; 16:1               ; 16 bits   ; 160 ALUTs     ; 160 ALUTs            ; 0 ALUTs                ; No         ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17|lpm_mux:lpm_mux_component|mux_g7e:auto_generated|l4_w15_n0_mux_dataout ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                                                          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                                                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; 16:1               ; 16 bits   ; 160 ALUTs     ; 160 ALUTs            ; 0 ALUTs                ; Yes        ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_NXOR_SECOND_REGISTER:inst37|lpm_ff:lpm_ff_component|dffs[6]                                                     ;
+; 16:1               ; 16 bits   ; 160 ALUTs     ; 160 ALUTs            ; 0 ALUTs                ; No         ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17|lpm_mux:lpm_mux_component|mux_g7e:auto_generated|l4_w1_n0_mux_dataout ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------+
@@ -494,6 +548,17 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SUPPRESS_DA_RULE_INTERNAL ; s102  ; -    ; -                                                    ;
 ; SUPPRESS_DA_RULE_INTERNAL ; s103  ; -    ; -                                                    ;
 +---------------------------+-------+------+------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Source assignments for CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component ;
++---------------------------+-------+------+-----------------------------------------------------------------+
+; Assignment                ; Value ; From ; To                                                              ;
++---------------------------+-------+------+-----------------------------------------------------------------+
+; SUPPRESS_DA_RULE_INTERNAL ; a101  ; -    ; -                                                               ;
+; SUPPRESS_DA_RULE_INTERNAL ; s102  ; -    ; -                                                               ;
+; SUPPRESS_DA_RULE_INTERNAL ; s103  ; -    ; -                                                               ;
++---------------------------+-------+------+-----------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------+
@@ -1000,6 +1065,75 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst40|lpm_bustri:lpm_bustri_component ;
++----------------+-------+---------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                              ;
++----------------+-------+---------------------------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 16    ; Signed Integer                                                                                    ;
++----------------+-------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|NXOR_INVERTOR:inst38|lpm_inv:lpm_inv_component ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 16    ; Signed Integer                                                                          ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|NXOR_XOR:inst39|LPM_XOR:lpm_xor_component ;
++----------------+-------+------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                               ;
++----------------+-------+------------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 16    ; Signed Integer                                                                     ;
+; LPM_SIZE       ; 2     ; Signed Integer                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_NXOR_FIRST_REGISTER:inst36|lpm_ff:lpm_ff_component ;
++------------------------+------------+------------------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                               ;
++------------------------+------------+------------------------------------------------------------------------------------+
+; LPM_WIDTH              ; 16         ; Signed Integer                                                                     ;
+; LPM_AVALUE             ; UNUSED     ; Untyped                                                                            ;
+; LPM_SVALUE             ; UNUSED     ; Untyped                                                                            ;
+; LPM_FFTYPE             ; DFF        ; Untyped                                                                            ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                            ;
+; CBXI_PARAMETER         ; NOTHING    ; Untyped                                                                            ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                         ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                       ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                       ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                     ;
++------------------------+------------+------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|ALU:inst18|ALU_NXOR_SECOND_REGISTER:inst37|lpm_ff:lpm_ff_component ;
++------------------------+------------+-------------------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                                ;
++------------------------+------------+-------------------------------------------------------------------------------------+
+; LPM_WIDTH              ; 16         ; Signed Integer                                                                      ;
+; LPM_AVALUE             ; UNUSED     ; Untyped                                                                             ;
+; LPM_SVALUE             ; UNUSED     ; Untyped                                                                             ;
+; LPM_FFTYPE             ; DFF        ; Untyped                                                                             ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                             ;
+; CBXI_PARAMETER         ; NOTHING    ; Untyped                                                                             ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                        ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                      ;
++------------------------+------------+-------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +----------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst19|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
@@ -1381,6 +1515,224 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                               ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 16    ; Signed Integer                                                                                     ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_OUTPUT_MUX:inst10|LPM_MUX:lpm_mux_component ;
++------------------------+------------+---------------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                            ;
++------------------------+------------+---------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                  ;
+; LPM_WIDTH              ; 16         ; Signed Integer                                                                  ;
+; LPM_SIZE               ; 5          ; Signed Integer                                                                  ;
+; LPM_WIDTHS             ; 3          ; Signed Integer                                                                  ;
+; LPM_PIPELINE           ; 0          ; Signed Integer                                                                  ;
+; CBXI_PARAMETER         ; mux_t5e    ; Untyped                                                                         ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                         ;
++------------------------+------------+---------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component ;
++------------------------+------------+----------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                       ;
++------------------------+------------+----------------------------------------------------------------------------+
+; LPM_WIDTH              ; 16         ; Signed Integer                                                             ;
+; LPM_AVALUE             ; UNUSED     ; Untyped                                                                    ;
+; LPM_SVALUE             ; UNUSED     ; Untyped                                                                    ;
+; LPM_FFTYPE             ; DFF        ; Untyped                                                                    ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                    ;
+; CBXI_PARAMETER         ; NOTHING    ; Untyped                                                                    ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                 ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                               ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                               ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                             ;
++------------------------+------------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_POINTER_DECODER:inst9|lpm_decode:lpm_decode_component ;
++------------------------+------------+-------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                                      ;
++------------------------+------------+-------------------------------------------------------------------------------------------+
+; LPM_WIDTH              ; 3          ; Signed Integer                                                                            ;
+; LPM_DECODES            ; 8          ; Signed Integer                                                                            ;
+; LPM_PIPELINE           ; 0          ; Untyped                                                                                   ;
+; CASCADE_CHAIN          ; MANUAL     ; Untyped                                                                                   ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                                   ;
+; CBXI_PARAMETER         ; decode_u7f ; Untyped                                                                                   ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                              ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                            ;
++------------------------+------------+-------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component ;
++------------------------+------------+--------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                                       ;
++------------------------+------------+--------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                                 ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                               ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                               ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                             ;
+; LPM_WIDTH              ; 3          ; Signed Integer                                                                             ;
+; LPM_DIRECTION          ; DEFAULT    ; Untyped                                                                                    ;
+; LPM_MODULUS            ; 0          ; Untyped                                                                                    ;
+; LPM_AVALUE             ; 4          ; Untyped                                                                                    ;
+; LPM_SVALUE             ; UNUSED     ; Untyped                                                                                    ;
+; LPM_PORT_UPDOWN        ; PORT_USED  ; Untyped                                                                                    ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                                    ;
+; CARRY_CHAIN            ; MANUAL     ; Untyped                                                                                    ;
+; CARRY_CHAIN_LENGTH     ; 48         ; CARRY_CHAIN_LENGTH                                                                         ;
+; NOT_GATE_PUSH_BACK     ; ON         ; NOT_GATE_PUSH_BACK                                                                         ;
+; CARRY_CNT_EN           ; SMART      ; Untyped                                                                                    ;
+; LABWIDE_SCLR           ; ON         ; Untyped                                                                                    ;
+; USE_NEW_VERSION        ; TRUE       ; Untyped                                                                                    ;
+; CBXI_PARAMETER         ; cntr_afi   ; Untyped                                                                                    ;
++------------------------+------------+--------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_CLEAR_COMPARATOR:inst2|lpm_compare:lpm_compare_component ;
++------------------------+------------+------------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                                                       ;
++------------------------+------------+------------------------------------------------------------------------------------------------------------+
+; lpm_width              ; 3          ; Signed Integer                                                                                             ;
+; LPM_REPRESENTATION     ; UNSIGNED   ; Untyped                                                                                                    ;
+; LPM_PIPELINE           ; 0          ; Untyped                                                                                                    ;
+; CHAIN_SIZE             ; 8          ; Untyped                                                                                                    ;
+; ONE_INPUT_IS_CONSTANT  ; YES        ; Untyped                                                                                                    ;
+; CARRY_CHAIN            ; MANUAL     ; Untyped                                                                                                    ;
+; CASCADE_CHAIN          ; MANUAL     ; Untyped                                                                                                    ;
+; CARRY_CHAIN_LENGTH     ; 48         ; CARRY_CHAIN_LENGTH                                                                                         ;
+; CASCADE_CHAIN_LENGTH   ; 2          ; CASCADE_CHAIN_LENGTH                                                                                       ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                                                    ;
+; CBXI_PARAMETER         ; cmpr_h8j   ; Untyped                                                                                                    ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                                                 ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                                               ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                                               ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                                             ;
++------------------------+------------+------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_SET_COMPARATOR:inst3|lpm_compare:lpm_compare_component ;
++------------------------+------------+----------------------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                                                     ;
++------------------------+------------+----------------------------------------------------------------------------------------------------------+
+; lpm_width              ; 3          ; Signed Integer                                                                                           ;
+; LPM_REPRESENTATION     ; UNSIGNED   ; Untyped                                                                                                  ;
+; LPM_PIPELINE           ; 0          ; Untyped                                                                                                  ;
+; CHAIN_SIZE             ; 8          ; Untyped                                                                                                  ;
+; ONE_INPUT_IS_CONSTANT  ; YES        ; Untyped                                                                                                  ;
+; CARRY_CHAIN            ; MANUAL     ; Untyped                                                                                                  ;
+; CASCADE_CHAIN          ; MANUAL     ; Untyped                                                                                                  ;
+; CARRY_CHAIN_LENGTH     ; 48         ; CARRY_CHAIN_LENGTH                                                                                       ;
+; CASCADE_CHAIN_LENGTH   ; 2          ; CASCADE_CHAIN_LENGTH                                                                                     ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                                                  ;
+; CBXI_PARAMETER         ; cmpr_h8j   ; Untyped                                                                                                  ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                                             ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                                           ;
++------------------------+------------+----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component ;
++------------------------+------------+----------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                       ;
++------------------------+------------+----------------------------------------------------------------------------+
+; LPM_WIDTH              ; 16         ; Signed Integer                                                             ;
+; LPM_AVALUE             ; UNUSED     ; Untyped                                                                    ;
+; LPM_SVALUE             ; UNUSED     ; Untyped                                                                    ;
+; LPM_FFTYPE             ; DFF        ; Untyped                                                                    ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                    ;
+; CBXI_PARAMETER         ; NOTHING    ; Untyped                                                                    ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                 ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                               ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                               ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                             ;
++------------------------+------------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component ;
++------------------------+------------+----------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                       ;
++------------------------+------------+----------------------------------------------------------------------------+
+; LPM_WIDTH              ; 16         ; Signed Integer                                                             ;
+; LPM_AVALUE             ; UNUSED     ; Untyped                                                                    ;
+; LPM_SVALUE             ; UNUSED     ; Untyped                                                                    ;
+; LPM_FFTYPE             ; DFF        ; Untyped                                                                    ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                    ;
+; CBXI_PARAMETER         ; NOTHING    ; Untyped                                                                    ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                 ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                               ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                               ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                             ;
++------------------------+------------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component ;
++------------------------+------------+----------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                       ;
++------------------------+------------+----------------------------------------------------------------------------+
+; LPM_WIDTH              ; 16         ; Signed Integer                                                             ;
+; LPM_AVALUE             ; UNUSED     ; Untyped                                                                    ;
+; LPM_SVALUE             ; UNUSED     ; Untyped                                                                    ;
+; LPM_FFTYPE             ; DFF        ; Untyped                                                                    ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                    ;
+; CBXI_PARAMETER         ; NOTHING    ; Untyped                                                                    ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                 ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                               ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                               ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                             ;
++------------------------+------------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component ;
++------------------------+------------+----------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                       ;
++------------------------+------------+----------------------------------------------------------------------------+
+; LPM_WIDTH              ; 16         ; Signed Integer                                                             ;
+; LPM_AVALUE             ; UNUSED     ; Untyped                                                                    ;
+; LPM_SVALUE             ; UNUSED     ; Untyped                                                                    ;
+; LPM_FFTYPE             ; DFF        ; Untyped                                                                    ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                    ;
+; CBXI_PARAMETER         ; NOTHING    ; Untyped                                                                    ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                 ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                               ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                               ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                             ;
++------------------------+------------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +---------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: ROM:inst|altsyncram:altsyncram_component ;
 +------------------------------------+----------------------+---------------------------+
@@ -1498,7 +1850,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Tue May 15 19:57:23 2018
+    Info: Processing started: Tue May 15 23:53:05 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPU -c CPU_WITH_MEMORY
 Warning: Tcl Script File NXOR.qip not found
     Info: set_global_assignment -name QIP_FILE NXOR.qip
@@ -1637,6 +1989,37 @@ Info: Found 2 design units, including 1 entities, in source file alu_notz_regist
 Info: Found 2 design units, including 1 entities, in source file alu_notz_out_mux.vhd
     Info: Found design unit 1: alu_notz_out_mux-SYN
     Info: Found entity 1: ALU_NOTZ_OUT_MUX
+Info: Found 2 design units, including 1 entities, in source file stack_pointer_counter.vhd
+    Info: Found design unit 1: stack_pointer_counter-SYN
+    Info: Found entity 1: STACK_POINTER_COUNTER
+Info: Found 1 design units, including 1 entities, in source file stack.bdf
+    Info: Found entity 1: STACK
+Info: Found 2 design units, including 1 entities, in source file stack_pointer_async_clear_comparator.vhd
+    Info: Found design unit 1: stack_pointer_async_clear_comparator-SYN
+    Info: Found entity 1: STACK_POINTER_ASYNC_CLEAR_COMPARATOR
+Info: Found 2 design units, including 1 entities, in source file stack_pointer_async_set_comparator.vhd
+    Info: Found design unit 1: stack_pointer_async_set_comparator-SYN
+    Info: Found entity 1: STACK_POINTER_ASYNC_SET_COMPARATOR
+Info: Found 2 design units, including 1 entities, in source file stack_register.vhd
+    Info: Found design unit 1: stack_register-SYN
+    Info: Found entity 1: STACK_REGISTER
+Info: Found 2 design units, including 1 entities, in source file stack_pointer_decoder.vhd
+    Info: Found design unit 1: stack_pointer_decoder-SYN
+    Info: Found entity 1: STACK_POINTER_DECODER
+Info: Found 2 design units, including 1 entities, in source file stack_output_mux.vhd
+    Info: Found design unit 1: stack_output_mux-SYN
+    Info: Found entity 1: STACK_OUTPUT_MUX
+Info: Found 2 design units, including 1 entities, in source file stack_out_bustri.vhd
+    Info: Found design unit 1: stack_out_bustri-SYN
+    Info: Found entity 1: STACK_OUT_BUSTRI
+Info: Found 1 design units, including 1 entities, in source file stack_test.bdf
+    Info: Found entity 1: STACK_TEST
+Info: Found 2 design units, including 1 entities, in source file alu_nxor_first_register.vhd
+    Info: Found design unit 1: alu_nxor_first_register-SYN
+    Info: Found entity 1: ALU_NXOR_FIRST_REGISTER
+Info: Found 2 design units, including 1 entities, in source file alu_nxor_second_register.vhd
+    Info: Found design unit 1: alu_nxor_second_register-SYN
+    Info: Found entity 1: ALU_NXOR_SECOND_REGISTER
 Info: Elaborating entity "CPU_WITH_MEMORY" for the top level hierarchy
 Warning: Pin "is_read_data_test" not connected
 Warning: Pin "inclock_test" not connected
@@ -1747,7 +2130,6 @@ Info: Instantiated megafunction "CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRES
     Info: Parameter "lpm_type" = "LPM_FF"
     Info: Parameter "lpm_width" = "16"
 Info: Elaborating entity "ALU" for hierarchy "CPU:inst2|ALU:inst18"
-Warning: Pin "second_operand" not connected
 Info: Elaborating entity "C_FLAG" for hierarchy "CPU:inst2|ALU:inst18|C_FLAG:inst4"
 Info: Elaborating entity "lpm_ff" for hierarchy "CPU:inst2|ALU:inst18|C_FLAG:inst4|lpm_ff:lpm_ff_component"
 Info: Elaborated megafunction instantiation "CPU:inst2|ALU:inst18|C_FLAG:inst4|lpm_ff:lpm_ff_component"
@@ -1781,6 +2163,17 @@ Info: Elaborated megafunction instantiation "CPU:inst2|ALU:inst18|NOTZ_INVERTOR:
 Info: Instantiated megafunction "CPU:inst2|ALU:inst18|NOTZ_INVERTOR:inst34|lpm_inv:lpm_inv_component" with the following parameter:
     Info: Parameter "lpm_type" = "LPM_INV"
     Info: Parameter "lpm_width" = "16"
+Info: Elaborating entity "NXOR_INVERTOR" for hierarchy "CPU:inst2|ALU:inst18|NXOR_INVERTOR:inst38"
+Info: Elaborating entity "NXOR_XOR" for hierarchy "CPU:inst2|ALU:inst18|NXOR_XOR:inst39"
+Info: Elaborating entity "LPM_XOR" for hierarchy "CPU:inst2|ALU:inst18|NXOR_XOR:inst39|LPM_XOR:lpm_xor_component"
+Info: Elaborated megafunction instantiation "CPU:inst2|ALU:inst18|NXOR_XOR:inst39|LPM_XOR:lpm_xor_component"
+Info: Instantiated megafunction "CPU:inst2|ALU:inst18|NXOR_XOR:inst39|LPM_XOR:lpm_xor_component" with the following parameter:
+    Info: Parameter "LPM_WIDTH" = "16"
+    Info: Parameter "LPM_SIZE" = "2"
+    Info: Parameter "LPM_TYPE" = "LPM_XOR"
+    Info: Parameter "LPM_HINT" = "UNUSED"
+Info: Elaborating entity "ALU_NXOR_FIRST_REGISTER" for hierarchy "CPU:inst2|ALU:inst18|ALU_NXOR_FIRST_REGISTER:inst36"
+Info: Elaborating entity "ALU_NXOR_SECOND_REGISTER" for hierarchy "CPU:inst2|ALU:inst18|ALU_NXOR_SECOND_REGISTER:inst37"
 Info: Elaborating entity "GENERAL_REGISTERS" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1"
 Info: Elaborating entity "GENERAL_REGISTER_READ_BUSTRI" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst19"
 Info: Elaborating entity "GENERAL_REGISTER_READ_MUX" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17"
@@ -1807,6 +2200,63 @@ Info: Instantiated megafunction "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGIS
 Info: Found 1 design units, including 1 entities, in source file db/decode_ltf.tdf
     Info: Found entity 1: decode_ltf
 Info: Elaborating entity "decode_ltf" for hierarchy "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component|decode_ltf:auto_generated"
+Info: Elaborating entity "STACK" for hierarchy "CPU:inst2|STACK:inst27"
+Info: Elaborating entity "STACK_OUT_BUSTRI" for hierarchy "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11"
+Info: Elaborating entity "STACK_OUTPUT_MUX" for hierarchy "CPU:inst2|STACK:inst27|STACK_OUTPUT_MUX:inst10"
+Info: Elaborating entity "LPM_MUX" for hierarchy "CPU:inst2|STACK:inst27|STACK_OUTPUT_MUX:inst10|LPM_MUX:lpm_mux_component"
+Info: Elaborated megafunction instantiation "CPU:inst2|STACK:inst27|STACK_OUTPUT_MUX:inst10|LPM_MUX:lpm_mux_component"
+Info: Instantiated megafunction "CPU:inst2|STACK:inst27|STACK_OUTPUT_MUX:inst10|LPM_MUX:lpm_mux_component" with the following parameter:
+    Info: Parameter "LPM_WIDTH" = "16"
+    Info: Parameter "LPM_SIZE" = "5"
+    Info: Parameter "LPM_WIDTHS" = "3"
+    Info: Parameter "LPM_PIPELINE" = "0"
+    Info: Parameter "LPM_TYPE" = "LPM_MUX"
+    Info: Parameter "LPM_HINT" = "UNUSED"
+Info: Found 1 design units, including 1 entities, in source file db/mux_t5e.tdf
+    Info: Found entity 1: mux_t5e
+Info: Elaborating entity "mux_t5e" for hierarchy "CPU:inst2|STACK:inst27|STACK_OUTPUT_MUX:inst10|LPM_MUX:lpm_mux_component|mux_t5e:auto_generated"
+Info: Elaborating entity "STACK_REGISTER" for hierarchy "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8"
+Info: Elaborating entity "STACK_POINTER_DECODER" for hierarchy "CPU:inst2|STACK:inst27|STACK_POINTER_DECODER:inst9"
+Info: Elaborating entity "lpm_decode" for hierarchy "CPU:inst2|STACK:inst27|STACK_POINTER_DECODER:inst9|lpm_decode:lpm_decode_component"
+Info: Elaborated megafunction instantiation "CPU:inst2|STACK:inst27|STACK_POINTER_DECODER:inst9|lpm_decode:lpm_decode_component"
+Info: Instantiated megafunction "CPU:inst2|STACK:inst27|STACK_POINTER_DECODER:inst9|lpm_decode:lpm_decode_component" with the following parameter:
+    Info: Parameter "lpm_decodes" = "8"
+    Info: Parameter "lpm_type" = "LPM_DECODE"
+    Info: Parameter "lpm_width" = "3"
+Info: Found 1 design units, including 1 entities, in source file db/decode_u7f.tdf
+    Info: Found entity 1: decode_u7f
+Info: Elaborating entity "decode_u7f" for hierarchy "CPU:inst2|STACK:inst27|STACK_POINTER_DECODER:inst9|lpm_decode:lpm_decode_component|decode_u7f:auto_generated"
+Info: Elaborating entity "STACK_POINTER_COUNTER" for hierarchy "CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst"
+Info: Elaborating entity "lpm_counter" for hierarchy "CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component"
+Info: Elaborated megafunction instantiation "CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component"
+Info: Instantiated megafunction "CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component" with the following parameter:
+    Info: Parameter "lpm_avalue" = "4"
+    Info: Parameter "lpm_direction" = "UNUSED"
+    Info: Parameter "lpm_port_updown" = "PORT_USED"
+    Info: Parameter "lpm_type" = "LPM_COUNTER"
+    Info: Parameter "lpm_width" = "3"
+Info: Found 1 design units, including 1 entities, in source file db/cntr_afi.tdf
+    Info: Found entity 1: cntr_afi
+Info: Elaborating entity "cntr_afi" for hierarchy "CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated"
+Info: Elaborating entity "STACK_POINTER_ASYNC_CLEAR_COMPARATOR" for hierarchy "CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_CLEAR_COMPARATOR:inst2"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_CLEAR_COMPARATOR:inst2|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_CLEAR_COMPARATOR:inst2|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_CLEAR_COMPARATOR:inst2|lpm_compare:lpm_compare_component" with the following parameter:
+    Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
+    Info: Parameter "lpm_representation" = "UNSIGNED"
+    Info: Parameter "lpm_type" = "LPM_COMPARE"
+    Info: Parameter "lpm_width" = "3"
+Info: Found 1 design units, including 1 entities, in source file db/cmpr_h8j.tdf
+    Info: Found entity 1: cmpr_h8j
+Info: Elaborating entity "cmpr_h8j" for hierarchy "CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_CLEAR_COMPARATOR:inst2|lpm_compare:lpm_compare_component|cmpr_h8j:auto_generated"
+Info: Elaborating entity "STACK_POINTER_ASYNC_SET_COMPARATOR" for hierarchy "CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_SET_COMPARATOR:inst3"
+Info: Elaborating entity "lpm_compare" for hierarchy "CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_SET_COMPARATOR:inst3|lpm_compare:lpm_compare_component"
+Info: Elaborated megafunction instantiation "CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_SET_COMPARATOR:inst3|lpm_compare:lpm_compare_component"
+Info: Instantiated megafunction "CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_SET_COMPARATOR:inst3|lpm_compare:lpm_compare_component" with the following parameter:
+    Info: Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=YES"
+    Info: Parameter "lpm_representation" = "UNSIGNED"
+    Info: Parameter "lpm_type" = "LPM_COMPARE"
+    Info: Parameter "lpm_width" = "3"
 Info: Elaborating entity "ROM" for hierarchy "ROM:inst"
 Info: Elaborating entity "altsyncram" for hierarchy "ROM:inst|altsyncram:altsyncram_component"
 Info: Elaborated megafunction instantiation "ROM:inst|altsyncram:altsyncram_component"
@@ -1851,7 +2301,40 @@ Info: Elaborated megafunction instantiation "LPM_RAM_IO:inst1|altram:sram|altsyn
 Info: Found 1 design units, including 1 entities, in source file db/altsyncram_dv91.tdf
     Info: Found entity 1: altsyncram_dv91
 Info: Elaborating entity "altsyncram_dv91" for hierarchy "LPM_RAM_IO:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated"
-Critical Warning: Memory depth (4096) in the design file differs from memory depth (65536) in the Memory Initialization File "RAM_INIT.hex" -- truncated remaining initial content value to fit RAM
+Warning: Tri-state node(s) do not directly drive top-level pin(s)
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[15]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[14]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[13]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[12]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[11]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[10]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[9]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[8]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[7]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[6]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[5]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[4]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[3]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[2]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[1]" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component|dout[0]" feeding internal logic into a wire
+Warning: Removed fan-outs from the following always-disabled I/O buffers
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[15]" to the node "alu_result[15]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[14]" to the node "alu_result[14]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[13]" to the node "alu_result[13]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[12]" to the node "alu_result[12]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[11]" to the node "alu_result[11]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[10]" to the node "alu_result[10]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[9]" to the node "alu_result[9]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[8]" to the node "alu_result[8]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[7]" to the node "alu_result[7]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[6]" to the node "alu_result[6]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[5]" to the node "alu_result[5]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[4]" to the node "alu_result[4]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[3]" to the node "alu_result[3]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[2]" to the node "alu_result[2]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[1]" to the node "alu_result[1]"
+    Warning: Removed fan-out from the always-disabled I/O buffer "CPU:inst2|STACK:inst27|STACK_OUT_BUSTRI:inst11|lpm_bustri:lpm_bustri_component|dout[0]" to the node "alu_result[0]"
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component|dout[0]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst50|lpm_bustri:lpm_bustri_component|dout[0]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]" into an OR gate
@@ -1945,15 +2428,15 @@ Warning: Design contains 38 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "data_bus_out_test[2]"
     Warning (15610): No output dependent on input pin "data_bus_out_test[1]"
     Warning (15610): No output dependent on input pin "data_bus_out_test[0]"
-Info: Implemented 814 device resources after synthesis - the final resource count might be different
+Info: Implemented 957 device resources after synthesis - the final resource count might be different
     Info: Implemented 40 input pins
-    Info: Implemented 107 output pins
-    Info: Implemented 635 logic cells
+    Info: Implemented 113 output pins
+    Info: Implemented 772 logic cells
     Info: Implemented 32 RAM segments
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 101 warnings
-    Info: Peak virtual memory: 343 megabytes
-    Info: Processing ended: Tue May 15 19:57:38 2018
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:17
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 133 warnings
+    Info: Peak virtual memory: 325 megabytes
+    Info: Processing ended: Tue May 15 23:53:21 2018
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:16
 
 

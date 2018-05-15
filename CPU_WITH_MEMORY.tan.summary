@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 17.708 ns
-From           : lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[10]
-To             : data_bus_in_test[10]
+Actual Time    : 17.177 ns
+From           : CPU:inst2|ALU:inst18|INCS_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated|safe_q[7]
+To             : data_bus_in_test[7]
 From Clock     : clk
 To Clock       : --
 Failed Paths   : 0
@@ -15,7 +15,7 @@ Failed Paths   : 0
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 7.459 ns
+Actual Time    : 8.215 ns
 From           : clk
 To             : ram_inclock_out_test
 From Clock     : --
@@ -25,9 +25,9 @@ Failed Paths   : 0
 Type           : Clock Setup: 'clk'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 84.47 MHz ( period = 11.838 ns )
-From           : lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[6]
-To             : CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[6]
+Actual Time    : 79.59 MHz ( period = 12.565 ns )
+From           : CPU:inst2|ALU:inst18|INCS_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated|safe_q[9]
+To             : CPU:inst2|ALU:inst18|Z_FLAG:inst3|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : clk
 To Clock       : clk
 Failed Paths   : 0
@@ -36,11 +36,11 @@ Type           : Clock Hold: 'clk'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component|dffs[2]
-To             : lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|ram_block1a2~porta_address_reg2
+From           : CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component|dffs[9]
+To             : lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|ram_block1a0~porta_address_reg9
 From Clock     : clk
 To Clock       : clk
-Failed Paths   : 4757
+Failed Paths   : 5755
 
 Type           : Total number of failed paths
 Slack          : 
@@ -50,7 +50,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 4757
+Failed Paths   : 5755
 
 --------------------------------------------------------------------------------------
 
