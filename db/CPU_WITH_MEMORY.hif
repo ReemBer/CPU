@@ -5605,6 +5605,7 @@ data0
 CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component
 CPU:inst2|CONTROL_DEVICE:inst|RAM_INDIRECT_ADDRESS_BUSTRI:inst60|lpm_bustri:lpm_bustri_component
 CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst1|lpm_bustri:lpm_bustri_component
+CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst33|lpm_bustri:lpm_bustri_component
 CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst19|lpm_bustri:lpm_bustri_component
 CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst20|lpm_bustri:lpm_bustri_component
 }
@@ -8355,6 +8356,7 @@ clock
 }
 # hierarchies {
 CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component
+CPU:inst2|ALU:inst18|ALU_NOTZ_REGISTER:inst32|lpm_ff:lpm_ff_component
 CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component
 CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component
 CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component
@@ -12062,6 +12064,7 @@ DATA0_0
 }
 # hierarchies {
 CPU:inst2|CONTROL_DEVICE:inst|INDIRECT_ADDRESSING_MUX:inst17|lpm_mux:lpm_mux_component
+CPU:inst2|ALU:inst18|ALU_NOTZ_OUT_MUX:inst35|lpm_mux:lpm_mux_component
 }
 # macro_sequence
 
@@ -12227,6 +12230,7 @@ data0
 }
 # hierarchies {
 CPU:inst2|CONTROL_DEVICE:inst|INDIRECT_ADDRESSING_MUX:inst17|lpm_mux:lpm_mux_component|mux_o5e:auto_generated
+CPU:inst2|ALU:inst18|ALU_NOTZ_OUT_MUX:inst35|lpm_mux:lpm_mux_component|mux_o5e:auto_generated
 }
 # macro_sequence
 
@@ -13104,6 +13108,7 @@ ON
 }
 # hierarchies {
 CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst1
+CPU:inst2|ALU:inst18|ALU_RESULT_BUSTRI:inst33
 }
 # lmf
 |quartus|quartus|lmf|maxplus2.lmf
@@ -13288,6 +13293,9 @@ data0
 -1
 3
 }
+# hierarchies {
+CPU:inst2|ALU:inst18|NOTZ_INVERTOR:inst34|lpm_inv:lpm_inv_component
+}
 # macro_sequence
 
 # end
@@ -13435,6 +13443,9 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CPU:inst2|ALU:inst18|NOTZ_INVERTOR:inst34
 }
 # lmf
 |quartus|quartus|lmf|maxplus2.lmf
@@ -14112,21 +14123,21 @@ a36c8ec425c8a2589af98b2d4daabc3
 
 # end
 # entity
-ALU
+CPU_WITH_MEMORY
 # storage
-db|CPU_WITH_MEMORY.(71).cnf
-db|CPU_WITH_MEMORY.(71).cnf
+db|CPU_WITH_MEMORY.(1).cnf
+db|CPU_WITH_MEMORY.(1).cnf
 # case_insensitive
 # source_file
-alu.bdf
-658c93aa943187b81646a4191c9d4256
+cpu_with_memory.bdf
+6365aa34b13e29d2232a2a7997556cd
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-CPU:inst2|ALU:inst18
+|
 }
 # macro_sequence
 
@@ -14139,7 +14150,7 @@ db|CPU_WITH_MEMORY.(14).cnf
 # case_insensitive
 # source_file
 cpu.bdf
-83c8ef64b9e671fe7a59d571b22e7def
+c53d48be909c89a1be498283aad6666
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -14152,10 +14163,76 @@ CPU:inst2
 
 # end
 # entity
+ALU_NOTZ_OUT_MUX
+# storage
+db|CPU_WITH_MEMORY.(71).cnf
+db|CPU_WITH_MEMORY.(71).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+alu_notz_out_mux.vhd
+edcf3efc3d191f45111fd2e2f7421a
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+CPU:inst2|ALU:inst18|ALU_NOTZ_OUT_MUX:inst35
+}
+# lmf
+|quartus|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+ALU_NOTZ_REGISTER
+# storage
+db|CPU_WITH_MEMORY.(108).cnf
+db|CPU_WITH_MEMORY.(108).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+alu_notz_register.vhd
+bf127e52d572a6e4529475713d5c1
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+CPU:inst2|ALU:inst18|ALU_NOTZ_REGISTER:inst32
+}
+# lmf
+|quartus|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
 altsyncram_cg71
 # storage
-db|CPU_WITH_MEMORY.(62).cnf
-db|CPU_WITH_MEMORY.(62).cnf
+db|CPU_WITH_MEMORY.(113).cnf
+db|CPU_WITH_MEMORY.(113).cnf
 # case_insensitive
 # source_file
 db|altsyncram_cg71.tdf
@@ -14249,7 +14326,7 @@ address_a0
 }
 # memory_file {
 rom_init.hex
-7ebfc713c49724e745e54ee2d11bf
+4ec4e6f3e03bb9e15c77d7ad575a3bc
 }
 # hierarchies {
 ROM:inst|altsyncram:altsyncram_component|altsyncram_cg71:auto_generated
@@ -14258,30 +14335,10 @@ ROM:inst|altsyncram:altsyncram_component|altsyncram_cg71:auto_generated
 
 # end
 # entity
-CPU_WITH_MEMORY
-# storage
-db|CPU_WITH_MEMORY.(1).cnf
-db|CPU_WITH_MEMORY.(1).cnf
-# case_insensitive
-# source_file
-cpu_with_memory.bdf
-feaa4f35a94aa23ca69a5c15e3492fd
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
 altsyncram_dv91
 # storage
-db|CPU_WITH_MEMORY.(108).cnf
-db|CPU_WITH_MEMORY.(108).cnf
+db|CPU_WITH_MEMORY.(114).cnf
+db|CPU_WITH_MEMORY.(114).cnf
 # case_insensitive
 # source_file
 db|altsyncram_dv91.tdf
@@ -14432,10 +14489,30 @@ address_a0
 }
 # memory_file {
 ram_init.hex
-37c1c83eea55e8d96d3f27203fe04898
+3a66f91662f44ff9bbbb86cc961d92e7
 }
 # hierarchies {
 lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+ALU
+# storage
+db|CPU_WITH_MEMORY.(62).cnf
+db|CPU_WITH_MEMORY.(62).cnf
+# case_insensitive
+# source_file
+alu.bdf
+146b97c877b9ce509060eea81e1c3139
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CPU:inst2|ALU:inst18
 }
 # macro_sequence
 
@@ -14448,7 +14525,7 @@ db|CPU_WITH_MEMORY.(16).cnf
 # case_insensitive
 # source_file
 control_device.bdf
-4dba7a318dfd0839783d98c7cefb0f0
+df2bb70c695e4583e144cdffda12f
 26
 # internal_option {
 BLOCK_DESIGN_NAMING

@@ -2909,7 +2909,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "incs_clock";
+		SIGNAL = "fce";
 		INDEX = 90;
 		FORMAT = E;
 		SCALE = 1;
@@ -2917,40 +2917,8 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "incs_sload";
-		INDEX = 91;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "incs_clock_enable";
-		INDEX = 92;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "fce";
-		INDEX = 93;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "INCS";
-		INDEX = 94;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "alu_result";
-		INDEX = 95;
+		INDEX = 91;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2958,7 +2926,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[15]";
-		INDEX = 96;
+		INDEX = 92;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2966,7 +2934,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[14]";
-		INDEX = 97;
+		INDEX = 93;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2974,7 +2942,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[13]";
-		INDEX = 98;
+		INDEX = 94;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2982,7 +2950,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[12]";
-		INDEX = 99;
+		INDEX = 95;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2990,7 +2958,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[11]";
-		INDEX = 100;
+		INDEX = 96;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2998,7 +2966,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[10]";
-		INDEX = 101;
+		INDEX = 97;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3006,7 +2974,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[9]";
-		INDEX = 102;
+		INDEX = 98;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3014,7 +2982,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[8]";
-		INDEX = 103;
+		INDEX = 99;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3022,7 +2990,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[7]";
-		INDEX = 104;
+		INDEX = 100;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3030,7 +2998,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[6]";
-		INDEX = 105;
+		INDEX = 101;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3038,7 +3006,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[5]";
-		INDEX = 106;
+		INDEX = 102;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3046,7 +3014,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[4]";
-		INDEX = 107;
+		INDEX = 103;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3054,7 +3022,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[3]";
-		INDEX = 108;
+		INDEX = 104;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3062,7 +3030,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[2]";
-		INDEX = 109;
+		INDEX = 105;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3070,7 +3038,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[1]";
-		INDEX = 110;
+		INDEX = 106;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3078,7 +3046,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "alu_result[0]";
-		INDEX = 111;
+		INDEX = 107;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3086,7 +3054,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "flag";
-		INDEX = 112;
+		INDEX = 108;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3094,7 +3062,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "flag[2]";
-		INDEX = 113;
+		INDEX = 109;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3102,7 +3070,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "flag[1]";
-		INDEX = 114;
+		INDEX = 110;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3110,7 +3078,31 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "flag[0]";
-		INDEX = 115;
+		INDEX = 111;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "notz_clock_enable";
+		INDEX = 112;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "notz_clock";
+		INDEX = 113;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "NOTZ";
+		INDEX = 114;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

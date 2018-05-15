@@ -138,22 +138,22 @@ applicable agreement for further details.
 	(port
 		(pt 376 224)
 		(output)
-		(text "incs_clock" (rect 0 0 60 14)(font "Arial" (font_size 8)))
-		(text "incs_clock" (rect 295 219 355 233)(font "Arial" (font_size 8)))
+		(text "notz_clock" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "notz_clock" (rect 294 219 355 233)(font "Arial" (font_size 8)))
 		(line (pt 376 224)(pt 360 224)(line_width 1))
 	)
 	(port
 		(pt 376 240)
 		(output)
-		(text "incs_clock_enable" (rect 0 0 105 14)(font "Arial" (font_size 8)))
-		(text "incs_clock_enable" (rect 250 235 355 249)(font "Arial" (font_size 8)))
+		(text "notz_clock_enable" (rect 0 0 106 14)(font "Arial" (font_size 8)))
+		(text "notz_clock_enable" (rect 249 235 355 249)(font "Arial" (font_size 8)))
 		(line (pt 376 240)(pt 360 240)(line_width 1))
 	)
 	(port
 		(pt 376 256)
 		(output)
-		(text "INCS" (rect 0 0 27 14)(font "Arial" (font_size 8)))
-		(text "INCS" (rect 328 251 355 265)(font "Arial" (font_size 8)))
+		(text "NOTZ" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "NOTZ" (rect 322 251 355 265)(font "Arial" (font_size 8)))
 		(line (pt 376 256)(pt 360 256)(line_width 1))
 	)
 	(port

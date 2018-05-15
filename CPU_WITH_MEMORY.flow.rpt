@@ -1,5 +1,5 @@
 Flow report for CPU_WITH_MEMORY
-Tue May 15 17:21:32 2018
+Tue May 15 18:32:49 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,16 +38,16 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Flow Summary                                                            ;
 +-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Tue May 15 17:21:32 2018   ;
+; Flow Status                   ; Successful - Tue May 15 18:32:49 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; CPU_WITH_MEMORY                         ;
 ; Top-level Entity Name         ; CPU_WITH_MEMORY                         ;
 ; Family                        ; Stratix II                              ;
 ; Met timing requirements       ; No                                      ;
 ; Logic utilization             ; 4 %                                     ;
-;     Combinational ALUTs       ; 266 / 12,480 ( 2 % )                    ;
-;     Dedicated logic registers ; 356 / 12,480 ( 3 % )                    ;
-; Total registers               ; 356                                     ;
+;     Combinational ALUTs       ; 292 / 12,480 ( 2 % )                    ;
+;     Dedicated logic registers ; 372 / 12,480 ( 3 % )                    ;
+; Total registers               ; 372                                     ;
 ; Total pins                    ; 147 / 343 ( 43 % )                      ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 98,304 / 419,328 ( 23 % )               ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/15/2018 17:20:49 ;
+; Start date & time ; 05/15/2018 18:32:01 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPU_WITH_MEMORY     ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +------------------------------------+---------------------------------------+--------------------+-------------+----------------+
 ; Assignment Name                    ; Value                                 ; Default Value      ; Entity Name ; Section Id     ;
 +------------------------------------+---------------------------------------+--------------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 44883555018623.152639404933660        ; --                 ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 44883555018623.152639832129228        ; --                 ; --          ; --             ;
 ; FITTER_EFFORT                      ; Standard Fit                          ; Auto Fit           ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_ROM                               ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --          ; --             ;
@@ -116,6 +116,10 @@ applicable agreement for further details.
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_MUX                               ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_MUX                               ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                               ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
@@ -272,6 +276,12 @@ applicable agreement for further details.
 ; MISC_FILE                          ; CPU_DATA_BUS_OUT_MUX.bsf              ; --                 ; --          ; --             ;
 ; MISC_FILE                          ; CPU_DATA_BUS_OUT_MUX_inst.vhd         ; --                 ; --          ; --             ;
 ; MISC_FILE                          ; CPU_DATA_BUS_OUT_MUX.cmp              ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_NOTZ_REGISTER.bsf                 ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_NOTZ_REGISTER_inst.vhd            ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_NOTZ_REGISTER.cmp                 ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_NOTZ_OUT_MUX.bsf                  ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_NOTZ_OUT_MUX_inst.vhd             ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_NOTZ_OUT_MUX.cmp                  ; --                 ; --          ; --             ;
 ; OPTIMIZE_POWER_DURING_FITTING      ; Extra effort                          ; Normal compilation ; --          ; --             ;
 ; PARTITION_COLOR                    ; 16764057                              ; --                 ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE             ; SOURCE                                ; --                 ; --          ; Top            ;
@@ -284,11 +294,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:11     ; 1.0                     ; 321 MB              ; 00:00:13                           ;
-; Fitter                  ; 00:00:23     ; 1.0                     ; 371 MB              ; 00:00:26                           ;
+; Analysis & Synthesis    ; 00:00:14     ; 1.0                     ; 321 MB              ; 00:00:16                           ;
+; Fitter                  ; 00:00:24     ; 1.0                     ; 371 MB              ; 00:00:28                           ;
 ; Assembler               ; 00:00:03     ; 1.0                     ; 300 MB              ; 00:00:03                           ;
-; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 235 MB              ; 00:00:03                           ;
-; Total                   ; 00:00:38     ; --                      ; --                  ; 00:00:45                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 235 MB              ; 00:00:02                           ;
+; Total                   ; 00:00:42     ; --                      ; --                  ; 00:00:49                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
