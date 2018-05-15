@@ -1,5 +1,5 @@
 Flow report for CPU_WITH_MEMORY
-Mon May 14 01:25:35 2018
+Tue May 15 17:21:32 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,17 +38,17 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Flow Summary                                                            ;
 +-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Mon May 14 01:25:35 2018   ;
+; Flow Status                   ; Successful - Tue May 15 17:21:32 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; CPU_WITH_MEMORY                         ;
 ; Top-level Entity Name         ; CPU_WITH_MEMORY                         ;
 ; Family                        ; Stratix II                              ;
 ; Met timing requirements       ; No                                      ;
-; Logic utilization             ; 3 %                                     ;
-;     Combinational ALUTs       ; 198 / 12,480 ( 2 % )                    ;
-;     Dedicated logic registers ; 338 / 12,480 ( 3 % )                    ;
-; Total registers               ; 338                                     ;
-; Total pins                    ; 142 / 343 ( 41 % )                      ;
+; Logic utilization             ; 4 %                                     ;
+;     Combinational ALUTs       ; 266 / 12,480 ( 2 % )                    ;
+;     Dedicated logic registers ; 356 / 12,480 ( 3 % )                    ;
+; Total registers               ; 356                                     ;
+; Total pins                    ; 147 / 343 ( 43 % )                      ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 98,304 / 419,328 ( 23 % )               ;
 ; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                          ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/14/2018 01:24:58 ;
+; Start date & time ; 05/15/2018 17:20:49 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPU_WITH_MEMORY     ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +------------------------------------+---------------------------------------+--------------------+-------------+----------------+
 ; Assignment Name                    ; Value                                 ; Default Value      ; Entity Name ; Section Id     ;
 +------------------------------------+---------------------------------------+--------------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 44883555018623.152625029827224        ; --                 ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 44883555018623.152639404933660        ; --                 ; --          ; --             ;
 ; FITTER_EFFORT                      ; Standard Fit                          ; Auto Fit           ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_ROM                               ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --          ; --             ;
@@ -100,6 +100,38 @@ applicable agreement for further details.
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_MUX                               ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                           ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_OR                                ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_XOR                               ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_INV                               ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_INV                               ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_XOR                               ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                               ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_BUSTRI                            ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                               ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                               ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                   ; --                 ; --          ; --             ;
@@ -192,6 +224,54 @@ applicable agreement for further details.
 ; MISC_FILE                          ; lpm_ff0.bsf                           ; --                 ; --          ; --             ;
 ; MISC_FILE                          ; lpm_ff0_inst.vhd                      ; --                 ; --          ; --             ;
 ; MISC_FILE                          ; lpm_ff0.cmp                           ; --                 ; --          ; --             ;
+; MISC_FILE                          ; INCS_COUNTER.bsf                      ; --                 ; --          ; --             ;
+; MISC_FILE                          ; INCS_COUNTER_inst.vhd                 ; --                 ; --          ; --             ;
+; MISC_FILE                          ; INCS_COUNTER.cmp                      ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_RESULT_BUSTRI.bsf                 ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_RESULT_BUSTRI_inst.vhd            ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_RESULT_BUSTRI.cmp                 ; --                 ; --          ; --             ;
+; MISC_FILE                          ; S_FLAG.bsf                            ; --                 ; --          ; --             ;
+; MISC_FILE                          ; S_FLAG_inst.vhd                       ; --                 ; --          ; --             ;
+; MISC_FILE                          ; S_FLAG.cmp                            ; --                 ; --          ; --             ;
+; MISC_FILE                          ; Z_FLAG.bsf                            ; --                 ; --          ; --             ;
+; MISC_FILE                          ; Z_FLAG_inst.vhd                       ; --                 ; --          ; --             ;
+; MISC_FILE                          ; Z_FLAG.cmp                            ; --                 ; --          ; --             ;
+; MISC_FILE                          ; C_FLAG.bsf                            ; --                 ; --          ; --             ;
+; MISC_FILE                          ; C_FLAG_inst.vhd                       ; --                 ; --          ; --             ;
+; MISC_FILE                          ; C_FLAG.cmp                            ; --                 ; --          ; --             ;
+; MISC_FILE                          ; Z_FLAG_OR.bsf                         ; --                 ; --          ; --             ;
+; MISC_FILE                          ; Z_FLAG_OR_inst.vhd                    ; --                 ; --          ; --             ;
+; MISC_FILE                          ; Z_FLAG_OR.cmp                         ; --                 ; --          ; --             ;
+; MISC_FILE                          ; NOTZ_XOR.bsf                          ; --                 ; --          ; --             ;
+; MISC_FILE                          ; NOTZ_XOR_inst.vhd                     ; --                 ; --          ; --             ;
+; MISC_FILE                          ; NOTZ_XOR.cmp                          ; --                 ; --          ; --             ;
+; MISC_FILE                          ; NXOR_INVERTOR.bsf                     ; --                 ; --          ; --             ;
+; MISC_FILE                          ; NXOR_INVERTOR_inst.vhd                ; --                 ; --          ; --             ;
+; MISC_FILE                          ; NXOR_INVERTOR.cmp                     ; --                 ; --          ; --             ;
+; MISC_FILE                          ; NOTZ_INVERTOR.bsf                     ; --                 ; --          ; --             ;
+; MISC_FILE                          ; NOTZ_INVERTOR_inst.vhd                ; --                 ; --          ; --             ;
+; MISC_FILE                          ; NOTZ_INVERTOR.cmp                     ; --                 ; --          ; --             ;
+; MISC_FILE                          ; NXOR_XOR.bsf                          ; --                 ; --          ; --             ;
+; MISC_FILE                          ; NXOR_XOR_inst.vhd                     ; --                 ; --          ; --             ;
+; MISC_FILE                          ; NXOR_XOR.cmp                          ; --                 ; --          ; --             ;
+; MISC_FILE                          ; INCS_LOAD_BUSTRI.bsf                  ; --                 ; --          ; --             ;
+; MISC_FILE                          ; INCS_LOAD_BUSTRI_inst.vhd             ; --                 ; --          ; --             ;
+; MISC_FILE                          ; INCS_LOAD_BUSTRI.cmp                  ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_IN_OPERAND_MUX.bsf                ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_IN_OPERAND_MUX_inst.vhd           ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_IN_OPERAND_MUX.cmp                ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_INPUT_BUSTRI.bsf                  ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_INPUT_BUSTRI_inst.vhd             ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_INPUT_BUSTRI.cmp                  ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_OUTPUT_BUSTRI.bsf                 ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_OUTPUT_BUSTRI_inst.vhd            ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_OUTPUT_BUSTRI.cmp                 ; --                 ; --          ; --             ;
+; MISC_FILE                          ; GEN_REG_DATA_MUX.bsf                  ; --                 ; --          ; --             ;
+; MISC_FILE                          ; GEN_REG_DATA_MUX_inst.vhd             ; --                 ; --          ; --             ;
+; MISC_FILE                          ; GEN_REG_DATA_MUX.cmp                  ; --                 ; --          ; --             ;
+; MISC_FILE                          ; CPU_DATA_BUS_OUT_MUX.bsf              ; --                 ; --          ; --             ;
+; MISC_FILE                          ; CPU_DATA_BUS_OUT_MUX_inst.vhd         ; --                 ; --          ; --             ;
+; MISC_FILE                          ; CPU_DATA_BUS_OUT_MUX.cmp              ; --                 ; --          ; --             ;
 ; OPTIMIZE_POWER_DURING_FITTING      ; Extra effort                          ; Normal compilation ; --          ; --             ;
 ; PARTITION_COLOR                    ; 16764057                              ; --                 ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE             ; SOURCE                                ; --                 ; --          ; Top            ;
@@ -204,11 +284,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:10     ; 1.0                     ; 340 MB              ; 00:00:11                           ;
-; Fitter                  ; 00:00:20     ; 1.0                     ; 370 MB              ; 00:00:22                           ;
-; Assembler               ; 00:00:02     ; 1.0                     ; 300 MB              ; 00:00:03                           ;
-; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 234 MB              ; 00:00:02                           ;
-; Total                   ; 00:00:32     ; --                      ; --                  ; 00:00:38                           ;
+; Analysis & Synthesis    ; 00:00:11     ; 1.0                     ; 321 MB              ; 00:00:13                           ;
+; Fitter                  ; 00:00:23     ; 1.0                     ; 371 MB              ; 00:00:26                           ;
+; Assembler               ; 00:00:03     ; 1.0                     ; 300 MB              ; 00:00:03                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 235 MB              ; 00:00:03                           ;
+; Total                   ; 00:00:38     ; --                      ; --                  ; 00:00:45                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 392 240)
+	(rect 16 16 392 336)
 	(text "CPU" (rect 5 0 28 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 208 25 220)(font "Arial" ))
+	(text "inst" (rect 8 304 25 316)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -50,13 +50,6 @@ applicable agreement for further details.
 		(text "command_data_bus[15..0]" (rect 0 0 149 14)(font "Arial" (font_size 8)))
 		(text "command_data_bus[15..0]" (rect 21 75 170 89)(font "Arial" (font_size 8)))
 		(line (pt 0 80)(pt 16 80)(line_width 3))
-	)
-	(port
-		(pt 0 96)
-		(input)
-		(text "flag[2..0]" (rect 0 0 49 14)(font "Arial" (font_size 8)))
-		(text "flag[2..0]" (rect 21 91 70 105)(font "Arial" (font_size 8)))
-		(line (pt 0 96)(pt 16 96)(line_width 3))
 	)
 	(port
 		(pt 376 32)
@@ -131,11 +124,53 @@ applicable agreement for further details.
 	(port
 		(pt 376 192)
 		(output)
-		(text "R[15..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
-		(text "R[15..0]" (rect 312 187 355 201)(font "Arial" (font_size 8)))
-		(line (pt 376 192)(pt 360 192)(line_width 3))
+		(text "fce" (rect 0 0 18 14)(font "Arial" (font_size 8)))
+		(text "fce" (rect 337 187 355 201)(font "Arial" (font_size 8)))
+		(line (pt 376 192)(pt 360 192)(line_width 1))
+	)
+	(port
+		(pt 376 208)
+		(output)
+		(text "incs_sload" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "incs_sload" (rect 294 203 355 217)(font "Arial" (font_size 8)))
+		(line (pt 376 208)(pt 360 208)(line_width 1))
+	)
+	(port
+		(pt 376 224)
+		(output)
+		(text "incs_clock" (rect 0 0 60 14)(font "Arial" (font_size 8)))
+		(text "incs_clock" (rect 295 219 355 233)(font "Arial" (font_size 8)))
+		(line (pt 376 224)(pt 360 224)(line_width 1))
+	)
+	(port
+		(pt 376 240)
+		(output)
+		(text "incs_clock_enable" (rect 0 0 105 14)(font "Arial" (font_size 8)))
+		(text "incs_clock_enable" (rect 250 235 355 249)(font "Arial" (font_size 8)))
+		(line (pt 376 240)(pt 360 240)(line_width 1))
+	)
+	(port
+		(pt 376 256)
+		(output)
+		(text "INCS" (rect 0 0 27 14)(font "Arial" (font_size 8)))
+		(text "INCS" (rect 328 251 355 265)(font "Arial" (font_size 8)))
+		(line (pt 376 256)(pt 360 256)(line_width 1))
+	)
+	(port
+		(pt 376 272)
+		(output)
+		(text "alu_result[15..0]" (rect 0 0 90 14)(font "Arial" (font_size 8)))
+		(text "alu_result[15..0]" (rect 265 267 355 281)(font "Arial" (font_size 8)))
+		(line (pt 376 272)(pt 360 272)(line_width 3))
+	)
+	(port
+		(pt 376 288)
+		(output)
+		(text "flag[2..0]" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "flag[2..0]" (rect 306 283 355 297)(font "Arial" (font_size 8)))
+		(line (pt 376 288)(pt 360 288)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 360 208)(line_width 1))
+		(rectangle (rect 16 16 360 304)(line_width 1))
 	)
 )

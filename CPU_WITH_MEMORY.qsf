@@ -74,16 +74,36 @@ set_global_assignment -name QIP_FILE GENERAL_REGISTERS_DECODER.qip
 set_global_assignment -name QIP_FILE GENERAL_REGISTER_READ_MUX.qip
 set_global_assignment -name QIP_FILE GENERAL_REGISTER_READ_BUSTRI.qip
 set_global_assignment -name QIP_FILE RAM_ADDRESS_BUSTRI.qip
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
-set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_global_assignment -name QIP_FILE RAM_DIRECT_ADDRESS.qip
 set_global_assignment -name QIP_FILE INDIRECT_ADDRESSING_MUX.qip
 set_global_assignment -name QIP_FILE SINGLE_BUSTRI.qip
 set_global_assignment -name QIP_FILE RAM_INDIRECT_ADDRESS_BUSTRI.qip
 set_global_assignment -name VECTOR_WAVEFORM_FILE RAM_TEST.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE CPU_WITH_MEMORY.vwf
 set_global_assignment -name QIP_FILE RAM_OUTENAB_MUX.qip
 set_global_assignment -name QIP_FILE lpm_ff0.qip
+set_global_assignment -name BDF_FILE ALU.bdf
+set_global_assignment -name QIP_FILE INCS_COUNTER.qip
+set_global_assignment -name QIP_FILE ALU_RESULT_BUSTRI.qip
+set_global_assignment -name QIP_FILE S_FLAG.qip
+set_global_assignment -name QIP_FILE Z_FLAG.qip
+set_global_assignment -name QIP_FILE C_FLAG.qip
+set_global_assignment -name QIP_FILE Z_FLAG_OR.qip
+set_global_assignment -name QIP_FILE NOTZ_XOR.qip
+set_global_assignment -name QIP_FILE NXOR.qip
+set_global_assignment -name QIP_FILE NXOR_INVERTOR.qip
+set_global_assignment -name QIP_FILE NOTZ_INVERTOR.qip
+set_global_assignment -name BDF_FILE ALU_TEST.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ALU_TEST.vwf
+set_global_assignment -name QIP_FILE NXOR_XOR.qip
+set_global_assignment -name QIP_FILE INCS_LOAD_BUSTRI.qip
+set_global_assignment -name QIP_FILE ALU_IN_OPERAND_MUX.qip
+set_global_assignment -name QIP_FILE ALU_INPUT_BUSTRI.qip
+set_global_assignment -name QIP_FILE ALU_OUTPUT_BUSTRI.qip
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE CPU_WITH_MEMORY.vwf
+set_global_assignment -name QIP_FILE GEN_REG_DATA_MUX.qip
+set_global_assignment -name QIP_FILE CPU_DATA_BUS_OUT_MUX.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
