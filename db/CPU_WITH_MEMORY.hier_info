@@ -294,6 +294,7 @@ clk => inst52.IN0
 clk => inst47.IN0
 clk => inst56.IN0
 clk => inst53.IN0
+clk => inst206.IN0
 clk => inst188.IN0
 clk => inst190.IN0
 clk => inst42.IN0
@@ -321,10 +322,10 @@ ram_inclock <= ram_inclock~0.DB_MAX_OUTPUT_PORT_TYPE
 ram_outclock <= ram_outclock~0.DB_MAX_OUTPUT_PORT_TYPE
 ram_we <= inst176.DB_MAX_OUTPUT_PORT_TYPE
 ram_outenab <= inst96.DB_MAX_OUTPUT_PORT_TYPE
-is_gen_reg_write <= inst195.DB_MAX_OUTPUT_PORT_TYPE
+is_gen_reg_write <= inst212.DB_MAX_OUTPUT_PORT_TYPE
 is_read_data <= inst61.DB_MAX_OUTPUT_PORT_TYPE
 is_write_data <= inst174.DB_MAX_OUTPUT_PORT_TYPE
-flags_calculate_enable <= inst198.DB_MAX_OUTPUT_PORT_TYPE
+flags_calculate_enable <= inst224.DB_MAX_OUTPUT_PORT_TYPE
 incs_sload <= inst119.DB_MAX_OUTPUT_PORT_TYPE
 incs_clock <= inst130.DB_MAX_OUTPUT_PORT_TYPE
 flag[0] => ~NO_FANOUT~
@@ -336,12 +337,12 @@ INCS <= inst54.DB_MAX_OUTPUT_PORT_TYPE
 notz_clock <= inst154.DB_MAX_OUTPUT_PORT_TYPE
 notz_clock_enable <= inst129.DB_MAX_OUTPUT_PORT_TYPE
 NOTZ <= inst55.DB_MAX_OUTPUT_PORT_TYPE
-is_second_read <= inst184.DB_MAX_OUTPUT_PORT_TYPE
-nxor_first_clock <= inst187.DB_MAX_OUTPUT_PORT_TYPE
-nxor_first_clock_en <= inst191.DB_MAX_OUTPUT_PORT_TYPE
+is_second_read <= inst201.DB_MAX_OUTPUT_PORT_TYPE
+nxor_first_clock <= inst205.DB_MAX_OUTPUT_PORT_TYPE
+nxor_first_clock_en <= inst207.DB_MAX_OUTPUT_PORT_TYPE
 nxor_second_clock <= inst189.DB_MAX_OUTPUT_PORT_TYPE
 nxor_second_clock_en <= inst192.DB_MAX_OUTPUT_PORT_TYPE
-NXOR <= inst193.DB_MAX_OUTPUT_PORT_TYPE
+NXOR <= inst209.DB_MAX_OUTPUT_PORT_TYPE
 general_reg_id[0] <= COMMAND[39].DB_MAX_OUTPUT_PORT_TYPE
 general_reg_id[1] <= COMMAND[40].DB_MAX_OUTPUT_PORT_TYPE
 general_reg_id[2] <= COMMAND[41].DB_MAX_OUTPUT_PORT_TYPE
@@ -394,10 +395,10 @@ data_bus[12] => RAM_DIRECT_ADDRESS:inst5.data[12]
 data_bus[13] => RAM_DIRECT_ADDRESS:inst5.data[13]
 data_bus[14] => RAM_DIRECT_ADDRESS:inst5.data[14]
 data_bus[15] => RAM_DIRECT_ADDRESS:inst5.data[15]
-second_operand_id[0] <= COMMAND[35].DB_MAX_OUTPUT_PORT_TYPE
-second_operand_id[1] <= COMMAND[36].DB_MAX_OUTPUT_PORT_TYPE
-second_operand_id[2] <= COMMAND[37].DB_MAX_OUTPUT_PORT_TYPE
-second_operand_id[3] <= COMMAND[38].DB_MAX_OUTPUT_PORT_TYPE
+second_operand_id[0] <= NXOR_SECOND_OPERAND_ID_MUX:inst199.result[0]
+second_operand_id[1] <= NXOR_SECOND_OPERAND_ID_MUX:inst199.result[1]
+second_operand_id[2] <= NXOR_SECOND_OPERAND_ID_MUX:inst199.result[2]
+second_operand_id[3] <= NXOR_SECOND_OPERAND_ID_MUX:inst199.result[3]
 
 
 |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst
@@ -2055,6 +2056,64 @@ q[12] <= dffs[12].DB_MAX_OUTPUT_PORT_TYPE
 q[13] <= dffs[13].DB_MAX_OUTPUT_PORT_TYPE
 q[14] <= dffs[14].DB_MAX_OUTPUT_PORT_TYPE
 q[15] <= dffs[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NXOR_SECOND_OPERAND_ID_MUX:inst199
+data0x[0] => LPM_MUX:lpm_mux_component.DATA[0][0]
+data0x[1] => LPM_MUX:lpm_mux_component.DATA[0][1]
+data0x[2] => LPM_MUX:lpm_mux_component.DATA[0][2]
+data0x[3] => LPM_MUX:lpm_mux_component.DATA[0][3]
+data1x[0] => LPM_MUX:lpm_mux_component.DATA[1][0]
+data1x[1] => LPM_MUX:lpm_mux_component.DATA[1][1]
+data1x[2] => LPM_MUX:lpm_mux_component.DATA[1][2]
+data1x[3] => LPM_MUX:lpm_mux_component.DATA[1][3]
+sel => LPM_MUX:lpm_mux_component.SEL[0]
+result[0] <= LPM_MUX:lpm_mux_component.RESULT[0]
+result[1] <= LPM_MUX:lpm_mux_component.RESULT[1]
+result[2] <= LPM_MUX:lpm_mux_component.RESULT[2]
+result[3] <= LPM_MUX:lpm_mux_component.RESULT[3]
+
+
+|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NXOR_SECOND_OPERAND_ID_MUX:inst199|LPM_MUX:lpm_mux_component
+data[0][0] => mux_54e:auto_generated.data[0]
+data[0][1] => mux_54e:auto_generated.data[1]
+data[0][2] => mux_54e:auto_generated.data[2]
+data[0][3] => mux_54e:auto_generated.data[3]
+data[1][0] => mux_54e:auto_generated.data[4]
+data[1][1] => mux_54e:auto_generated.data[5]
+data[1][2] => mux_54e:auto_generated.data[6]
+data[1][3] => mux_54e:auto_generated.data[7]
+sel[0] => mux_54e:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_54e:auto_generated.result[0]
+result[1] <= mux_54e:auto_generated.result[1]
+result[2] <= mux_54e:auto_generated.result[2]
+result[3] <= mux_54e:auto_generated.result[3]
+
+
+|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NXOR_SECOND_OPERAND_ID_MUX:inst199|LPM_MUX:lpm_mux_component|mux_54e:auto_generated
+data[0] => l1_w0_n0_mux_dataout~1.IN1
+data[1] => l1_w1_n0_mux_dataout~1.IN1
+data[2] => l1_w2_n0_mux_dataout~1.IN1
+data[3] => l1_w3_n0_mux_dataout~1.IN1
+data[4] => l1_w0_n0_mux_dataout~0.IN1
+data[5] => l1_w1_n0_mux_dataout~0.IN1
+data[6] => l1_w2_n0_mux_dataout~0.IN1
+data[7] => l1_w3_n0_mux_dataout~0.IN1
+result[0] <= l1_w0_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= l1_w1_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= l1_w2_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= l1_w3_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => l1_w0_n0_mux_dataout~0.IN0
+sel[0] => _~0.IN0
+sel[0] => l1_w1_n0_mux_dataout~0.IN0
+sel[0] => _~1.IN0
+sel[0] => l1_w2_n0_mux_dataout~0.IN0
+sel[0] => _~2.IN0
+sel[0] => l1_w3_n0_mux_dataout~0.IN0
+sel[0] => _~3.IN0
 
 
 |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18

@@ -78,19 +78,19 @@ GND                          : A1        : gnd    :                   :         
 TEMPDIODEp                   : A2        :        :                   :         :           :                
 VCCIO4                       : A3        : power  :                   : 3.3V    : 4         :                
 MSEL3                        : A4        :        :                   :         : 4         :                
-we_test                      : A5        : input  : 3.3-V LVTTL       :         : 4         : N              
-data_bus_out_test[5]         : A6        : input  : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : A5        :        :                   :         : 4         :                
+data_bus_out_test[6]         : A6        : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : A7        :        :                   :         : 4         :                
-GND*                         : A8        :        :                   :         : 4         :                
+command_data_bus[1]          : A8        : output : 3.3-V LVTTL       :         : 4         : N              
 GND                          : A9        : gnd    :                   :         :           :                
-GND*                         : A10       :        :                   :         : 9         :                
+data_out_bus_test[15]        : A10       : output : 3.3-V LVTTL       :         : 9         : N              
 VCCIO4                       : A11       : power  :                   : 3.3V    : 4         :                
 VCCIO3                       : A12       : power  :                   : 3.3V    : 3         :                
-GND*                         : A13       :        :                   :         : 3         :                
+data_out_bus_test[4]         : A13       : output : 3.3-V LVTTL       :         : 3         : N              
 GND                          : A14       : gnd    :                   :         :           :                
-data_out_bus_test[6]         : A15       : output : 3.3-V LVTTL       :         : 3         : N              
-data_out_bus_test[15]        : A16       : output : 3.3-V LVTTL       :         : 3         : N              
-data_out_bus_test[8]         : A17       : output : 3.3-V LVTTL       :         : 3         : N              
+alu_result[14]               : A15       : output : 3.3-V LVTTL       :         : 3         : N              
+data_bus_in_test[3]          : A16       : output : 3.3-V LVTTL       :         : 3         : N              
+alu_result[1]                : A17       : output : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : A18       :        :                   :         : 3         :                
 GND*                         : A19       :        :                   :         : 3         :                
 VCCIO3                       : A20       : power  :                   : 3.3V    : 3         :                
@@ -101,19 +101,19 @@ GND                          : AA2       : gnd    :                   :         
 nCEO                         : AA3       :        :                   :         : 7         :                
 GND*                         : AA4       :        :                   :         : 7         :                
 GND*                         : AA5       :        :                   :         : 7         :                
-GND*                         : AA6       :        :                   :         : 7         :                
-GND*                         : AA7       :        :                   :         : 7         :                
-GND*                         : AA8       :        :                   :         : 7         :                
-data_bus_in_test[7]          : AA9       : output : 3.3-V LVTTL       :         : 10        : N              
-data_bus_in_test[1]          : AA10      : output : 3.3-V LVTTL       :         : 10        : N              
-command_data_bus[5]          : AA11      : output : 3.3-V LVTTL       :         : 7         : N              
-nxor_second_clock            : AA12      : output : 3.3-V LVTTL       :         : 8         : N              
-int                          : AA13      : input  : 3.3-V LVTTL       :         : 8         : N              
+ip[2]                        : AA6       : output : 3.3-V LVTTL       :         : 7         : N              
+ip[4]                        : AA7       : output : 3.3-V LVTTL       :         : 7         : N              
+ip[0]                        : AA8       : output : 3.3-V LVTTL       :         : 7         : N              
+command_data_bus[12]         : AA9       : output : 3.3-V LVTTL       :         : 10        : N              
+ip[7]                        : AA10      : output : 3.3-V LVTTL       :         : 10        : N              
+ram_we_out_test              : AA11      : output : 3.3-V LVTTL       :         : 7         : N              
+command_data_bus[0]          : AA12      : output : 3.3-V LVTTL       :         : 8         : N              
+command_data_bus[7]          : AA13      : output : 3.3-V LVTTL       :         : 8         : N              
 VREFB8                       : AA14      : power  :                   :         : 8         :                
-ip[6]                        : AA15      : output : 3.3-V LVTTL       :         : 8         : N              
-fce                          : AA16      : output : 3.3-V LVTTL       :         : 8         : N              
-ip[9]                        : AA17      : output : 3.3-V LVTTL       :         : 8         : N              
-command_data_bus[9]          : AA18      : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : AA15      :        :                   :         : 8         :                
+data_address_bus_test[15]    : AA16      : input  : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : AA17      :        :                   :         : 8         :                
+GND*                         : AA18      :        :                   :         : 8         :                
 TCK                          : AA19      : input  :                   :         : 8         :                
 TMS                          : AA20      : input  :                   :         : 8         :                
 GND                          : AA21      : gnd    :                   :         :           :                
@@ -123,19 +123,19 @@ nIO_PULLUP                   : AB2       :        :                   :         
 VCCIO7                       : AB3       : power  :                   : 3.3V    : 7         :                
 GND                          : AB4       : gnd    :                   :         :           :                
 GND*                         : AB5       :        :                   :         : 7         :                
-GND*                         : AB6       :        :                   :         : 7         :                
-GND*                         : AB7       :        :                   :         : 7         :                
-is_read_data_out_test        : AB8       : output : 3.3-V LVTTL       :         : 7         : N              
+ip[5]                        : AB6       : output : 3.3-V LVTTL       :         : 7         : N              
+command_data_bus[8]          : AB7       : output : 3.3-V LVTTL       :         : 7         : N              
+ip[3]                        : AB8       : output : 3.3-V LVTTL       :         : 7         : N              
 GND                          : AB9       : gnd    :                   :         :           :                
-data_bus_in_test[14]         : AB10      : output : 3.3-V LVTTL       :         : 10        : N              
+second_operand_id[0]         : AB10      : output : 3.3-V LVTTL       :         : 10        : N              
 VCCIO7                       : AB11      : power  :                   : 3.3V    : 7         :                
 VCCIO8                       : AB12      : power  :                   : 3.3V    : 8         :                
-command_data_bus[13]         : AB13      : output : 3.3-V LVTTL       :         : 8         : N              
+ram_outclock_out_test        : AB13      : output : 3.3-V LVTTL       :         : 8         : N              
 GND                          : AB14      : gnd    :                   :         :           :                
-ip[5]                        : AB15      : output : 3.3-V LVTTL       :         : 8         : N              
-ip[8]                        : AB16      : output : 3.3-V LVTTL       :         : 8         : N              
-ip[2]                        : AB17      : output : 3.3-V LVTTL       :         : 8         : N              
-ip[4]                        : AB18      : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : AB15      :        :                   :         : 8         :                
+GND*                         : AB16      :        :                   :         : 8         :                
+GND*                         : AB17      :        :                   :         : 8         :                
+data_bus_out_test[3]         : AB18      : input  : 3.3-V LVTTL       :         : 8         : N              
 TRST                         : AB19      : input  :                   :         : 8         :                
 VCCIO8                       : AB20      : power  :                   : 3.3V    : 8         :                
 TDI                          : AB21      : input  :                   :         : 8         :                
@@ -145,19 +145,19 @@ GND                          : B2        : gnd    :                   :         
 TDO                          : B3        : output :                   :         : 4         :                
 MSEL2                        : B4        :        :                   :         : 4         :                
 GND*                         : B5        :        :                   :         : 4         :                
-data_address_bus_test[12]    : B6        : input  : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : B6        :        :                   :         : 4         :                
 GND*                         : B7        :        :                   :         : 4         :                
 GND*                         : B8        :        :                   :         : 4         :                
-data_bus_out_test[10]        : B9        : input  : 3.3-V LVTTL       :         : 9         : N              
-GND*                         : B10       :        :                   :         : 9         :                
-GND*                         : B11       :        :                   :         : 4         :                
-GND*                         : B12       :        :                   :         : 4         :                
-GND*                         : B13       :        :                   :         : 3         :                
+GND*                         : B9        :        :                   :         : 9         :                
+alu_result[15]               : B10       : output : 3.3-V LVTTL       :         : 9         : N              
+data_bus_in_test[7]          : B11       : output : 3.3-V LVTTL       :         : 4         : N              
+data_out_bus_test[2]         : B12       : output : 3.3-V LVTTL       :         : 4         : N              
+alu_result[4]                : B13       : output : 3.3-V LVTTL       :         : 3         : N              
 VREFB3                       : B14       : power  :                   :         : 3         :                
-alu_result[10]               : B15       : output : 3.3-V LVTTL       :         : 3         : N              
-data_out_bus_test[3]         : B16       : output : 3.3-V LVTTL       :         : 3         : N              
-alu_result[8]                : B17       : output : 3.3-V LVTTL       :         : 3         : N              
-alu_result[11]               : B18       : output : 3.3-V LVTTL       :         : 3         : N              
+data_out_bus_test[11]        : B15       : output : 3.3-V LVTTL       :         : 3         : N              
+data_out_bus_test[10]        : B16       : output : 3.3-V LVTTL       :         : 3         : N              
+data_out_bus_test[1]         : B17       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : B18       :        :                   :         : 3         :                
 GND*                         : B19       :        :                   :         : 3         :                
 nSTATUS                      : B20       :        :                   :         : 3         :                
 GND                          : B21       : gnd    :                   :         :           :                
@@ -166,46 +166,46 @@ GND*                         : C1        :        :                   :         
 GND*                         : C2        :        :                   :         : 5         :                
 TEMPDIODEn                   : C3        :        :                   :         :           :                
 GND*                         : C4        :        :                   :         : 4         :                
-data_bus_out_test[15]        : C5        : input  : 3.3-V LVTTL       :         : 4         : N              
-data_bus_out_test[0]         : C6        : input  : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : C5        :        :                   :         : 4         :                
+GND*                         : C6        :        :                   :         : 4         :                
 GND*                         : C7        :        :                   :         : 4         :                
-data_bus_out_test[7]         : C8        : input  : 3.3-V LVTTL       :         : 4         : N              
+data_bus_out_test[8]         : C8        : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : C9        :        :                   :         : 9         :                
-data_bus_out_test[13]        : C10       : input  : 3.3-V LVTTL       :         : 9         : N              
-GND*                         : C11       :        :                   :         : 4         :                
-data_address_bus_test[13]    : C12       : input  : 3.3-V LVTTL       :         : 4         : N              
-read_command                 : C13       : output : 3.3-V LVTTL       :         : 3         : N              
-data_out_bus_test[12]        : C14       : output : 3.3-V LVTTL       :         : 3         : N              
-data_out_bus_test[10]        : C15       : output : 3.3-V LVTTL       :         : 3         : N              
-alu_result[6]                : C16       : output : 3.3-V LVTTL       :         : 3         : N              
-GND*                         : C17       :        :                   :         : 3         :                
-data_out_bus_test[11]        : C18       : output : 3.3-V LVTTL       :         : 3         : N              
+alu_result[0]                : C10       : output : 3.3-V LVTTL       :         : 9         : N              
+data_bus_in_test[4]          : C11       : output : 3.3-V LVTTL       :         : 4         : N              
+alu_result[2]                : C12       : output : 3.3-V LVTTL       :         : 4         : N              
+second_operand_id[3]         : C13       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : C14       :        :                   :         : 3         :                
+alu_result[11]               : C15       : output : 3.3-V LVTTL       :         : 3         : N              
+data_out_bus_test[14]        : C16       : output : 3.3-V LVTTL       :         : 3         : N              
+inclock_test                 : C17       : input  : 3.3-V LVTTL       :         : 3         : N              
+data_address_bus_test[8]     : C18       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : C19       :        :                   :         : 3         :                
 CONF_DONE                    : C20       :        :                   :         : 3         :                
 GND*                         : C21       :        :                   :         : 2         :                
 GND*                         : C22       :        :                   :         : 2         :                
 GND*                         : D1        :        :                   :         : 5         :                
 GND*                         : D2        :        :                   :         : 5         :                
-data_address_bus_test[11]    : D3        : input  : 3.3-V LVTTL       :         : 4         : N              
+data_address_bus_test[12]    : D3        : input  : 3.3-V LVTTL       :         : 4         : N              
 MSEL1                        : D4        :        :                   :         : 4         :                
-data_address_bus_test[4]     : D5        : input  : 3.3-V LVTTL       :         : 4         : N              
-GND*                         : D6        :        :                   :         : 4         :                
+data_address_bus_test[5]     : D5        : input  : 3.3-V LVTTL       :         : 4         : N              
+outclock_test                : D6        : input  : 3.3-V LVTTL       :         : 4         : N              
 VREFB4                       : D7        : power  :                   :         : 4         :                
 GND*                         : D8        :        :                   :         : 4         :                
 VREFB4                       : D9        : power  :                   :         : 4         :                
-GND*                         : D10       :        :                   :         : 9         :                
-GND*                         : D11       :        :                   :         : 3         :                
-GND*                         : D12       :        :                   :         : 3         :                
-GND*                         : D13       :        :                   :         : 3         :                
-alu_result[12]               : D14       : output : 3.3-V LVTTL       :         : 3         : N              
-GND*                         : D15       :        :                   :         : 3         :                
+data_out_bus_test[0]         : D10       : output : 3.3-V LVTTL       :         : 9         : N              
+data_out_bus_test[3]         : D11       : output : 3.3-V LVTTL       :         : 3         : N              
+data_bus_in_test[6]          : D12       : output : 3.3-V LVTTL       :         : 3         : N              
+flag[1]                      : D13       : output : 3.3-V LVTTL       :         : 3         : N              
+data_address_bus_test[14]    : D14       : input  : 3.3-V LVTTL       :         : 3         : N              
+data_address_bus_test[9]     : D15       : input  : 3.3-V LVTTL       :         : 3         : N              
 VREFB3                       : D16       : power  :                   :         : 3         :                
 data_address_bus_test[6]     : D17       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : D18       :        :                   :         : 3         :                
 DCLK                         : D19       :        :                   :         : 3         :                
 GND*                         : D20       :        :                   :         : 3         :                
 GND*                         : D21       :        :                   :         : 2         :                
-GND*                         : D22       :        :                   :         : 2         :                
+is_read_data_out_test        : D22       : output : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : E1        :        :                   :         : 5         :                
 GND*                         : E2        :        :                   :         : 5         :                
 GND*                         : E3        :        :                   :         : 5         :                
@@ -213,11 +213,11 @@ GND*                         : E4        :        :                   :         
 MSEL0                        : E5        :        :                   :         : 4         :                
 GND*                         : E6        :        :                   :         : 4         :                
 GND*                         : E7        :        :                   :         : 4         :                
-is_write_data_test           : E8        : input  : 3.3-V LVTTL       :         : 4         : N              
+data_address_bus_test[4]     : E8        : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : E9        :        :                   :         : 4         :                
 GND*                         : E10       :        :                   :         : 4         :                
-GND*                         : E11       :        :                   :         : 3         :                
-data_out_bus_test[7]         : E12       : output : 3.3-V LVTTL       :         : 3         : N              
+read_command                 : E11       : output : 3.3-V LVTTL       :         : 3         : N              
+alu_result[3]                : E12       : output : 3.3-V LVTTL       :         : 3         : N              
 ~DATA0~ / RESERVED_INPUT     : E13       : input  : 3.3-V LVTTL       :         : 3         : N              
 data_bus_out_test[11]        : E14       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : E15       :        :                   :         : 3         :                
@@ -226,7 +226,7 @@ GND*                         : E17       :        :                   :         
 GND*                         : E18       :        :                   :         : 3         :                
 GND*                         : E19       :        :                   :         : 2         :                
 GND*                         : E20       :        :                   :         : 2         :                
-GND*                         : E21       :        :                   :         : 2         :                
+ram_outenab_out_test         : E21       : output : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : E22       :        :                   :         : 2         :                
 GND*                         : F1        :        :                   :         : 5         :                
 GND*                         : F2        :        :                   :         : 5         :                
@@ -236,14 +236,14 @@ GND*                         : F5        :        :                   :         
 GND*                         : F6        :        :                   :         : 4         :                
 GND*                         : F7        :        :                   :         : 4         :                
 GND*                         : F8        :        :                   :         : 4         :                
-GND*                         : F9        :        :                   :         : 4         :                
+outenab_test                 : F9        : input  : 3.3-V LVTTL       :         : 4         : N              
 GNDA_PLL5                    : F10       : gnd    :                   :         :           :                
 GNDA_PLL5                    : F11       : gnd    :                   :         :           :                
 VCCA_PLL5                    : F12       : power  :                   : 1.2V    :           :                
-alu_result[15]               : F13       : output : 3.3-V LVTTL       :         : 3         : N              
-data_address_bus_test[5]     : F14       : input  : 3.3-V LVTTL       :         : 3         : N              
-data_address_bus_test[0]     : F15       : input  : 3.3-V LVTTL       :         : 3         : N              
-outclock_test                : F16       : input  : 3.3-V LVTTL       :         : 3         : N              
+alu_result[10]               : F13       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : F14       :        :                   :         : 3         :                
+GND*                         : F15       :        :                   :         : 3         :                
+GND*                         : F16       :        :                   :         : 3         :                
 GND*                         : F17       :        :                   :         : 3         :                
 VREFB2                       : F18       : power  :                   :         : 2         :                
 GND*                         : F19       :        :                   :         : 2         :                
@@ -257,12 +257,12 @@ GND*                         : G4        :        :                   :         
 GND*                         : G5        :        :                   :         : 5         :                
 GND*                         : G6        :        :                   :         : 5         :                
 GND*                         : G7        :        :                   :         : 4         :                
-inclock_test                 : G8        : input  : 3.3-V LVTTL       :         : 4         : N              
+is_read_data_test            : G8        : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : G9        :        :                   :         : 4         :                
 VCC_PLL5_OUT                 : G10       : power  :                   : 3.3V    : 9         :                
 VCCD_PLL5                    : G11       : power  :                   : 1.2V    :           :                
-GND*                         : G12       :        :                   :         : 3         :                
-alu_result[3]                : G13       : output : 3.3-V LVTTL       :         : 3         : N              
+data_bus_in_test[2]          : G12       : output : 3.3-V LVTTL       :         : 3         : N              
+data_bus_out_test[1]         : G13       : input  : 3.3-V LVTTL       :         : 3         : N              
 data_address_bus_test[7]     : G14       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : G15       :        :                   :         : 3         :                
 GND*                         : G16       :        :                   :         : 3         :                
@@ -270,30 +270,30 @@ GND*                         : G17       :        :                   :         
 GND*                         : G18       :        :                   :         : 2         :                
 GND*                         : G19       :        :                   :         : 2         :                
 GND*                         : G20       :        :                   :         : 2         :                
-data_out_bus_test[0]         : G21       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : G21       :        :                   :         : 2         :                
 GND*                         : G22       :        :                   :         : 2         :                
 GND*                         : H1        :        :                   :         : 5         :                
 GND*                         : H2        :        :                   :         : 5         :                
 GND*                         : H3        :        :                   :         : 5         :                
 GND*                         : H4        :        :                   :         : 5         :                
 GND*                         : H5        :        :                   :         : 5         :                
-data_bus_out_test[8]         : H6        : input  : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : H6        :        :                   :         : 5         :                
 GND*                         : H7        :        :                   :         : 4         :                
 VCCINT                       : H8        : power  :                   : 1.2V    :           :                
-data_bus_out_test[14]        : H9        : input  : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : H9        :        :                   :         : 4         :                
 VCCPD4                       : H10       : power  :                   : 3.3V    : 4         :                
-data_address_bus_test[10]    : H11       : input  : 3.3-V LVTTL       :         : 3         : N              
-alu_result[7]                : H12       : output : 3.3-V LVTTL       :         : 3         : N              
+second_operand_id[2]         : H11       : output : 3.3-V LVTTL       :         : 3         : N              
+data_bus_in_test[12]         : H12       : output : 3.3-V LVTTL       :         : 3         : N              
 VCCPD3                       : H13       : power  :                   : 3.3V    : 3         :                
 GND*                         : H14       :        :                   :         : 3         :                
 GND                          : H15       : gnd    :                   :         :           :                
 GND*                         : H16       :        :                   :         : 3         :                
-data_address_bus_test[2]     : H17       : input  : 3.3-V LVTTL       :         : 2         : N              
+data_address_bus_test[0]     : H17       : input  : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : H18       :        :                   :         : 2         :                
 GND*                         : H19       :        :                   :         : 2         :                
-GND*                         : H20       :        :                   :         : 2         :                
-alu_result[4]                : H21       : output : 3.3-V LVTTL       :         : 2         : N              
-data_out_bus_test[13]        : H22       : output : 3.3-V LVTTL       :         : 2         : N              
+data_bus_out_test[4]         : H20       : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : H21       :        :                   :         : 2         :                
+GND*                         : H22       :        :                   :         : 2         :                
 GND                          : J1        : gnd    :                   :         :           :                
 GND*                         : J2        :        :                   :         : 5         :                
 GND*                         : J3        :        :                   :         : 5         :                
@@ -308,44 +308,44 @@ VCCINT                       : J11       : power  :                   : 1.2V    
 GND                          : J12       : gnd    :                   :         :           :                
 VCCINT                       : J13       : power  :                   : 1.2V    :           :                
 GND                          : J14       : gnd    :                   :         :           :                
-GND*                         : J15       :        :                   :         : 3         :                
+flag[0]                      : J15       : output : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : J16       :        :                   :         : 2         :                
-alu_result[0]                : J17       : output : 3.3-V LVTTL       :         : 2         : N              
-data_out_bus_test[4]         : J18       : output : 3.3-V LVTTL       :         : 2         : N              
-alu_result[13]               : J19       : output : 3.3-V LVTTL       :         : 2         : N              
-alu_result[5]                : J20       : output : 3.3-V LVTTL       :         : 2         : N              
-data_out_bus_test[5]         : J21       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : J17       :        :                   :         : 2         :                
+alu_result[7]                : J18       : output : 3.3-V LVTTL       :         : 2         : N              
+data_out_bus_test[7]         : J19       : output : 3.3-V LVTTL       :         : 2         : N              
+alu_result[12]               : J20       : output : 3.3-V LVTTL       :         : 2         : N              
+data_bus_in_test[8]          : J21       : output : 3.3-V LVTTL       :         : 2         : N              
 GND                          : J22       : gnd    :                   :         :           :                
-GND*                         : K1        :        :                   :         : 5         :                
-GND*                         : K2        :        :                   :         : 5         :                
-GND*                         : K3        :        :                   :         : 5         :                
-GND*                         : K4        :        :                   :         : 5         :                
+data_out_bus_test[5]         : K1        : output : 3.3-V LVTTL       :         : 5         : N              
+second_operand_id[1]         : K2        : output : 3.3-V LVTTL       :         : 5         : N              
+alu_result[6]                : K3        : output : 3.3-V LVTTL       :         : 5         : N              
+alu_result[8]                : K4        : output : 3.3-V LVTTL       :         : 5         : N              
 GND*                         : K5        :        :                   :         : 5         :                
 GND*                         : K6        :        :                   :         : 5         :                
-GND*                         : K7        :        :                   :         : 5         :                
-GND*                         : K8        :        :                   :         : 5         :                
+data_out_bus_test[8]         : K7        : output : 3.3-V LVTTL       :         : 5         : N              
+data_out_bus_test[6]         : K8        : output : 3.3-V LVTTL       :         : 5         : N              
 GND                          : K9        : gnd    :                   :         :           :                
 VCCINT                       : K10       : power  :                   : 1.2V    :           :                
 GND                          : K11       : gnd    :                   :         :           :                
 VCCINT                       : K12       : power  :                   : 1.2V    :           :                
 GND                          : K13       : gnd    :                   :         :           :                
 VCCPD2                       : K14       : power  :                   : 3.3V    : 2         :                
-alu_result[1]                : K15       : output : 3.3-V LVTTL       :         : 2         : N              
-is_second_read               : K16       : output : 3.3-V LVTTL       :         : 2         : N              
-alu_result[2]                : K17       : output : 3.3-V LVTTL       :         : 2         : N              
-data_out_bus_test[2]         : K18       : output : 3.3-V LVTTL       :         : 2         : N              
-nxor_second_clock_en         : K19       : output : 3.3-V LVTTL       :         : 2         : N              
-data_out_bus_test[1]         : K20       : output : 3.3-V LVTTL       :         : 2         : N              
-data_bus_in_test[6]          : K21       : output : 3.3-V LVTTL       :         : 2         : N              
-nxor_first_clock_en          : K22       : output : 3.3-V LVTTL       :         : 2         : N              
+data_bus_in_test[1]          : K15       : output : 3.3-V LVTTL       :         : 2         : N              
+data_bus_in_test[14]         : K16       : output : 3.3-V LVTTL       :         : 2         : N              
+data_bus_in_test[0]          : K17       : output : 3.3-V LVTTL       :         : 2         : N              
+data_out_bus_test[12]        : K18       : output : 3.3-V LVTTL       :         : 2         : N              
+data_out_bus_test[9]         : K19       : output : 3.3-V LVTTL       :         : 2         : N              
+alu_result[9]                : K20       : output : 3.3-V LVTTL       :         : 2         : N              
+data_bus_in_test[10]         : K21       : output : 3.3-V LVTTL       :         : 2         : N              
+data_bus_in_test[5]          : K22       : output : 3.3-V LVTTL       :         : 2         : N              
 VCCIO5                       : L1        : power  :                   : 3.3V    : 5         :                
-GND*                         : L2        :        :                   :         : 5         :                
-nxor_first_clock             : L3        : output : 3.3-V LVTTL       :         : 5         : N              
+data_out_bus_test[13]        : L2        : output : 3.3-V LVTTL       :         : 5         : N              
+alu_result[13]               : L3        : output : 3.3-V LVTTL       :         : 5         : N              
 GNDA_PLL4                    : L4        : gnd    :                   :         :           :                
 GNDA_PLL4                    : L5        : gnd    :                   :         :           :                
 VCCD_PLL4                    : L6        : power  :                   : 1.2V    :           :                
 GND*                         : L7        :        :                   :         : 5         :                
-data_bus_out_test[4]         : L8        : input  : 3.3-V LVTTL       :         : 5         : N              
+alu_result[5]                : L8        : output : 3.3-V LVTTL       :         : 5         : N              
 VCCPD5                       : L9        : power  :                   : 3.3V    : 5         :                
 GND                          : L10       : gnd    :                   :         :           :                
 VCCINT                       : L11       : power  :                   : 1.2V    :           :                
@@ -353,15 +353,15 @@ GND                          : L12       : gnd    :                   :         
 VCCINT                       : L13       : power  :                   : 1.2V    :           :                
 GND                          : L14       : gnd    :                   :         :           :                
 data_bus_in_test[11]         : L15       : output : 3.3-V LVTTL       :         : 2         : N              
-data_bus_in_test[3]          : L16       : output : 3.3-V LVTTL       :         : 2         : N              
+data_bus_in_test[9]          : L16       : output : 3.3-V LVTTL       :         : 2         : N              
 GNDA_PLL1                    : L17       : gnd    :                   :         :           :                
 GNDA_PLL1                    : L18       : gnd    :                   :         :           :                
 VREFB2                       : L19       : power  :                   :         : 2         :                
-flag[2]                      : L20       : output : 3.3-V LVTTL       :         : 2         : N              
-ram_outclock_out_test        : L21       : output : 3.3-V LVTTL       :         : 2         : N              
+nxor_first_clock             : L20       : output : 3.3-V LVTTL       :         : 2         : N              
+nxor_second_clock            : L21       : output : 3.3-V LVTTL       :         : 2         : N              
 VCCIO2                       : L22       : power  :                   : 3.3V    : 2         :                
 VCCIO6                       : M1        : power  :                   : 3.3V    : 6         :                
-data_address_bus_test[1]     : M2        : input  : 3.3-V LVTTL       :         : 5         : N              
+data_address_bus_test[2]     : M2        : input  : 3.3-V LVTTL       :         : 5         : N              
 GND+                         : M3        :        :                   :         : 5         :                
 VCCA_PLL3                    : M4        : power  :                   : 1.2V    :           :                
 VCCD_PLL3                    : M5        : power  :                   : 1.2V    :           :                
@@ -382,35 +382,35 @@ VCCA_PLL2                    : M19       : power  :                   : 1.2V    
 GND+                         : M20       :        :                   :         : 2         :                
 GND+                         : M21       :        :                   :         : 2         :                
 VCCIO1                       : M22       : power  :                   : 3.3V    : 1         :                
-GND*                         : N1        :        :                   :         : 6         :                
-GND*                         : N2        :        :                   :         : 6         :                
+NXOR                         : N1        : output : 3.3-V LVTTL       :         : 6         : N              
+nxor_first_clock_en          : N2        : output : 3.3-V LVTTL       :         : 6         : N              
 GND+                         : N3        :        :                   :         : 6         :                
-GND+                         : N4        :        :                   :         : 6         :                
+data_bus_out_test[14]        : N4        : input  : 3.3-V LVTTL       :         : 6         : N              
 GNDA_PLL3                    : N5        : gnd    :                   :         :           :                
 GNDA_PLL3                    : N6        : gnd    :                   :         :           :                
-GND*                         : N7        :        :                   :         : 6         :                
-GND*                         : N8        :        :                   :         : 6         :                
+command_data_bus[15]         : N7        : output : 3.3-V LVTTL       :         : 6         : N              
+nxor_second_clock_en         : N8        : output : 3.3-V LVTTL       :         : 6         : N              
 VCCPD6                       : N9        : power  :                   : 3.3V    : 6         :                
 GND                          : N10       : gnd    :                   :         :           :                
 VCCINT                       : N11       : power  :                   : 1.2V    :           :                
 GND                          : N12       : gnd    :                   :         :           :                
 VCCINT                       : N13       : power  :                   : 1.2V    :           :                
 GND                          : N14       : gnd    :                   :         :           :                
-second_operand_id[3]         : N15       : output : 3.3-V LVTTL       :         : 1         : N              
-second_operand_id[2]         : N16       : output : 3.3-V LVTTL       :         : 1         : N              
+data_address_bus_out_test[1] : N15       : output : 3.3-V LVTTL       :         : 1         : N              
+data_address_bus_out_test[3] : N16       : output : 3.3-V LVTTL       :         : 1         : N              
 GNDA_PLL2                    : N17       : gnd    :                   :         :           :                
 GNDA_PLL2                    : N18       : gnd    :                   :         :           :                
-GND+                         : N19       :        :                   :         : 1         :                
+int                          : N19       : input  : 3.3-V LVTTL       :         : 1         : N              
 clk                          : N20       : input  : 3.3-V LVTTL       :         : 1         : N              
-data_address_bus_out_test[7] : N21       : output : 3.3-V LVTTL       :         : 1         : N              
-data_address_bus_out_test[11] : N22       : output : 3.3-V LVTTL       :         : 1         : N              
+data_bus_in_test[15]         : N21       : output : 3.3-V LVTTL       :         : 1         : N              
+data_bus_in_test[13]         : N22       : output : 3.3-V LVTTL       :         : 1         : N              
 GND                          : P1        : gnd    :                   :         :           :                
-GND*                         : P2        :        :                   :         : 6         :                
-GND*                         : P3        :        :                   :         : 6         :                
+command_data_bus[14]         : P2        : output : 3.3-V LVTTL       :         : 6         : N              
+is_second_read               : P3        : output : 3.3-V LVTTL       :         : 6         : N              
 VREFB6                       : P4        : power  :                   :         : 6         :                
 GND*                         : P5        :        :                   :         : 6         :                
 GND*                         : P6        :        :                   :         : 6         :                
-GND*                         : P7        :        :                   :         : 6         :                
+command_data_bus[3]          : P7        : output : 3.3-V LVTTL       :         : 6         : N              
 data_bus_out_test[12]        : P8        : input  : 3.3-V LVTTL       :         : 6         : N              
 VCCINT                       : P9        : power  :                   : 1.2V    :           :                
 VCCPD7                       : P10       : power  :                   : 3.3V    : 7         :                
@@ -419,101 +419,101 @@ VCCINT                       : P12       : power  :                   : 1.2V    
 GND                          : P13       : gnd    :                   :         :           :                
 VCCINT                       : P14       : power  :                   : 1.2V    :           :                
 VCCPD1                       : P15       : power  :                   : 3.3V    : 1         :                
-data_address_bus_out_test[6] : P16       : output : 3.3-V LVTTL       :         : 1         : N              
-data_address_bus_out_test[9] : P17       : output : 3.3-V LVTTL       :         : 1         : N              
-data_address_bus_out_test[8] : P18       : output : 3.3-V LVTTL       :         : 1         : N              
-data_address_bus_out_test[3] : P19       : output : 3.3-V LVTTL       :         : 1         : N              
-second_operand_id[0]         : P20       : output : 3.3-V LVTTL       :         : 1         : N              
-second_operand_id[1]         : P21       : output : 3.3-V LVTTL       :         : 1         : N              
+data_address_bus_out_test[7] : P16       : output : 3.3-V LVTTL       :         : 1         : N              
+data_address_bus_out_test[4] : P17       : output : 3.3-V LVTTL       :         : 1         : N              
+data_address_bus_out_test[2] : P18       : output : 3.3-V LVTTL       :         : 1         : N              
+data_address_bus_out_test[10] : P19       : output : 3.3-V LVTTL       :         : 1         : N              
+data_address_bus_out_test[0] : P20       : output : 3.3-V LVTTL       :         : 1         : N              
+data_address_bus_out_test[9] : P21       : output : 3.3-V LVTTL       :         : 1         : N              
 GND                          : P22       : gnd    :                   :         :           :                
-GND*                         : R1        :        :                   :         : 6         :                
+command_data_bus[10]         : R1        : output : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : R2        :        :                   :         : 6         :                
 GND*                         : R3        :        :                   :         : 6         :                
 GND*                         : R4        :        :                   :         : 6         :                
-GND*                         : R5        :        :                   :         : 6         :                
-data_address_bus_test[14]    : R6        : input  : 3.3-V LVTTL       :         : 6         : N              
+ip[8]                        : R5        : output : 3.3-V LVTTL       :         : 6         : N              
+command_data_bus[13]         : R6        : output : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : R7        :        :                   :         : 6         :                
 GND*                         : R8        :        :                   :         : 6         :                
-GND*                         : R9        :        :                   :         : 7         :                
+is_write_data_test           : R9        : input  : 3.3-V LVTTL       :         : 7         : N              
 GND                          : R10       : gnd    :                   :         :           :                
 VCC_PLL6_OUT                 : R11       : power  :                   : 3.3V    : 10        :                
 VCCA_PLL6                    : R12       : power  :                   : 1.2V    :           :                
 VCCPD8                       : R13       : power  :                   : 3.3V    : 8         :                
-command_data_bus[10]         : R14       : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : R14       :        :                   :         : 8         :                
 GND*                         : R15       :        :                   :         : 8         :                
-data_bus_out_test[2]         : R16       : input  : 3.3-V LVTTL       :         : 1         : N              
-GND*                         : R17       :        :                   :         : 1         :                
-data_address_bus_out_test[14] : R18       : output : 3.3-V LVTTL       :         : 1         : N              
-data_address_bus_out_test[12] : R19       : output : 3.3-V LVTTL       :         : 1         : N              
+data_bus_out_test[5]         : R16       : input  : 3.3-V LVTTL       :         : 1         : N              
+data_address_bus_test[11]    : R17       : input  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : R18       :        :                   :         : 1         :                
+GND*                         : R19       :        :                   :         : 1         :                
 VREFB1                       : R20       : power  :                   :         : 1         :                
-data_address_bus_out_test[2] : R21       : output : 3.3-V LVTTL       :         : 1         : N              
-data_address_bus_out_test[0] : R22       : output : 3.3-V LVTTL       :         : 1         : N              
-flag[0]                      : T1        : output : 3.3-V LVTTL       :         : 6         : N              
-data_bus_out_test[6]         : T2        : input  : 3.3-V LVTTL       :         : 6         : N              
+data_address_bus_out_test[8] : R21       : output : 3.3-V LVTTL       :         : 1         : N              
+data_address_bus_out_test[11] : R22       : output : 3.3-V LVTTL       :         : 1         : N              
+command_data_bus[2]          : T1        : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : T2        :        :                   :         : 6         :                
 GND*                         : T3        :        :                   :         : 6         :                
-GND*                         : T4        :        :                   :         : 6         :                
+data_bus_out_test[10]        : T4        : input  : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : T5        :        :                   :         : 6         :                
 GND*                         : T6        :        :                   :         : 6         :                
 GND*                         : T7        :        :                   :         : 7         :                
 GND*                         : T8        :        :                   :         : 7         :                
-data_address_bus_test[15]    : T9        : input  : 3.3-V LVTTL       :         : 7         : N              
-GND*                         : T10       :        :                   :         : 7         :                
+GND*                         : T9        :        :                   :         : 7         :                
+command_data_bus[9]          : T10       : output : 3.3-V LVTTL       :         : 7         : N              
 GNDA_PLL6                    : T11       : gnd    :                   :         :           :                
 GNDA_PLL6                    : T12       : gnd    :                   :         :           :                
-flag[1]                      : T13       : output : 3.3-V LVTTL       :         : 8         : N              
-data_bus_in_test[10]         : T14       : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : T13       :        :                   :         : 8         :                
+GND*                         : T14       :        :                   :         : 8         :                
 GND*                         : T15       :        :                   :         : 8         :                
 GND*                         : T16       :        :                   :         : 8         :                
-command_data_bus[7]          : T17       : output : 3.3-V LVTTL       :         : 1         : N              
-data_address_bus_out_test[15] : T18       : output : 3.3-V LVTTL       :         : 1         : N              
-command_data_bus[6]          : T19       : output : 3.3-V LVTTL       :         : 1         : N              
-data_address_bus_out_test[1] : T20       : output : 3.3-V LVTTL       :         : 1         : N              
-data_address_bus_out_test[10] : T21       : output : 3.3-V LVTTL       :         : 1         : N              
-data_address_bus_out_test[4] : T22       : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : T17       :        :                   :         : 1         :                
+GND*                         : T18       :        :                   :         : 1         :                
+GND*                         : T19       :        :                   :         : 1         :                
+data_bus_out_test[13]        : T20       : input  : 3.3-V LVTTL       :         : 1         : N              
+data_address_bus_out_test[5] : T21       : output : 3.3-V LVTTL       :         : 1         : N              
+data_address_bus_out_test[6] : T22       : output : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : U1        :        :                   :         : 6         :                
 GND*                         : U2        :        :                   :         : 6         :                
 VREFB6                       : U3        : power  :                   :         : 6         :                
-GND*                         : U4        :        :                   :         : 6         :                
-data_bus_out_test[9]         : U5        : input  : 3.3-V LVTTL       :         : 6         : N              
+data_bus_out_test[15]        : U4        : input  : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : U5        :        :                   :         : 6         :                
 GND*                         : U6        :        :                   :         : 7         :                
 GND*                         : U7        :        :                   :         : 7         :                
 GND*                         : U8        :        :                   :         : 7         :                
-GND*                         : U9        :        :                   :         : 7         :                
+data_address_bus_test[10]    : U9        : input  : 3.3-V LVTTL       :         : 7         : N              
 GND*                         : U10       :        :                   :         : 7         :                
 VCCD_PLL6                    : U11       : power  :                   : 1.2V    :           :                
-ip[3]                        : U12       : output : 3.3-V LVTTL       :         : 8         : N              
-data_bus_in_test[15]         : U13       : output : 3.3-V LVTTL       :         : 8         : N              
-data_out_bus_test[14]        : U14       : output : 3.3-V LVTTL       :         : 8         : N              
-data_address_bus_test[9]     : U15       : input  : 3.3-V LVTTL       :         : 8         : N              
+data_address_bus_out_test[15] : U12       : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : U13       :        :                   :         : 8         :                
+GND*                         : U14       :        :                   :         : 8         :                
+GND*                         : U15       :        :                   :         : 8         :                
 GND*                         : U16       :        :                   :         : 8         :                
-command_data_bus[11]         : U17       : output : 3.3-V LVTTL       :         : 1         : N              
-command_data_bus[14]         : U18       : output : 3.3-V LVTTL       :         : 1         : N              
-is_write_data_out_test       : U19       : output : 3.3-V LVTTL       :         : 1         : N              
-ram_we_out_test              : U20       : output : 3.3-V LVTTL       :         : 1         : N              
-data_address_bus_out_test[5] : U21       : output : 3.3-V LVTTL       :         : 1         : N              
-data_address_bus_out_test[13] : U22       : output : 3.3-V LVTTL       :         : 1         : N              
-GND*                         : V1        :        :                   :         : 6         :                
+data_bus_out_test[9]         : U17       : input  : 3.3-V LVTTL       :         : 1         : N              
+data_bus_out_test[2]         : U18       : input  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : U19       :        :                   :         : 1         :                
+GND*                         : U20       :        :                   :         : 1         :                
+data_bus_out_test[7]         : U21       : input  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : U22       :        :                   :         : 1         :                
+data_bus_out_test[0]         : V1        : input  : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : V2        :        :                   :         : 6         :                
-data_bus_out_test[3]         : V3        : input  : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : V3        :        :                   :         : 6         :                
 GND*                         : V4        :        :                   :         : 6         :                
 PORSEL                       : V5        :        :                   :         : 7         :                
 GND*                         : V6        :        :                   :         : 7         :                
 GND*                         : V7        :        :                   :         : 7         :                
 GND*                         : V8        :        :                   :         : 7         :                
-ram_outenab_out_test         : V9        : output : 3.3-V LVTTL       :         : 10        : N              
+GND*                         : V9        :        :                   :         : 10        :                
 GND*                         : V10       :        :                   :         : 7         :                
-data_bus_in_test[4]          : V11       : output : 3.3-V LVTTL       :         : 8         : N              
-data_bus_in_test[2]          : V12       : output : 3.3-V LVTTL       :         : 8         : N              
-data_out_bus_test[9]         : V13       : output : 3.3-V LVTTL       :         : 8         : N              
-command_data_bus[3]          : V14       : output : 3.3-V LVTTL       :         : 8         : N              
+command_data_bus[6]          : V11       : output : 3.3-V LVTTL       :         : 8         : N              
+command_data_bus[4]          : V12       : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : V13       :        :                   :         : 8         :                
+data_address_bus_test[1]     : V14       : input  : 3.3-V LVTTL       :         : 8         : N              
 GND*                         : V15       :        :                   :         : 8         :                
 GND*                         : V16       :        :                   :         : 8         :                
 VCCSEL                       : V17       :        :                   :         : 8         :                
-data_bus_in_test[13]         : V18       : output : 3.3-V LVTTL       :         : 1         : N              
-data_bus_in_test[0]          : V19       : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : V18       :        :                   :         : 1         :                
+GND*                         : V19       :        :                   :         : 1         :                
 VREFB1                       : V20       : power  :                   :         : 1         :                
-command_data_bus[15]         : V21       : output : 3.3-V LVTTL       :         : 1         : N              
-data_bus_in_test[12]         : V22       : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : V21       :        :                   :         : 1         :                
+GND*                         : V22       :        :                   :         : 1         :                
 GND*                         : W1        :        :                   :         : 6         :                
 GND*                         : W2        :        :                   :         : 6         :                
 GND*                         : W3        :        :                   :         : 6         :                
@@ -522,39 +522,39 @@ GND*                         : W5        :        :                   :         
 VREFB7                       : W6        : power  :                   :         : 7         :                
 GND*                         : W7        :        :                   :         : 7         :                
 VREFB7                       : W8        : power  :                   :         : 7         :                
-GND*                         : W9        :        :                   :         : 10        :                
-command_data_bus[12]         : W10       : output : 3.3-V LVTTL       :         : 7         : N              
-ip[0]                        : W11       : output : 3.3-V LVTTL       :         : 8         : N              
-data_bus_in_test[5]          : W12       : output : 3.3-V LVTTL       :         : 8         : N              
-ip[10]                       : W13       : output : 3.3-V LVTTL       :         : 8         : N              
-data_bus_in_test[8]          : W14       : output : 3.3-V LVTTL       :         : 8         : N              
-alu_result[14]               : W15       : output : 3.3-V LVTTL       :         : 8         : N              
+ip[9]                        : W9        : output : 3.3-V LVTTL       :         : 10        : N              
+fce                          : W10       : output : 3.3-V LVTTL       :         : 7         : N              
+command_data_bus[5]          : W11       : output : 3.3-V LVTTL       :         : 8         : N              
+flag[2]                      : W12       : output : 3.3-V LVTTL       :         : 8         : N              
+data_address_bus_out_test[14] : W13       : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : W14       :        :                   :         : 8         :                
+GND*                         : W15       :        :                   :         : 8         :                
 GND*                         : W16       :        :                   :         : 8         :                
 GND*                         : W17       :        :                   :         : 8         :                
 nCONFIG                      : W18       :        :                   :         : 8         :                
-command_data_bus[8]          : W19       : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : W19       :        :                   :         : 1         :                
 GND*                         : W20       :        :                   :         : 1         :                
-ip[7]                        : W21       : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : W21       :        :                   :         : 1         :                
 GND*                         : W22       :        :                   :         : 1         :                
-GND*                         : Y1        :        :                   :         : 6         :                
+data_address_bus_test[13]    : Y1        : input  : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : Y2        :        :                   :         : 6         :                
 GND*                         : Y3        :        :                   :         : 7         :                
 PLL_ENA                      : Y4        :        :                   :         : 7         :                
-GND*                         : Y5        :        :                   :         : 7         :                
-GND*                         : Y6        :        :                   :         : 7         :                
-is_read_data_test            : Y7        : input  : 3.3-V LVTTL       :         : 7         : N              
-GND*                         : Y8        :        :                   :         : 7         :                
-data_bus_out_test[1]         : Y9        : input  : 3.3-V LVTTL       :         : 10        : N              
-command_data_bus[0]          : Y10       : output : 3.3-V LVTTL       :         : 7         : N              
-command_data_bus[1]          : Y11       : output : 3.3-V LVTTL       :         : 7         : N              
-command_data_bus[4]          : Y12       : output : 3.3-V LVTTL       :         : 8         : N              
-ram_inclock_out_test         : Y13       : output : 3.3-V LVTTL       :         : 8         : N              
-data_bus_in_test[9]          : Y14       : output : 3.3-V LVTTL       :         : 8         : N              
-ip[11]                       : Y15       : output : 3.3-V LVTTL       :         : 8         : N              
-NXOR                         : Y16       : output : 3.3-V LVTTL       :         : 8         : N              
-ip[1]                        : Y17       : output : 3.3-V LVTTL       :         : 8         : N              
-alu_result[9]                : Y18       : output : 3.3-V LVTTL       :         : 8         : N              
+ip[10]                       : Y5        : output : 3.3-V LVTTL       :         : 7         : N              
+command_data_bus[11]         : Y6        : output : 3.3-V LVTTL       :         : 7         : N              
+ip[6]                        : Y7        : output : 3.3-V LVTTL       :         : 7         : N              
+ip[1]                        : Y8        : output : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : Y9        :        :                   :         : 10        :                
+ip[11]                       : Y10       : output : 3.3-V LVTTL       :         : 7         : N              
+is_write_data_out_test       : Y11       : output : 3.3-V LVTTL       :         : 7         : N              
+ram_inclock_out_test         : Y12       : output : 3.3-V LVTTL       :         : 8         : N              
+data_address_bus_out_test[13] : Y13       : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : Y14       :        :                   :         : 8         :                
+data_address_bus_out_test[12] : Y15       : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : Y16       :        :                   :         : 8         :                
+GND*                         : Y17       :        :                   :         : 8         :                
+GND*                         : Y18       :        :                   :         : 8         :                
 VREFB8                       : Y19       : power  :                   :         : 8         :                
-data_address_bus_test[8]     : Y20       : input  : 3.3-V LVTTL       :         : 8         : N              
-command_data_bus[2]          : Y21       : output : 3.3-V LVTTL       :         : 1         : N              
-outenab_test                 : Y22       : input  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : Y20       :        :                   :         : 8         :                
+we_test                      : Y21       : input  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : Y22       :        :                   :         : 1         :                

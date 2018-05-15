@@ -15,6 +15,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst18|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_g7e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_SET_COMPARATOR:inst3|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_h8j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|INDIRECT_ADDRESSING_MUX:inst17|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_o5e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NXOR_SECOND_OPERAND_ID_MUX:inst199|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_54e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component|lpm_constant:ac" CBX_FILE_NAME="lpm_constant_t64.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|LPM_RAM_IO:inst1|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_dv91.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|INCS_COUNTER:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_6bj.tdf"/>
