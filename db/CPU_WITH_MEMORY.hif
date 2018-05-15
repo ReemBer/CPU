@@ -14229,6 +14229,46 @@ a36c8ec425c8a2589af98b2d4daabc3
 
 # end
 # entity
+ALU
+# storage
+db|CPU_WITH_MEMORY.(62).cnf
+db|CPU_WITH_MEMORY.(62).cnf
+# case_insensitive
+# source_file
+alu.bdf
+146b97c877b9ce509060eea81e1c3139
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CPU:inst2|ALU:inst18
+}
+# macro_sequence
+
+# end
+# entity
+CONTROL_DEVICE
+# storage
+db|CPU_WITH_MEMORY.(16).cnf
+db|CPU_WITH_MEMORY.(16).cnf
+# case_insensitive
+# source_file
+control_device.bdf
+bf2a805da196c39ebe6e4ebe8e68f0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CPU:inst2|CONTROL_DEVICE:inst
+}
+# macro_sequence
+
+# end
+# entity
 altsyncram_cg71
 # storage
 db|CPU_WITH_MEMORY.(113).cnf
@@ -14326,7 +14366,7 @@ address_a0
 }
 # memory_file {
 rom_init.hex
-4ec4e6f3e03bb9e15c77d7ad575a3bc
+984f3c7478863dd5ce8f551513e415fd
 }
 # hierarchies {
 ROM:inst|altsyncram:altsyncram_component|altsyncram_cg71:auto_generated
@@ -14489,50 +14529,10 @@ address_a0
 }
 # memory_file {
 ram_init.hex
-3a66f91662f44ff9bbbb86cc961d92e7
+8f2947148dcb9da3f770e2e094a6f313
 }
 # hierarchies {
 lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated
-}
-# macro_sequence
-
-# end
-# entity
-ALU
-# storage
-db|CPU_WITH_MEMORY.(62).cnf
-db|CPU_WITH_MEMORY.(62).cnf
-# case_insensitive
-# source_file
-alu.bdf
-146b97c877b9ce509060eea81e1c3139
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-CPU:inst2|ALU:inst18
-}
-# macro_sequence
-
-# end
-# entity
-CONTROL_DEVICE
-# storage
-db|CPU_WITH_MEMORY.(16).cnf
-db|CPU_WITH_MEMORY.(16).cnf
-# case_insensitive
-# source_file
-control_device.bdf
-df2bb70c695e4583e144cdffda12f
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-CPU:inst2|CONTROL_DEVICE:inst
 }
 # macro_sequence
 

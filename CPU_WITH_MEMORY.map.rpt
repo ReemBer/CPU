@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPU_WITH_MEMORY
-Tue May 15 18:32:15 2018
+Tue May 15 19:57:38 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -103,13 +103,13 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Tue May 15 18:32:15 2018   ;
+; Analysis & Synthesis Status   ; Successful - Tue May 15 19:57:38 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; CPU_WITH_MEMORY                         ;
 ; Top-level Entity Name         ; CPU_WITH_MEMORY                         ;
 ; Family                        ; Stratix II                              ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 291                                     ;
+;     Combinational ALUTs       ; 298                                     ;
 ;     Dedicated logic registers ; 372                                     ;
 ; Total registers               ; 372                                     ;
 ; Total pins                    ; 147                                     ;
@@ -278,38 +278,38 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------+-------+
 ; Resource                                      ; Usage ;
 +-----------------------------------------------+-------+
-; Estimated ALUTs Used                          ; 291   ;
+; Estimated ALUTs Used                          ; 298   ;
 ; Dedicated logic registers                     ; 372   ;
 ;                                               ;       ;
-; Estimated ALUTs Unavailable                   ; 0     ;
+; Estimated ALUTs Unavailable                   ; 1     ;
 ;                                               ;       ;
-; Total combinational functions                 ; 291   ;
+; Total combinational functions                 ; 298   ;
 ; Combinational ALUT usage by number of inputs  ;       ;
-;     -- 7 input functions                      ; 0     ;
-;     -- 6 input functions                      ; 134   ;
-;     -- 5 input functions                      ; 69    ;
-;     -- 4 input functions                      ; 26    ;
-;     -- <=3 input functions                    ; 62    ;
+;     -- 7 input functions                      ; 1     ;
+;     -- 6 input functions                      ; 121   ;
+;     -- 5 input functions                      ; 87    ;
+;     -- 4 input functions                      ; 30    ;
+;     -- <=3 input functions                    ; 59    ;
 ;                                               ;       ;
 ; Combinational ALUTs by mode                   ;       ;
-;     -- normal mode                            ; 258   ;
-;     -- extended LUT mode                      ; 0     ;
+;     -- normal mode                            ; 264   ;
+;     -- extended LUT mode                      ; 1     ;
 ;     -- arithmetic mode                        ; 33    ;
 ;     -- shared arithmetic mode                 ; 0     ;
 ;                                               ;       ;
-; Estimated ALUT/register pairs used            ; 576   ;
+; Estimated ALUT/register pairs used            ; 584   ;
 ;                                               ;       ;
 ; Total registers                               ; 372   ;
 ;     -- Dedicated logic registers              ; 372   ;
 ;     -- I/O registers                          ; 0     ;
 ;                                               ;       ;
-; Estimated ALMs:  partially or completely used ; 288   ;
+; Estimated ALMs:  partially or completely used ; 292   ;
 ;                                               ;       ;
 ; I/O pins                                      ; 147   ;
 ; Total block memory bits                       ; 98304 ;
 ; Maximum fan-out node                          ; clk   ;
 ; Maximum fan-out                               ; 286   ;
-; Total fan-out                                 ; 3131  ;
+; Total fan-out                                 ; 3161  ;
 ; Average fan-out                               ; 3.72  ;
 +-----------------------------------------------+-------+
 
@@ -319,9 +319,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                         ; Library Name ;
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |CPU_WITH_MEMORY                                ; 291 (1)           ; 372 (0)      ; 98304             ; 0            ; 0       ; 0         ; 0         ; 147  ; 0            ; |CPU_WITH_MEMORY                                                                                                                            ; work         ;
-;    |CPU:inst2|                                  ; 224 (0)           ; 372 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2                                                                                                                  ;              ;
-;       |ALU:inst18|                              ; 20 (0)            ; 34 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18                                                                                                       ; work         ;
+; |CPU_WITH_MEMORY                                ; 298 (1)           ; 372 (0)      ; 98304             ; 0            ; 0       ; 0         ; 0         ; 147  ; 0            ; |CPU_WITH_MEMORY                                                                                                                            ; work         ;
+;    |CPU:inst2|                                  ; 231 (0)           ; 372 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2                                                                                                                  ;              ;
+;       |ALU:inst18|                              ; 21 (0)            ; 34 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18                                                                                                       ; work         ;
 ;          |ALU_NOTZ_REGISTER:inst32|             ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_NOTZ_REGISTER:inst32                                                                              ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_NOTZ_REGISTER:inst32|lpm_ff:lpm_ff_component                                                      ; work         ;
 ;          |INCS_COUNTER:inst|                    ; 16 (0)            ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|INCS_COUNTER:inst                                                                                     ; work         ;
@@ -331,12 +331,12 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|S_FLAG:inst2|lpm_ff:lpm_ff_component                                                                  ; work         ;
 ;          |Z_FLAG:inst3|                         ; 0 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|Z_FLAG:inst3                                                                                          ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|Z_FLAG:inst3|lpm_ff:lpm_ff_component                                                                  ; work         ;
-;          |Z_FLAG_OR:inst15|                     ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|Z_FLAG_OR:inst15                                                                                      ; work         ;
-;             |lpm_or:lpm_or_component|           ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|Z_FLAG_OR:inst15|lpm_or:lpm_or_component                                                              ; work         ;
-;       |CONTROL_DEVICE:inst|                     ; 88 (35)           ; 82 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst                                                                                              ; work         ;
-;          |COMMAND_DECODER:inst1|                ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1                                                                        ; work         ;
-;             |lpm_decode:lpm_decode_component|   ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component                                        ; work         ;
-;                |decode_d9f:auto_generated|      ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component|decode_d9f:auto_generated              ; work         ;
+;          |Z_FLAG_OR:inst15|                     ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|Z_FLAG_OR:inst15                                                                                      ; work         ;
+;             |lpm_or:lpm_or_component|           ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|Z_FLAG_OR:inst15|lpm_or:lpm_or_component                                                              ; work         ;
+;       |CONTROL_DEVICE:inst|                     ; 98 (44)           ; 82 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst                                                                                              ; work         ;
+;          |COMMAND_DECODER:inst1|                ; 6 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1                                                                        ; work         ;
+;             |lpm_decode:lpm_decode_component|   ; 6 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component                                        ; work         ;
+;                |decode_d9f:auto_generated|      ; 6 (6)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component|decode_d9f:auto_generated              ; work         ;
 ;          |COMMAND_WORD_BUFFER:inst6|            ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6                                                                    ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst6|lpm_ff:lpm_ff_component                                            ; work         ;
 ;          |COMMAND_WORD_BUFFER:inst7|            ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_WORD_BUFFER:inst7                                                                    ; work         ;
@@ -349,8 +349,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |CPU_CYCLE_DECODER:inst|               ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst                                                                       ; work         ;
 ;             |lpm_decode:lpm_decode_component|   ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component                                       ; work         ;
 ;                |decode_d9f:auto_generated|      ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component|decode_d9f:auto_generated             ; work         ;
-;          |CPU_CYCLE_RESET_OR:inst32|            ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32                                                                    ; work         ;
-;             |lpm_or:lpm_or_component|           ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|lpm_or:lpm_or_component                                            ; work         ;
+;          |CPU_CYCLE_RESET_OR:inst32|            ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32                                                                    ; work         ;
+;             |lpm_or:lpm_or_component|           ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_RESET_OR:inst32|lpm_or:lpm_or_component                                            ; work         ;
 ;          |NEW_IP_TEST:inst39|                   ; 12 (0)            ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39                                                                           ; work         ;
 ;             |lpm_counter:lpm_counter_component| ; 12 (0)            ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component                                         ; work         ;
 ;                |cntr_6bj:auto_generated|        ; 12 (12)           ; 12 (12)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated                 ; work         ;
@@ -358,13 +358,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_bustri:lpm_bustri_component|   ; 17 (17)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_ADDRESS_BUSTRI:inst10|lpm_bustri:lpm_bustri_component                                    ; work         ;
 ;          |RAM_DIRECT_ADDRESS:inst5|             ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5                                                                     ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component                                             ; work         ;
-;          |SINGLE_BUSTRI:inst48|                 ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48                                                                         ; work         ;
-;             |lpm_bustri:lpm_bustri_component|   ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component                                         ; work         ;
+;          |SINGLE_BUSTRI:inst48|                 ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48                                                                         ; work         ;
+;             |lpm_bustri:lpm_bustri_component|   ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component                                         ; work         ;
 ;          |SINGLE_BUSTRI:inst50|                 ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst50                                                                         ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst50|lpm_bustri:lpm_bustri_component                                         ; work         ;
 ;          |lpm_ff0:inst105|                      ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105                                                                              ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component                                                      ; work         ;
-;       |GENERAL_REGISTERS:inst1|                 ; 116 (0)           ; 256 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1                                                                                          ; work         ;
+;       |GENERAL_REGISTERS:inst1|                 ; 112 (0)           ; 256 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1                                                                                          ; work         ;
 ;          |GENERAL_REGISTER:ah|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah                                                                      ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component                                              ; work         ;
 ;          |GENERAL_REGISTER:al|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al                                                                      ; work         ;
@@ -397,9 +397,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component                                              ; work         ;
 ;          |GENERAL_REGISTER:hl|                  ; 0 (0)             ; 16 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl                                                                      ; work         ;
 ;             |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 16 (16)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component                                              ; work         ;
-;          |GENERAL_REGISTERS_DECODER:inst|       ; 20 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst                                                           ; work         ;
-;             |lpm_decode:lpm_decode_component|   ; 20 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component                           ; work         ;
-;                |decode_ltf:auto_generated|      ; 20 (20)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component|decode_ltf:auto_generated ; work         ;
+;          |GENERAL_REGISTERS_DECODER:inst|       ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst                                                           ; work         ;
+;             |lpm_decode:lpm_decode_component|   ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component                           ; work         ;
+;                |decode_ltf:auto_generated|      ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component|decode_ltf:auto_generated ; work         ;
 ;          |GENERAL_REGISTER_READ_BUSTRI:inst19|  ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst19                                                      ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|   ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_BUSTRI:inst19|lpm_bustri:lpm_bustri_component                      ; work         ;
 ;          |GENERAL_REGISTER_READ_MUX:inst17|     ; 80 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17                                                         ; work         ;
@@ -1498,7 +1498,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Tue May 15 18:32:00 2018
+    Info: Processing started: Tue May 15 19:57:23 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPU -c CPU_WITH_MEMORY
 Warning: Tcl Script File NXOR.qip not found
     Info: set_global_assignment -name QIP_FILE NXOR.qip
@@ -1851,6 +1851,7 @@ Info: Elaborated megafunction instantiation "LPM_RAM_IO:inst1|altram:sram|altsyn
 Info: Found 1 design units, including 1 entities, in source file db/altsyncram_dv91.tdf
     Info: Found entity 1: altsyncram_dv91
 Info: Elaborating entity "altsyncram_dv91" for hierarchy "LPM_RAM_IO:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated"
+Critical Warning: Memory depth (4096) in the design file differs from memory depth (65536) in the Memory Initialization File "RAM_INIT.hex" -- truncated remaining initial content value to fit RAM
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst48|lpm_bustri:lpm_bustri_component|dout[0]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "CPU:inst2|CONTROL_DEVICE:inst|SINGLE_BUSTRI:inst50|lpm_bustri:lpm_bustri_component|dout[0]" to the node "lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_dv91:auto_generated|q_a[0]" into an OR gate
@@ -1944,14 +1945,14 @@ Warning: Design contains 38 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "data_bus_out_test[2]"
     Warning (15610): No output dependent on input pin "data_bus_out_test[1]"
     Warning (15610): No output dependent on input pin "data_bus_out_test[0]"
-Info: Implemented 807 device resources after synthesis - the final resource count might be different
+Info: Implemented 814 device resources after synthesis - the final resource count might be different
     Info: Implemented 40 input pins
     Info: Implemented 107 output pins
-    Info: Implemented 628 logic cells
+    Info: Implemented 635 logic cells
     Info: Implemented 32 RAM segments
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 100 warnings
-    Info: Peak virtual memory: 321 megabytes
-    Info: Processing ended: Tue May 15 18:32:15 2018
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 101 warnings
+    Info: Peak virtual memory: 343 megabytes
+    Info: Processing ended: Tue May 15 19:57:38 2018
     Info: Elapsed time: 00:00:15
     Info: Total CPU time (on all processors): 00:00:17
 
