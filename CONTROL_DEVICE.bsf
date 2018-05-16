@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 360 496)
+	(rect 16 16 360 560)
 	(text "CONTROL_DEVICE" (rect 5 0 112 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 464 25 476)(font "Arial" ))
+	(text "inst" (rect 8 528 25 540)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -247,7 +247,35 @@ applicable agreement for further details.
 		(text "NXOR" (rect 289 443 323 457)(font "Arial" (font_size 8)))
 		(line (pt 344 448)(pt 328 448)(line_width 1))
 	)
+	(port
+		(pt 344 464)
+		(output)
+		(text "distance[3..0]" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "distance[3..0]" (rect 247 459 323 473)(font "Arial" (font_size 8)))
+		(line (pt 344 464)(pt 328 464)(line_width 3))
+	)
+	(port
+		(pt 344 480)
+		(output)
+		(text "sra_clock" (rect 0 0 55 14)(font "Arial" (font_size 8)))
+		(text "sra_clock" (rect 268 475 323 489)(font "Arial" (font_size 8)))
+		(line (pt 344 480)(pt 328 480)(line_width 1))
+	)
+	(port
+		(pt 344 496)
+		(output)
+		(text "sra_clock_en" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "sra_clock_en" (rect 247 491 323 505)(font "Arial" (font_size 8)))
+		(line (pt 344 496)(pt 328 496)(line_width 1))
+	)
+	(port
+		(pt 344 512)
+		(output)
+		(text "SRA" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "SRA" (rect 298 507 323 521)(font "Arial" (font_size 8)))
+		(line (pt 344 512)(pt 328 512)(line_width 1))
+	)
 	(drawing
-		(rectangle (rect 16 16 328 464)(line_width 1))
+		(rectangle (rect 16 16 328 528)(line_width 1))
 	)
 )

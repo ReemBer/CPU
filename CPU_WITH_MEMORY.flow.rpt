@@ -1,5 +1,5 @@
 Flow report for CPU_WITH_MEMORY
-Wed May 16 01:26:35 2018
+Wed May 16 17:56:38 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,19 +38,19 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Flow Summary                                                            ;
 +-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Wed May 16 01:26:35 2018   ;
+; Flow Status                   ; Successful - Wed May 16 17:56:38 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; CPU_WITH_MEMORY                         ;
 ; Top-level Entity Name         ; CPU_WITH_MEMORY                         ;
 ; Family                        ; Stratix II                              ;
 ; Met timing requirements       ; No                                      ;
-; Logic utilization             ; 5 %                                     ;
-;     Combinational ALUTs       ; 432 / 12,480 ( 3 % )                    ;
-;     Dedicated logic registers ; 404 / 12,480 ( 3 % )                    ;
-; Total registers               ; 404                                     ;
-; Total pins                    ; 153 / 343 ( 45 % )                      ;
+; Logic utilization             ; 6 %                                     ;
+;     Combinational ALUTs       ; 520 / 12,480 ( 4 % )                    ;
+;     Dedicated logic registers ; 429 / 12,480 ( 3 % )                    ;
+; Total registers               ; 429                                     ;
+; Total pins                    ; 147 / 343 ( 43 % )                      ;
 ; Total virtual pins            ; 0                                       ;
-; Total block memory bits       ; 98,304 / 419,328 ( 23 % )               ;
+; Total block memory bits       ; 294,912 / 419,328 ( 70 % )              ;
 ; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                          ;
 ; Total PLLs                    ; 0 / 6 ( 0 % )                           ;
 ; Total DLLs                    ; 0 / 2 ( 0 % )                           ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/16/2018 01:25:32 ;
+; Start date & time ; 05/16/2018 17:55:35 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPU_WITH_MEMORY     ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +------------------------------------+-----------------------------------------------+--------------------+-------------+----------------+
 ; Assignment Name                    ; Value                                         ; Default Value      ; Entity Name ; Section Id     ;
 +------------------------------------+-----------------------------------------------+--------------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 44883555018623.152642313234328                ; --                 ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 44883555018623.152648253528644                ; --                 ; --          ; --             ;
 ; FITTER_EFFORT                      ; Standard Fit                                  ; Auto Fit           ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_ROM                                       ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                                    ; --                 ; --          ; --             ;
@@ -128,6 +128,14 @@ applicable agreement for further details.
 ; IP_TOOL_NAME                       ; LPM_FF                                        ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_FF                                        ; --                 ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_MUX                                       ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_CLSHIFT                                   ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                        ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                        ; --                 ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                                       ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                           ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                           ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                           ; --                 ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                           ; --                 ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                           ; --                 ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                           ; --                 ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                           ; --                 ; --          ; --             ;
@@ -332,6 +340,18 @@ applicable agreement for further details.
 ; MISC_FILE                          ; NXOR_SECOND_OPERAND_ID_MUX.bsf                ; --                 ; --          ; --             ;
 ; MISC_FILE                          ; NXOR_SECOND_OPERAND_ID_MUX_inst.vhd           ; --                 ; --          ; --             ;
 ; MISC_FILE                          ; NXOR_SECOND_OPERAND_ID_MUX.cmp                ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_SRA_SHIFT_REGISTER.bsf                    ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_SRA_SHIFT_REGISTER_inst.vhd               ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_SRA_SHIFT_REGISTER.cmp                    ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_SRA_REGISTER.bsf                          ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_SRA_REGISTER_inst.vhd                     ; --                 ; --          ; --             ;
+; MISC_FILE                          ; ALU_SRA_REGISTER.cmp                          ; --                 ; --          ; --             ;
+; MISC_FILE                          ; SRA_DISTANCE_REGISTER.bsf                     ; --                 ; --          ; --             ;
+; MISC_FILE                          ; SRA_DISTANCE_REGISTER_inst.vhd                ; --                 ; --          ; --             ;
+; MISC_FILE                          ; SRA_DISTANCE_REGISTER.cmp                     ; --                 ; --          ; --             ;
+; MISC_FILE                          ; SRA_DISTANCE_MUX.bsf                          ; --                 ; --          ; --             ;
+; MISC_FILE                          ; SRA_DISTANCE_MUX_inst.vhd                     ; --                 ; --          ; --             ;
+; MISC_FILE                          ; SRA_DISTANCE_MUX.cmp                          ; --                 ; --          ; --             ;
 ; OPTIMIZE_POWER_DURING_FITTING      ; Extra effort                                  ; Normal compilation ; --          ; --             ;
 ; PARTITION_COLOR                    ; 16764057                                      ; --                 ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE             ; SOURCE                                        ; --                 ; --          ; Top            ;
@@ -344,11 +364,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:19     ; 1.0                     ; 346 MB              ; 00:00:19                           ;
-; Fitter                  ; 00:00:33     ; 1.0                     ; 372 MB              ; 00:00:36                           ;
-; Assembler               ; 00:00:03     ; 1.0                     ; 301 MB              ; 00:00:03                           ;
-; Classic Timing Analyzer ; 00:00:02     ; 1.0                     ; 237 MB              ; 00:00:03                           ;
-; Total                   ; 00:00:57     ; --                      ; --                  ; 00:01:01                           ;
+; Analysis & Synthesis    ; 00:00:21     ; 1.0                     ; 327 MB              ; 00:00:22                           ;
+; Fitter                  ; 00:00:33     ; 1.0                     ; 373 MB              ; 00:00:37                           ;
+; Assembler               ; 00:00:03     ; 1.0                     ; 302 MB              ; 00:00:03                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 240 MB              ; 00:00:03                           ;
+; Total                   ; 00:00:58     ; --                      ; --                  ; 00:01:05                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

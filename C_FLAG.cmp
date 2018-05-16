@@ -16,9 +16,9 @@
 component C_FLAG
 	PORT
 	(
-		aclr		: IN STD_LOGIC ;
-		aset		: IN STD_LOGIC ;
 		clock		: IN STD_LOGIC ;
+		data		: IN STD_LOGIC ;
+		enable		: IN STD_LOGIC ;
 		q		: OUT STD_LOGIC 
 	);
 end component;

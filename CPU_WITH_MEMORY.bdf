@@ -374,6 +374,38 @@ applicable agreement for further details.
 )
 (pin
 	(output)
+	(rect 328 480 504 496)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "alu_result[15..0]" (rect 90 0 169 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 328 496 504 512)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "flag[2..0]" (rect 90 0 134 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
 	(rect 328 464 504 480)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "fce" (rect 90 0 106 12)(font "Arial" ))
@@ -390,137 +422,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 328 480 543 496)
+	(rect 328 512 515 528)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "second_operand_id[3..0]" (rect 90 0 210 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 328 496 504 512)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "is_second_read" (rect 90 0 166 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 328 512 504 528)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "nxor_first_clock" (rect 90 0 169 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 328 528 519 544)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "nxor_first_clock_en" (rect 90 0 186 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 328 544 517 560)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "nxor_second_clock" (rect 90 0 184 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 328 560 535 576)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "nxor_second_clock_en" (rect 90 0 202 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 328 592 504 608)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "NXOR" (rect 90 0 120 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 328 576 504 592)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "alu_result[15..0]" (rect 90 0 169 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 328 608 504 624)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "flag[2..0]" (rect 90 0 134 12)(font "Arial" ))
+	(text "distance_test[3..0]" (rect 90 0 182 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -656,110 +560,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 104 112 232 240)
-	(text "LPM_RAM_IO" (rect 25 0 122 16)(font "Arial" (font_size 10)))
-	(text "inst1" (rect 3 117 30 131)(font "Arial" (font_size 8)))
-	(port
-		(pt 0 24)
-		(input)
-		(text "address[LPM_WIDTHAD-1..0]" (rect 20 17 186 31)(font "Arial" (font_size 8)))
-		(text "address[]" (rect 20 17 74 31)(font "Arial" (font_size 8)))
-		(line (pt 0 24)(pt 16 24)(line_width 3))
-	)
-	(port
-		(pt 0 56)
-		(input)
-		(text "outclock" (rect 20 49 67 63)(font "Arial" (font_size 8)))
-		(text "outclock" (rect 20 49 67 63)(font "Arial" (font_size 8)))
-		(line (pt 0 56)(pt 16 56)(line_width 1))
-	)
-	(port
-		(pt 0 104)
-		(input)
-		(text "memenab" (rect 20 97 74 111)(font "Arial" (font_size 8)))
-		(text "memenab" (rect 20 97 74 111)(font "Arial" (font_size 8)))
-		(line (pt 0 104)(pt 16 104)(line_width 1))
-	)
-	(port
-		(pt 0 40)
-		(input)
-		(text "inclock" (rect 20 33 58 47)(font "Arial" (font_size 8)))
-		(text "inclock" (rect 20 33 58 47)(font "Arial" (font_size 8)))
-		(line (pt 0 40)(pt 16 40)(line_width 1))
-	)
-	(port
-		(pt 0 72)
-		(input)
-		(text "we" (rect 20 65 38 79)(font "Arial" (font_size 8)))
-		(text "we" (rect 20 65 38 79)(font "Arial" (font_size 8)))
-		(line (pt 0 72)(pt 16 72)(line_width 1))
-	)
-	(port
-		(pt 0 88)
-		(input)
-		(text "outenab" (rect 20 81 66 95)(font "Arial" (font_size 8)))
-		(text "outenab" (rect 20 81 66 95)(font "Arial" (font_size 8)))
-		(line (pt 0 88)(pt 16 88)(line_width 1))
-	)
-	(port
-		(pt 128 56)
-		(bidir)
-		(text "dio[LPM_WIDTH-1..0]" (rect 87 49 205 63)(font "Arial" (font_size 8)))
-		(text "dio[]" (rect 87 49 110 63)(font "Arial" (font_size 8)))
-		(line (pt 112 56)(pt 128 56)(line_width 3))
-	)
-	(parameter
-		"LPM_ADDRESS_CONTROL"
-		"REGISTERED"
-		"Should the address and control ports be registered?"
-		"\"REGISTERED\"" "\"UNREGISTERED\"" 
-		(type "PARAMETER_STRING")	)
-	(parameter
-		"LPM_FILE"
-		"RAM_INIT.hex"
-		"File containing initial contents of memory array"
-		(type "PARAMETER_STRING")	)
-	(parameter
-		"LPM_INDATA"
-		"REGISTERED"
-		"Should the write data be registered?"
-		"\"REGISTERED\"" "\"UNREGISTERED\"" 
-		(type "PARAMETER_STRING")	)
-	(parameter
-		"LPM_NUMWORDS"
-		"4096"
-		"Number of memory words, default is 2^LPM_WIDTHAD"
-		(type "PARAMETER_UNSIGNED_DEC")	)
-	(parameter
-		"LPM_OUTDATA"
-		"REGISTERED"
-		"Should the output data be registered?"
-		"\"REGISTERED\"" "\"UNREGISTERED\"" 
-		(type "PARAMETER_STRING")	)
-	(parameter
-		"LPM_WIDTH"
-		"16"
-		"Data width in bits, any integer > 0"
-		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" "40" "48" "56" "64" 
-		(type "PARAMETER_SIGNED_DEC")	)
-	(parameter
-		"LPM_WIDTHAD"
-		"12"
-		"Number of address lines, any integer > 0"
-		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" 
-		(type "PARAMETER_SIGNED_DEC")	)
-	(drawing
-		(line (pt 16 112)(pt 112 112)(line_width 1))
-		(line (pt 16 16)(pt 112 16)(line_width 1))
-		(line (pt 112 112)(pt 112 16)(line_width 1))
-		(line (pt 16 112)(pt 16 16)(line_width 1))
-	)
-	(annotation_block (parameter)(rect 104 -40 400 72))
-)
-(symbol
-	(rect -48 280 328 664)
+	(rect -48 280 328 568)
 	(text "CPU" (rect 5 0 28 14)(font "Arial" (font_size 8)))
-	(text "inst2" (rect 8 368 31 380)(font "Arial" ))
+	(text "inst2" (rect 8 272 31 284)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -868,69 +671,128 @@ applicable agreement for further details.
 	(port
 		(pt 376 208)
 		(output)
-		(text "second_operand_id[3..0]" (rect 0 0 141 14)(font "Arial" (font_size 8)))
-		(text "second_operand_id[3..0]" (rect 214 203 355 217)(font "Arial" (font_size 8)))
+		(text "alu_result[15..0]" (rect 0 0 90 14)(font "Arial" (font_size 8)))
+		(text "alu_result[15..0]" (rect 265 203 355 217)(font "Arial" (font_size 8)))
 		(line (pt 376 208)(pt 360 208)(line_width 3))
 	)
 	(port
 		(pt 376 224)
 		(output)
-		(text "is_second_read" (rect 0 0 92 14)(font "Arial" (font_size 8)))
-		(text "is_second_read" (rect 263 219 355 233)(font "Arial" (font_size 8)))
-		(line (pt 376 224)(pt 360 224)(line_width 1))
+		(text "flag[2..0]" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "flag[2..0]" (rect 306 219 355 233)(font "Arial" (font_size 8)))
+		(line (pt 376 224)(pt 360 224)(line_width 3))
 	)
 	(port
 		(pt 376 240)
 		(output)
-		(text "nxor_first_clock" (rect 0 0 92 14)(font "Arial" (font_size 8)))
-		(text "nxor_first_clock" (rect 263 235 355 249)(font "Arial" (font_size 8)))
-		(line (pt 376 240)(pt 360 240)(line_width 1))
-	)
-	(port
-		(pt 376 256)
-		(output)
-		(text "nxor_first_clock_en" (rect 0 0 113 14)(font "Arial" (font_size 8)))
-		(text "nxor_first_clock_en" (rect 242 251 355 265)(font "Arial" (font_size 8)))
-		(line (pt 376 256)(pt 360 256)(line_width 1))
-	)
-	(port
-		(pt 376 272)
-		(output)
-		(text "nxor_second_clock" (rect 0 0 112 14)(font "Arial" (font_size 8)))
-		(text "nxor_second_clock" (rect 243 267 355 281)(font "Arial" (font_size 8)))
-		(line (pt 376 272)(pt 360 272)(line_width 1))
-	)
-	(port
-		(pt 376 288)
-		(output)
-		(text "nxor_second_clock_en" (rect 0 0 133 14)(font "Arial" (font_size 8)))
-		(text "nxor_second_clock_en" (rect 222 283 355 297)(font "Arial" (font_size 8)))
-		(line (pt 376 288)(pt 360 288)(line_width 1))
-	)
-	(port
-		(pt 376 304)
-		(output)
-		(text "alu_result[15..0]" (rect 0 0 90 14)(font "Arial" (font_size 8)))
-		(text "alu_result[15..0]" (rect 265 299 355 313)(font "Arial" (font_size 8)))
-		(line (pt 376 304)(pt 360 304)(line_width 3))
-	)
-	(port
-		(pt 376 320)
-		(output)
-		(text "NXOR" (rect 0 0 34 14)(font "Arial" (font_size 8)))
-		(text "NXOR" (rect 321 315 355 329)(font "Arial" (font_size 8)))
-		(line (pt 376 320)(pt 360 320)(line_width 1))
-	)
-	(port
-		(pt 376 336)
-		(output)
-		(text "flag[2..0]" (rect 0 0 49 14)(font "Arial" (font_size 8)))
-		(text "flag[2..0]" (rect 306 331 355 345)(font "Arial" (font_size 8)))
-		(line (pt 376 336)(pt 360 336)(line_width 3))
+		(text "distance_test[3..0]" (rect 0 0 105 14)(font "Arial" (font_size 8)))
+		(text "distance_test[3..0]" (rect 250 235 355 249)(font "Arial" (font_size 8)))
+		(line (pt 376 240)(pt 360 240)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 360 368)(line_width 1))
+		(rectangle (rect 16 16 360 272)(line_width 1))
 	)
+)
+(symbol
+	(rect 104 112 232 240)
+	(text "LPM_RAM_IO" (rect 25 0 122 16)(font "Arial" (font_size 10)))
+	(text "inst1" (rect 3 117 30 131)(font "Arial" (font_size 8)))
+	(port
+		(pt 0 24)
+		(input)
+		(text "address[LPM_WIDTHAD-1..0]" (rect 20 17 186 31)(font "Arial" (font_size 8)))
+		(text "address[]" (rect 20 17 74 31)(font "Arial" (font_size 8)))
+		(line (pt 0 24)(pt 16 24)(line_width 3))
+	)
+	(port
+		(pt 0 56)
+		(input)
+		(text "outclock" (rect 20 49 67 63)(font "Arial" (font_size 8)))
+		(text "outclock" (rect 20 49 67 63)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 16 56)(line_width 1))
+	)
+	(port
+		(pt 0 104)
+		(input)
+		(text "memenab" (rect 20 97 74 111)(font "Arial" (font_size 8)))
+		(text "memenab" (rect 20 97 74 111)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 16 104)(line_width 1))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "inclock" (rect 20 33 58 47)(font "Arial" (font_size 8)))
+		(text "inclock" (rect 20 33 58 47)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 16 40)(line_width 1))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "we" (rect 20 65 38 79)(font "Arial" (font_size 8)))
+		(text "we" (rect 20 65 38 79)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 16 72)(line_width 1))
+	)
+	(port
+		(pt 0 88)
+		(input)
+		(text "outenab" (rect 20 81 66 95)(font "Arial" (font_size 8)))
+		(text "outenab" (rect 20 81 66 95)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 16 88)(line_width 1))
+	)
+	(port
+		(pt 128 56)
+		(bidir)
+		(text "dio[LPM_WIDTH-1..0]" (rect 87 49 205 63)(font "Arial" (font_size 8)))
+		(text "dio[]" (rect 87 49 110 63)(font "Arial" (font_size 8)))
+		(line (pt 112 56)(pt 128 56)(line_width 3))
+	)
+	(parameter
+		"LPM_ADDRESS_CONTROL"
+		"REGISTERED"
+		"Should the address and control ports be registered?"
+		"\"REGISTERED\"" "\"UNREGISTERED\"" 
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"LPM_FILE"
+		"RAM_INIT.hex"
+		"File containing initial contents of memory array"
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"LPM_INDATA"
+		"REGISTERED"
+		"Should the write data be registered?"
+		"\"REGISTERED\"" "\"UNREGISTERED\"" 
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"LPM_NUMWORDS"
+		"16384"
+		"Number of memory words, default is 2^LPM_WIDTHAD"
+		(type "PARAMETER_UNSIGNED_DEC")	)
+	(parameter
+		"LPM_OUTDATA"
+		"REGISTERED"
+		"Should the output data be registered?"
+		"\"REGISTERED\"" "\"UNREGISTERED\"" 
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"LPM_WIDTH"
+		"16"
+		"Data width in bits, any integer > 0"
+		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" "40" "48" "56" "64" 
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"LPM_WIDTHAD"
+		"14"
+		"Number of address lines, any integer > 0"
+		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" 
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(line (pt 16 112)(pt 112 112)(line_width 1))
+		(line (pt 16 16)(pt 112 16)(line_width 1))
+		(line (pt 112 112)(pt 112 16)(line_width 1))
+		(line (pt 16 112)(pt 16 16)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 104 -40 400 72))
 )
 (connector
 	(text "command_data_bus[15..0]" (rect -222 344 -92 356)(font "Arial" ))
@@ -1038,12 +900,6 @@ applicable agreement for further details.
 	(text "int" (rect -145 152 -134 164)(font "Arial" ))
 	(pt -152 168)
 	(pt -120 168)
-)
-(connector
-	(text "data_address_bus[11..0]" (rect -32 120 89 132)(font "Arial" ))
-	(pt 104 136)
-	(pt -48 136)
-	(bus)
 )
 (connector
 	(text "is_write_data" (rect 272 104 335 116)(font "Arial" ))
@@ -1190,5 +1046,11 @@ applicable agreement for further details.
 	(text "data_bus_in[15..0]" (rect -304 -152 -214 -140)(font "Arial" ))
 	(pt -152 -136)
 	(pt -312 -136)
+	(bus)
+)
+(connector
+	(text "data_address_bus[13..0]" (rect -32 120 89 132)(font "Arial" ))
+	(pt 104 136)
+	(pt -48 136)
 	(bus)
 )

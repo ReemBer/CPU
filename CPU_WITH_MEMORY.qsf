@@ -115,10 +115,14 @@ set_global_assignment -name BDF_FILE STACK_TEST.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE STACK_TEST.vwf
 set_global_assignment -name QIP_FILE ALU_NXOR_FIRST_REGISTER.qip
 set_global_assignment -name QIP_FILE ALU_NXOR_SECOND_REGISTER.qip
+set_global_assignment -name QIP_FILE NXOR_SECOND_OPERAND_ID_MUX.qip
+set_global_assignment -name QIP_FILE ALU_SRA_SHIFT_REGISTER.qip
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE CPU_WITH_MEMORY.vwf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE CPU_WITH_MEMORY.vwf
-set_global_assignment -name QIP_FILE NXOR_SECOND_OPERAND_ID_MUX.qip
+set_global_assignment -name QIP_FILE ALU_SRA_REGISTER.qip
+set_global_assignment -name QIP_FILE SRA_DISTANCE_REGISTER.qip
+set_global_assignment -name QIP_FILE SRA_DISTANCE_MUX.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
