@@ -2,55 +2,45 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
-Type           : Worst-case tsu
-Slack          : N/A
-Required Time  : None
-Actual Time    : 3.220 ns
-From           : POP
-To             : STACK:inst|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q[2]
-From Clock     : --
-To Clock       : move_sp
-Failed Paths   : 0
-
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 7.575 ns
-From           : STACK:inst|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q[2]
-To             : data_out[1]
-From Clock     : move_sp
+Actual Time    : 17.643 ns
+From           : CPU:inst2|ALU:inst18|ALU_SRA_REGISTER:inst44|lpm_ff:lpm_ff_component|dffs[10]
+To             : data_bus_test[6]
+From Clock     : clk
 To Clock       : --
 Failed Paths   : 0
 
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 6.674 ns
-From           : POP
-To             : data_out[9]
+Actual Time    : 7.206 ns
+From           : clk
+To             : push
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0
 
-Type           : Worst-case th
+Type           : Clock Setup: 'clk'
 Slack          : N/A
 Required Time  : None
-Actual Time    : -1.923 ns
-From           : data_in[5]
-To             : STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[5]
-From Clock     : --
-To Clock       : PUSH
+Actual Time    : 76.59 MHz ( period = 13.056 ns )
+From           : CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q[2]
+To             : CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[14]
+From Clock     : clk
+To Clock       : clk
 Failed Paths   : 0
 
-Type           : Clock Setup: 'move_sp'
-Slack          : N/A
+Type           : Clock Hold: 'clk'
+Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
-Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
-From           : STACK:inst|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q[0]
-To             : STACK:inst|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q[2]
-From Clock     : move_sp
-To Clock       : move_sp
-Failed Paths   : 0
+Actual Time    : N/A
+From           : CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component|dffs[4]
+To             : lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_21a1:auto_generated|ram_block1a28~porta_address_reg4
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 10000
 
 Type           : Total number of failed paths
 Slack          : 
@@ -60,7 +50,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 0
+Failed Paths   : 10000
 
 --------------------------------------------------------------------------------------
 
