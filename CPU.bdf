@@ -262,41 +262,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 3088 656 3264 672)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "alu_result[15..0]" (rect 90 0 169 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
 	(rect 1192 488 1368 504)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "fce" (rect 90 0 106 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 1192 728 1379 744)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "distance_test[3..0]" (rect 90 0 182 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -427,23 +395,6 @@ applicable agreement for further details.
 	)
 	(drawing
 		(rectangle (rect 16 16 200 112)(line_width 1))
-	)
-)
-(symbol
-	(rect 2512 368 2544 400)
-	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
-	(text "inst31" (rect 3 21 32 33)(font "Arial" )(invisible))
-	(port
-		(pt 16 0)
-		(output)
-		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
-		(line (pt 16 8)(pt 16 0)(line_width 1))
-	)
-	(drawing
-		(line (pt 8 8)(pt 16 16)(line_width 1))
-		(line (pt 16 16)(pt 24 8)(line_width 1))
-		(line (pt 8 8)(pt 24 8)(line_width 1))
 	)
 )
 (symbol
@@ -609,9 +560,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 680 272 1024 816)
+	(rect 680 272 1024 880)
 	(text "CONTROL_DEVICE" (rect 5 0 112 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 528 25 540)(font "Arial" ))
+	(text "inst" (rect 8 592 25 604)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -864,8 +815,29 @@ applicable agreement for further details.
 		(text "SRA" (rect 298 507 323 521)(font "Arial" (font_size 8)))
 		(line (pt 344 512)(pt 328 512)(line_width 1))
 	)
+	(port
+		(pt 344 528)
+		(output)
+		(text "move_sp" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "move_sp" (rect 272 523 323 537)(font "Arial" (font_size 8)))
+		(line (pt 344 528)(pt 328 528)(line_width 1))
+	)
+	(port
+		(pt 344 544)
+		(output)
+		(text "PUSH" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "PUSH" (rect 292 539 323 553)(font "Arial" (font_size 8)))
+		(line (pt 344 544)(pt 328 544)(line_width 1))
+	)
+	(port
+		(pt 344 560)
+		(output)
+		(text "POP" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "POP" (rect 300 555 323 569)(font "Arial" (font_size 8)))
+		(line (pt 344 560)(pt 328 560)(line_width 1))
+	)
 	(drawing
-		(rectangle (rect 16 16 328 528)(line_width 1))
+		(rectangle (rect 16 16 328 592)(line_width 1))
 	)
 )
 (connector
@@ -1328,30 +1300,6 @@ applicable agreement for further details.
 	(pt 1192 640)
 )
 (connector
-	(pt 2544 320)
-	(pt 2528 320)
-)
-(connector
-	(pt 2544 336)
-	(pt 2528 336)
-)
-(connector
-	(pt 2528 320)
-	(pt 2528 336)
-)
-(connector
-	(pt 2544 352)
-	(pt 2528 352)
-)
-(connector
-	(pt 2528 336)
-	(pt 2528 352)
-)
-(connector
-	(pt 2528 352)
-	(pt 2528 368)
-)
-(connector
 	(text "distance[3..0]" (rect 1904 536 1971 548)(font "Arial" ))
 	(pt 1896 552)
 	(pt 2008 552)
@@ -1374,36 +1322,60 @@ applicable agreement for further details.
 	(pt 2008 568)
 )
 (connector
-	(text "SRA" (rect 1032 768 1054 780)(font "Arial" ))
-	(pt 1136 784)
-	(pt 1024 784)
-)
-(connector
-	(text "sra_clock_en" (rect 1032 752 1096 764)(font "Arial" ))
-	(pt 1024 768)
-	(pt 1136 768)
-)
-(connector
-	(text "sra_clock" (rect 1032 736 1079 748)(font "Arial" ))
-	(pt 1024 752)
-	(pt 1136 752)
-)
-(connector
 	(text "flag[2..0]" (rect 3013 680 3057 692)(font "Arial" ))
 	(pt 3000 696)
 	(pt 3088 696)
 	(bus)
 )
 (connector
-	(text "alu_result[15..0]" (rect 3008 648 3087 660)(font "Arial" ))
-	(pt 3000 664)
-	(pt 3088 664)
-	(bus)
-)
-(connector
 	(text "SRA" (rect 1904 584 1926 596)(font "Arial" ))
 	(pt 2008 600)
 	(pt 1896 600)
+)
+(connector
+	(text "move_sp" (rect 2488 304 2534 316)(font "Arial" ))
+	(pt 2544 320)
+	(pt 2480 320)
+)
+(connector
+	(text "PUSH" (rect 2488 320 2518 332)(font "Arial" ))
+	(pt 2544 336)
+	(pt 2480 336)
+)
+(connector
+	(text "POP" (rect 2488 336 2510 348)(font "Arial" ))
+	(pt 2544 352)
+	(pt 2480 352)
+)
+(connector
+	(text "sra_clock" (rect 1088 736 1135 748)(font "Arial" ))
+	(pt 1024 752)
+	(pt 1192 752)
+)
+(connector
+	(text "sra_clock_en" (rect 1088 752 1152 764)(font "Arial" ))
+	(pt 1024 768)
+	(pt 1192 768)
+)
+(connector
+	(text "SRA" (rect 1088 768 1110 780)(font "Arial" ))
+	(pt 1024 784)
+	(pt 1192 784)
+)
+(connector
+	(text "move_sp" (rect 1136 784 1182 796)(font "Arial" ))
+	(pt 1024 800)
+	(pt 1192 800)
+)
+(connector
+	(text "PUSH" (rect 1136 800 1166 812)(font "Arial" ))
+	(pt 1024 816)
+	(pt 1192 816)
+)
+(connector
+	(text "POP" (rect 1136 816 1158 828)(font "Arial" ))
+	(pt 1024 832)
+	(pt 1192 832)
 )
 (junction (pt 520 144))
 (junction (pt 1312 144))
@@ -1412,5 +1384,3 @@ applicable agreement for further details.
 (junction (pt 2352 144))
 (junction (pt 2832 144))
 (junction (pt 2528 144))
-(junction (pt 2528 336))
-(junction (pt 2528 352))

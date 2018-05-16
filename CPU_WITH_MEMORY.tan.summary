@@ -2,45 +2,55 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.220 ns
+From           : POP
+To             : STACK:inst|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q[2]
+From Clock     : --
+To Clock       : move_sp
+Failed Paths   : 0
+
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 19.433 ns
-From           : lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_21a1:auto_generated|ram_block1a26
-To             : data_bus_in_test[10]
-From Clock     : clk
+Actual Time    : 7.575 ns
+From           : STACK:inst|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q[2]
+To             : data_out[1]
+From Clock     : move_sp
 To Clock       : --
 Failed Paths   : 0
 
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 8.986 ns
-From           : clk
-To             : ram_inclock_out_test
+Actual Time    : 6.674 ns
+From           : POP
+To             : data_out[9]
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0
 
-Type           : Clock Setup: 'clk'
+Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : 74.02 MHz ( period = 13.509 ns )
-From           : lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_21a1:auto_generated|ram_block1a26
-To             : CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[10]
-From Clock     : clk
-To Clock       : clk
+Actual Time    : -1.923 ns
+From           : data_in[5]
+To             : STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[5]
+From Clock     : --
+To Clock       : PUSH
 Failed Paths   : 0
 
-Type           : Clock Hold: 'clk'
-Slack          : Not operational: Clock Skew > Data Delay
+Type           : Clock Setup: 'move_sp'
+Slack          : N/A
 Required Time  : None
-Actual Time    : N/A
-From           : CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component|dffs[10]
-To             : lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_21a1:auto_generated|ram_block1a43~porta_address_reg10
-From Clock     : clk
-To Clock       : clk
-Failed Paths   : 10000
+Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
+From           : STACK:inst|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q[0]
+To             : STACK:inst|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q[2]
+From Clock     : move_sp
+To Clock       : move_sp
+Failed Paths   : 0
 
 Type           : Total number of failed paths
 Slack          : 
@@ -50,7 +60,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 10000
+Failed Paths   : 0
 
 --------------------------------------------------------------------------------------
 

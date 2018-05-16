@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 360 560)
+	(rect 16 16 360 624)
 	(text "CONTROL_DEVICE" (rect 5 0 112 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 528 25 540)(font "Arial" ))
+	(text "inst" (rect 8 592 25 604)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -275,7 +275,28 @@ applicable agreement for further details.
 		(text "SRA" (rect 298 507 323 521)(font "Arial" (font_size 8)))
 		(line (pt 344 512)(pt 328 512)(line_width 1))
 	)
+	(port
+		(pt 344 528)
+		(output)
+		(text "move_sp" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "move_sp" (rect 272 523 323 537)(font "Arial" (font_size 8)))
+		(line (pt 344 528)(pt 328 528)(line_width 1))
+	)
+	(port
+		(pt 344 544)
+		(output)
+		(text "PUSH" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "PUSH" (rect 292 539 323 553)(font "Arial" (font_size 8)))
+		(line (pt 344 544)(pt 328 544)(line_width 1))
+	)
+	(port
+		(pt 344 560)
+		(output)
+		(text "POP" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "POP" (rect 300 555 323 569)(font "Arial" (font_size 8)))
+		(line (pt 344 560)(pt 328 560)(line_width 1))
+	)
 	(drawing
-		(rectangle (rect 16 16 328 528)(line_width 1))
+		(rectangle (rect 16 16 328 592)(line_width 1))
 	)
 )

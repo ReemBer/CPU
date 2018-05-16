@@ -53,168 +53,8 @@ applicable agreement for further details.
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
 )
 (pin
-	(input)
-	(rect -384 -64 -152 -48)
-	(text "INPUT" (rect 197 0 225 10)(font "Arial" (font_size 6)))
-	(text "data_address_bus_test[15..0]" (rect 5 0 151 12)(font "Arial" ))
-	(pt 232 8)
-	(drawing
-		(line (pt 156 12)(pt 181 12)(line_width 1))
-		(line (pt 156 4)(pt 181 4)(line_width 1))
-		(line (pt 185 8)(pt 232 8)(line_width 1))
-		(line (pt 156 12)(pt 156 4)(line_width 1))
-		(line (pt 181 4)(pt 185 8)(line_width 1))
-		(line (pt 181 12)(pt 185 8)(line_width 1))
-	)
-	(text "VCC" (rect 200 7 220 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect -360 -48 -152 -32)
-	(text "INPUT" (rect 173 0 201 10)(font "Arial" (font_size 6)))
-	(text "data_bus_out_test[15..0]" (rect 5 0 127 12)(font "Arial" ))
-	(pt 208 8)
-	(drawing
-		(line (pt 132 12)(pt 157 12)(line_width 1))
-		(line (pt 132 4)(pt 157 4)(line_width 1))
-		(line (pt 161 8)(pt 208 8)(line_width 1))
-		(line (pt 132 12)(pt 132 4)(line_width 1))
-		(line (pt 157 4)(pt 161 8)(line_width 1))
-		(line (pt 157 12)(pt 161 8)(line_width 1))
-	)
-	(text "VCC" (rect 176 7 196 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect -328 -16 -152 0)
-	(text "INPUT" (rect 141 0 169 10)(font "Arial" (font_size 6)))
-	(text "is_read_data_test" (rect 5 0 92 12)(font "Arial" ))
-	(pt 176 8)
-	(drawing
-		(line (pt 100 12)(pt 125 12)(line_width 1))
-		(line (pt 100 4)(pt 125 4)(line_width 1))
-		(line (pt 129 8)(pt 176 8)(line_width 1))
-		(line (pt 100 12)(pt 100 4)(line_width 1))
-		(line (pt 125 4)(pt 129 8)(line_width 1))
-		(line (pt 125 12)(pt 129 8)(line_width 1))
-	)
-	(text "VCC" (rect 144 7 164 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect -320 0 -152 16)
-	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
-	(text "inclock_test" (rect 5 0 64 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 92 12)(pt 117 12)(line_width 1))
-		(line (pt 92 4)(pt 117 4)(line_width 1))
-		(line (pt 121 8)(pt 168 8)(line_width 1))
-		(line (pt 92 12)(pt 92 4)(line_width 1))
-		(line (pt 117 4)(pt 121 8)(line_width 1))
-		(line (pt 117 12)(pt 121 8)(line_width 1))
-	)
-	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect -320 16 -152 32)
-	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
-	(text "outclock_test" (rect 5 0 71 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 92 12)(pt 117 12)(line_width 1))
-		(line (pt 92 4)(pt 117 4)(line_width 1))
-		(line (pt 121 8)(pt 168 8)(line_width 1))
-		(line (pt 92 12)(pt 92 4)(line_width 1))
-		(line (pt 117 4)(pt 121 8)(line_width 1))
-		(line (pt 117 12)(pt 121 8)(line_width 1))
-	)
-	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect -320 32 -152 48)
-	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
-	(text "we_test" (rect 5 0 42 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 92 12)(pt 117 12)(line_width 1))
-		(line (pt 92 4)(pt 117 4)(line_width 1))
-		(line (pt 121 8)(pt 168 8)(line_width 1))
-		(line (pt 92 12)(pt 92 4)(line_width 1))
-		(line (pt 117 4)(pt 121 8)(line_width 1))
-		(line (pt 117 12)(pt 121 8)(line_width 1))
-	)
-	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect -320 48 -152 64)
-	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
-	(text "outenab_test" (rect 5 0 68 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 92 12)(pt 117 12)(line_width 1))
-		(line (pt 92 4)(pt 117 4)(line_width 1))
-		(line (pt 121 8)(pt 168 8)(line_width 1))
-		(line (pt 92 12)(pt 92 4)(line_width 1))
-		(line (pt 117 4)(pt 121 8)(line_width 1))
-		(line (pt 117 12)(pt 121 8)(line_width 1))
-	)
-	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect -328 64 -152 80)
-	(text "INPUT" (rect 141 0 169 10)(font "Arial" (font_size 6)))
-	(text "is_write_data_test" (rect 5 0 93 12)(font "Arial" ))
-	(pt 176 8)
-	(drawing
-		(line (pt 100 12)(pt 125 12)(line_width 1))
-		(line (pt 100 4)(pt 125 4)(line_width 1))
-		(line (pt 129 8)(pt 176 8)(line_width 1))
-		(line (pt 100 12)(pt 100 4)(line_width 1))
-		(line (pt 125 4)(pt 129 8)(line_width 1))
-		(line (pt 125 12)(pt 129 8)(line_width 1))
-	)
-	(text "VCC" (rect 144 7 164 17)(font "Arial" (font_size 6)))
-)
-(pin
 	(output)
-	(rect 472 352 648 368)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "read_command" (rect 90 0 165 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect -152 -192 24 -176)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ip[11..0]" (rect 90 0 130 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect -152 -176 24 -160)
+	(rect 760 160 936 176)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "command_data_bus[15..0]" (rect 90 0 220 12)(font "Arial" ))
 	(pt 0 8)
@@ -230,9 +70,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect -152 -160 65 -144)
+	(rect 760 144 936 160)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "data_out_bus_test[15..0]" (rect 90 0 212 12)(font "Arial" ))
+	(text "IP[11..0]" (rect 90 0 132 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -246,9 +86,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect -152 -144 58 -128)
+	(rect 760 192 1001 208)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "data_bus_in_test[15..0]" (rect 90 0 205 12)(font "Arial" ))
+	(text "data_address_bus_test[15..0]" (rect 90 0 236 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -262,9 +102,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect -152 -312 51 -296)
+	(rect 760 176 956 192)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "is_read_data_out_test" (rect 90 0 198 12)(font "Arial" ))
+	(text "data_bus_test[15..0]" (rect 90 0 191 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -278,9 +118,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect -152 -296 48 -280)
+	(rect 760 208 936 224)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ram_inclock_out_test" (rect 90 0 195 12)(font "Arial" ))
+	(text "read_command" (rect 90 0 165 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -294,103 +134,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect -152 -232 52 -216)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "is_write_data_out_test" (rect 90 0 199 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect -152 -248 52 -232)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ram_outenab_out_test" (rect 90 0 199 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect -152 -264 26 -248)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ram_we_out_test" (rect 90 0 173 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect -152 -280 55 -264)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ram_outclock_out_test" (rect 90 0 202 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect -152 -128 110 -112)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "data_address_bus_out_test[15..0]" (rect 90 0 257 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 328 480 504 496)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "alu_result[15..0]" (rect 90 0 169 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 328 496 504 512)
+	(rect 760 240 936 256)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "flag[2..0]" (rect 90 0 134 12)(font "Arial" ))
 	(pt 0 8)
@@ -406,25 +150,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 328 464 504 480)
+	(rect 760 224 936 240)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "fce" (rect 90 0 106 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
-	(rect 328 512 515 528)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "distance_test[3..0]" (rect 90 0 182 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -494,7 +222,7 @@ applicable agreement for further details.
 	(rotate180)
 )
 (symbol
-	(rect -144 784 -80 832)
+	(rect -56 624 8 672)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst6" (rect 3 37 26 49)(font "Arial" ))
 	(port
@@ -526,7 +254,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 0 752 160 832)
+	(rect 88 592 248 672)
 	(text "ROM" (rect 65 1 100 17)(font "Arial" (font_size 10)))
 	(text "inst" (rect 8 64 25 76)(font "Arial" ))
 	(port
@@ -560,9 +288,110 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -48 280 328 568)
+	(rect 104 112 232 240)
+	(text "LPM_RAM_IO" (rect 25 0 122 16)(font "Arial" (font_size 10)))
+	(text "inst1" (rect 3 117 30 131)(font "Arial" (font_size 8)))
+	(port
+		(pt 0 24)
+		(input)
+		(text "address[LPM_WIDTHAD-1..0]" (rect 20 17 186 31)(font "Arial" (font_size 8)))
+		(text "address[]" (rect 20 17 74 31)(font "Arial" (font_size 8)))
+		(line (pt 0 24)(pt 16 24)(line_width 3))
+	)
+	(port
+		(pt 0 56)
+		(input)
+		(text "outclock" (rect 20 49 67 63)(font "Arial" (font_size 8)))
+		(text "outclock" (rect 20 49 67 63)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 16 56)(line_width 1))
+	)
+	(port
+		(pt 0 104)
+		(input)
+		(text "memenab" (rect 20 97 74 111)(font "Arial" (font_size 8)))
+		(text "memenab" (rect 20 97 74 111)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 16 104)(line_width 1))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "inclock" (rect 20 33 58 47)(font "Arial" (font_size 8)))
+		(text "inclock" (rect 20 33 58 47)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 16 40)(line_width 1))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "we" (rect 20 65 38 79)(font "Arial" (font_size 8)))
+		(text "we" (rect 20 65 38 79)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 16 72)(line_width 1))
+	)
+	(port
+		(pt 0 88)
+		(input)
+		(text "outenab" (rect 20 81 66 95)(font "Arial" (font_size 8)))
+		(text "outenab" (rect 20 81 66 95)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 16 88)(line_width 1))
+	)
+	(port
+		(pt 128 56)
+		(bidir)
+		(text "dio[LPM_WIDTH-1..0]" (rect 87 49 205 63)(font "Arial" (font_size 8)))
+		(text "dio[]" (rect 87 49 110 63)(font "Arial" (font_size 8)))
+		(line (pt 112 56)(pt 128 56)(line_width 3))
+	)
+	(parameter
+		"LPM_ADDRESS_CONTROL"
+		"REGISTERED"
+		"Should the address and control ports be registered?"
+		"\"REGISTERED\"" "\"UNREGISTERED\"" 
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"LPM_FILE"
+		"RAM_INIT.hex"
+		"File containing initial contents of memory array"
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"LPM_INDATA"
+		"REGISTERED"
+		"Should the write data be registered?"
+		"\"REGISTERED\"" "\"UNREGISTERED\"" 
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"LPM_NUMWORDS"
+		"16384"
+		"Number of memory words, default is 2^LPM_WIDTHAD"
+		(type "PARAMETER_UNSIGNED_DEC")	)
+	(parameter
+		"LPM_OUTDATA"
+		"REGISTERED"
+		"Should the output data be registered?"
+		"\"REGISTERED\"" "\"UNREGISTERED\"" 
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"LPM_WIDTH"
+		"16"
+		"Data width in bits, any integer > 0"
+		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" "40" "48" "56" "64" 
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"LPM_WIDTHAD"
+		"14"
+		"Number of address lines, any integer > 0"
+		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" 
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(line (pt 16 112)(pt 112 112)(line_width 1))
+		(line (pt 16 16)(pt 112 16)(line_width 1))
+		(line (pt 112 112)(pt 112 16)(line_width 1))
+		(line (pt 16 112)(pt 16 16)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 104 -40 400 72))
+)
+(symbol
+	(rect -48 280 328 536)
 	(text "CPU" (rect 5 0 28 14)(font "Arial" (font_size 8)))
-	(text "inst2" (rect 8 272 31 284)(font "Arial" ))
+	(text "inst2" (rect 8 240 31 252)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -671,128 +500,13 @@ applicable agreement for further details.
 	(port
 		(pt 376 208)
 		(output)
-		(text "alu_result[15..0]" (rect 0 0 90 14)(font "Arial" (font_size 8)))
-		(text "alu_result[15..0]" (rect 265 203 355 217)(font "Arial" (font_size 8)))
+		(text "flag[2..0]" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "flag[2..0]" (rect 306 203 355 217)(font "Arial" (font_size 8)))
 		(line (pt 376 208)(pt 360 208)(line_width 3))
 	)
-	(port
-		(pt 376 224)
-		(output)
-		(text "flag[2..0]" (rect 0 0 49 14)(font "Arial" (font_size 8)))
-		(text "flag[2..0]" (rect 306 219 355 233)(font "Arial" (font_size 8)))
-		(line (pt 376 224)(pt 360 224)(line_width 3))
-	)
-	(port
-		(pt 376 240)
-		(output)
-		(text "distance_test[3..0]" (rect 0 0 105 14)(font "Arial" (font_size 8)))
-		(text "distance_test[3..0]" (rect 250 235 355 249)(font "Arial" (font_size 8)))
-		(line (pt 376 240)(pt 360 240)(line_width 3))
-	)
 	(drawing
-		(rectangle (rect 16 16 360 272)(line_width 1))
+		(rectangle (rect 16 16 360 240)(line_width 1))
 	)
-)
-(symbol
-	(rect 104 112 232 240)
-	(text "LPM_RAM_IO" (rect 25 0 122 16)(font "Arial" (font_size 10)))
-	(text "inst1" (rect 3 117 30 131)(font "Arial" (font_size 8)))
-	(port
-		(pt 0 24)
-		(input)
-		(text "address[LPM_WIDTHAD-1..0]" (rect 20 17 186 31)(font "Arial" (font_size 8)))
-		(text "address[]" (rect 20 17 74 31)(font "Arial" (font_size 8)))
-		(line (pt 0 24)(pt 16 24)(line_width 3))
-	)
-	(port
-		(pt 0 56)
-		(input)
-		(text "outclock" (rect 20 49 67 63)(font "Arial" (font_size 8)))
-		(text "outclock" (rect 20 49 67 63)(font "Arial" (font_size 8)))
-		(line (pt 0 56)(pt 16 56)(line_width 1))
-	)
-	(port
-		(pt 0 104)
-		(input)
-		(text "memenab" (rect 20 97 74 111)(font "Arial" (font_size 8)))
-		(text "memenab" (rect 20 97 74 111)(font "Arial" (font_size 8)))
-		(line (pt 0 104)(pt 16 104)(line_width 1))
-	)
-	(port
-		(pt 0 40)
-		(input)
-		(text "inclock" (rect 20 33 58 47)(font "Arial" (font_size 8)))
-		(text "inclock" (rect 20 33 58 47)(font "Arial" (font_size 8)))
-		(line (pt 0 40)(pt 16 40)(line_width 1))
-	)
-	(port
-		(pt 0 72)
-		(input)
-		(text "we" (rect 20 65 38 79)(font "Arial" (font_size 8)))
-		(text "we" (rect 20 65 38 79)(font "Arial" (font_size 8)))
-		(line (pt 0 72)(pt 16 72)(line_width 1))
-	)
-	(port
-		(pt 0 88)
-		(input)
-		(text "outenab" (rect 20 81 66 95)(font "Arial" (font_size 8)))
-		(text "outenab" (rect 20 81 66 95)(font "Arial" (font_size 8)))
-		(line (pt 0 88)(pt 16 88)(line_width 1))
-	)
-	(port
-		(pt 128 56)
-		(bidir)
-		(text "dio[LPM_WIDTH-1..0]" (rect 87 49 205 63)(font "Arial" (font_size 8)))
-		(text "dio[]" (rect 87 49 110 63)(font "Arial" (font_size 8)))
-		(line (pt 112 56)(pt 128 56)(line_width 3))
-	)
-	(parameter
-		"LPM_ADDRESS_CONTROL"
-		"REGISTERED"
-		"Should the address and control ports be registered?"
-		"\"REGISTERED\"" "\"UNREGISTERED\"" 
-		(type "PARAMETER_STRING")	)
-	(parameter
-		"LPM_FILE"
-		"RAM_INIT.hex"
-		"File containing initial contents of memory array"
-		(type "PARAMETER_STRING")	)
-	(parameter
-		"LPM_INDATA"
-		"REGISTERED"
-		"Should the write data be registered?"
-		"\"REGISTERED\"" "\"UNREGISTERED\"" 
-		(type "PARAMETER_STRING")	)
-	(parameter
-		"LPM_NUMWORDS"
-		"16384"
-		"Number of memory words, default is 2^LPM_WIDTHAD"
-		(type "PARAMETER_UNSIGNED_DEC")	)
-	(parameter
-		"LPM_OUTDATA"
-		"REGISTERED"
-		"Should the output data be registered?"
-		"\"REGISTERED\"" "\"UNREGISTERED\"" 
-		(type "PARAMETER_STRING")	)
-	(parameter
-		"LPM_WIDTH"
-		"16"
-		"Data width in bits, any integer > 0"
-		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" "40" "48" "56" "64" 
-		(type "PARAMETER_SIGNED_DEC")	)
-	(parameter
-		"LPM_WIDTHAD"
-		"14"
-		"Number of address lines, any integer > 0"
-		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" 
-		(type "PARAMETER_SIGNED_DEC")	)
-	(drawing
-		(line (pt 16 112)(pt 112 112)(line_width 1))
-		(line (pt 16 16)(pt 112 16)(line_width 1))
-		(line (pt 112 112)(pt 112 16)(line_width 1))
-		(line (pt 16 112)(pt 16 16)(line_width 1))
-	)
-	(annotation_block (parameter)(rect 104 -40 400 72))
 )
 (connector
 	(text "command_data_bus[15..0]" (rect -222 344 -92 356)(font "Arial" ))
@@ -955,102 +669,82 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "command_address_bus[11..0]" (rect -304 -200 -156 -188)(font "Arial" ))
-	(pt -312 -184)
-	(pt -152 -184)
-	(bus)
-)
-(connector
-	(text "command_data_bus[15..0]" (rect -304 -184 -174 -172)(font "Arial" ))
-	(pt -152 -168)
-	(pt -312 -168)
-	(bus)
-)
-(connector
-	(text "data_bus_out[15..0]" (rect -304 -168 -207 -156)(font "Arial" ))
-	(pt -152 -152)
-	(pt -312 -152)
-	(bus)
-)
-(connector
-	(text "is_read_data" (rect -282 -320 -220 -308)(font "Arial" ))
-	(pt -296 -304)
-	(pt -152 -304)
-)
-(connector
-	(text "ram_inclock" (rect -283 -304 -224 -292)(font "Arial" ))
-	(pt -296 -288)
-	(pt -152 -288)
-)
-(connector
-	(text "ram_outclock" (rect -280 -288 -214 -276)(font "Arial" ))
-	(pt -296 -272)
-	(pt -152 -272)
-)
-(connector
-	(text "ram_we" (rect -280 -272 -243 -260)(font "Arial" ))
-	(pt -296 -256)
-	(pt -152 -256)
-)
-(connector
-	(text "ram_outenab" (rect -275 -256 -212 -244)(font "Arial" ))
-	(pt -296 -240)
-	(pt -152 -240)
-)
-(connector
-	(text "is_write_data" (rect -288 -240 -225 -228)(font "Arial" ))
-	(pt -296 -224)
-	(pt -152 -224)
-)
-(connector
-	(text "data_address_bus[15..0]" (rect -304 -136 -183 -124)(font "Arial" ))
-	(pt -152 -120)
-	(pt -312 -120)
-	(bus)
-)
-(connector
-	(text "command_data_bus[15..0]" (rect 200 776 330 788)(font "Arial" ))
-	(pt 160 792)
-	(pt 328 792)
-	(bus)
-)
-(connector
-	(text "clk" (rect -235 784 -221 796)(font "Arial" ))
-	(pt -240 800)
-	(pt -144 800)
-)
-(connector
-	(pt 0 800)
-	(pt -40 800)
-)
-(connector
-	(pt -80 808)
-	(pt -40 808)
-)
-(connector
-	(pt -40 808)
-	(pt -40 800)
-)
-(connector
-	(text "read_command" (rect -232 800 -157 812)(font "Arial" ))
-	(pt -144 816)
-	(pt -240 816)
-)
-(connector
-	(text "command_address_bus[10..0]" (rect -154 768 -6 780)(font "Arial" ))
-	(pt -160 784)
-	(pt 0 784)
-	(bus)
-)
-(connector
-	(text "data_bus_in[15..0]" (rect -304 -152 -214 -140)(font "Arial" ))
-	(pt -152 -136)
-	(pt -312 -136)
-	(bus)
-)
-(connector
 	(text "data_address_bus[13..0]" (rect -32 120 89 132)(font "Arial" ))
 	(pt 104 136)
 	(pt -48 136)
+	(bus)
+)
+(connector
+	(text "command_address_bus[11..0]" (rect 632 136 780 148)(font "Arial" ))
+	(pt 760 152)
+	(pt 624 152)
+	(bus)
+)
+(connector
+	(text "command_data_bus[15..0]" (rect 632 152 762 164)(font "Arial" ))
+	(pt 760 168)
+	(pt 624 168)
+	(bus)
+)
+(connector
+	(text "data_bus_out[15..0]" (rect 632 168 729 180)(font "Arial" ))
+	(pt 760 184)
+	(pt 624 184)
+	(bus)
+)
+(connector
+	(text "data_address_bus[15..0]" (rect 632 184 753 196)(font "Arial" ))
+	(pt 760 200)
+	(pt 624 200)
+	(bus)
+)
+(connector
+	(text "read_command" (rect 625 200 700 212)(font "Arial" ))
+	(pt 616 216)
+	(pt 760 216)
+)
+(connector
+	(text "fce" (rect 336 456 352 468)(font "Arial" ))
+	(pt 328 472)
+	(pt 472 472)
+)
+(connector
+	(text "flag[2..0]" (rect 336 472 380 484)(font "Arial" ))
+	(pt 328 488)
+	(pt 472 488)
+	(bus)
+)
+(connector
+	(text "command_data_bus[15..0]" (rect 288 616 418 628)(font "Arial" ))
+	(pt 248 632)
+	(pt 416 632)
+	(bus)
+)
+(connector
+	(text "clk" (rect -147 624 -133 636)(font "Arial" ))
+	(pt -152 640)
+	(pt -56 640)
+)
+(connector
+	(pt 88 640)
+	(pt 48 640)
+)
+(connector
+	(pt 8 648)
+	(pt 48 648)
+)
+(connector
+	(pt 48 648)
+	(pt 48 640)
+)
+(connector
+	(text "read_command" (rect -144 640 -69 652)(font "Arial" ))
+	(pt -56 656)
+	(pt -152 656)
+)
+(connector
+	(text "command_address_bus[10..0]" (rect -66 608 82 620)(font "Arial" ))
+	(pt -72 624)
+	(pt 88 624)
 	(bus)
 )
