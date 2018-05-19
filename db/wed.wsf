@@ -1376,377 +1376,6 @@ VECTOR("D:/University/6th sem/SiFO/kursach/RAM_TEST.vwf")
 	}
 }
 
-VECTOR("D:/University/6th sem/SiFO/kursach/ALU_TEST.vwf")
-{
-	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 173712;
-		NUMERATOR = 887;
-		DENOMINATOR = 173712;
-		TOP_INDEX = 18;
-	}
-	CLOCK{
-		PERIOD = 20000;
-		OFFSET = 0;
-		DUTY_CYCLE = 50;
-	}
-	RANDOM_VALUE{
-		INTERVAL_TYPE = HALF_GRID;
-	}
-	LINE{
-		SIGNAL = "distance";
-		INDEX = 0;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "distance[3]";
-		INDEX = 1;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "distance[2]";
-		INDEX = 2;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "distance[1]";
-		INDEX = 3;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "distance[0]";
-		INDEX = 4;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand";
-		INDEX = 5;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[15]";
-		INDEX = 6;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[14]";
-		INDEX = 7;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[13]";
-		INDEX = 8;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[12]";
-		INDEX = 9;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[11]";
-		INDEX = 10;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[10]";
-		INDEX = 11;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[9]";
-		INDEX = 12;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[8]";
-		INDEX = 13;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[7]";
-		INDEX = 14;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[6]";
-		INDEX = 15;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[5]";
-		INDEX = 16;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[4]";
-		INDEX = 17;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[3]";
-		INDEX = 18;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[2]";
-		INDEX = 19;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[1]";
-		INDEX = 20;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "first_operand[0]";
-		INDEX = 21;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "SRA";
-		INDEX = 22;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result";
-		INDEX = 23;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[15]";
-		INDEX = 24;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[14]";
-		INDEX = 25;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[13]";
-		INDEX = 26;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[12]";
-		INDEX = 27;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[11]";
-		INDEX = 28;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[10]";
-		INDEX = 29;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[9]";
-		INDEX = 30;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[8]";
-		INDEX = 31;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[7]";
-		INDEX = 32;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[6]";
-		INDEX = 33;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[5]";
-		INDEX = 34;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[4]";
-		INDEX = 35;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[3]";
-		INDEX = 36;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[2]";
-		INDEX = 37;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[1]";
-		INDEX = 38;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "result[0]";
-		INDEX = 39;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "flag";
-		INDEX = 40;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "flag[2]";
-		INDEX = 41;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "flag[1]";
-		INDEX = 42;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "flag[0]";
-		INDEX = 43;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-}
-
 VECTOR("D:/University/6th sem/SiFO/kursach/STACK_TEST.vwf")
 {
 	ZOOM{
@@ -2087,6 +1716,686 @@ VECTOR("D:/University/6th sem/SiFO/kursach/STACK_TEST.vwf")
 	LINE{
 		SIGNAL = "SP[0]";
 		INDEX = 40;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs";
+		INDEX = 41;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[15]";
+		INDEX = 42;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[14]";
+		INDEX = 43;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[13]";
+		INDEX = 44;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[12]";
+		INDEX = 45;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[11]";
+		INDEX = 46;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[10]";
+		INDEX = 47;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[9]";
+		INDEX = 48;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[8]";
+		INDEX = 49;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[7]";
+		INDEX = 50;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[6]";
+		INDEX = 51;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[5]";
+		INDEX = 52;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[4]";
+		INDEX = 53;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[3]";
+		INDEX = 54;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[2]";
+		INDEX = 55;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[1]";
+		INDEX = 56;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[0]";
+		INDEX = 57;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs";
+		INDEX = 58;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[15]";
+		INDEX = 59;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[14]";
+		INDEX = 60;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[13]";
+		INDEX = 61;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[12]";
+		INDEX = 62;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[11]";
+		INDEX = 63;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[10]";
+		INDEX = 64;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[9]";
+		INDEX = 65;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[8]";
+		INDEX = 66;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[7]";
+		INDEX = 67;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[6]";
+		INDEX = 68;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[5]";
+		INDEX = 69;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[4]";
+		INDEX = 70;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[3]";
+		INDEX = 71;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[2]";
+		INDEX = 72;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[1]";
+		INDEX = 73;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[0]";
+		INDEX = 74;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs";
+		INDEX = 75;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[15]";
+		INDEX = 76;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[14]";
+		INDEX = 77;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[13]";
+		INDEX = 78;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[12]";
+		INDEX = 79;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[11]";
+		INDEX = 80;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[10]";
+		INDEX = 81;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[9]";
+		INDEX = 82;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[8]";
+		INDEX = 83;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[7]";
+		INDEX = 84;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[6]";
+		INDEX = 85;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[5]";
+		INDEX = 86;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[4]";
+		INDEX = 87;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[3]";
+		INDEX = 88;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[2]";
+		INDEX = 89;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[1]";
+		INDEX = 90;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[0]";
+		INDEX = 91;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs";
+		INDEX = 92;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[15]";
+		INDEX = 93;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[14]";
+		INDEX = 94;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[13]";
+		INDEX = 95;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[12]";
+		INDEX = 96;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[11]";
+		INDEX = 97;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[10]";
+		INDEX = 98;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[9]";
+		INDEX = 99;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[8]";
+		INDEX = 100;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[7]";
+		INDEX = 101;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[6]";
+		INDEX = 102;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[5]";
+		INDEX = 103;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[4]";
+		INDEX = 104;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[3]";
+		INDEX = 105;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[2]";
+		INDEX = 106;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[1]";
+		INDEX = 107;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[0]";
+		INDEX = 108;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs";
+		INDEX = 109;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[15]";
+		INDEX = 110;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[14]";
+		INDEX = 111;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[13]";
+		INDEX = 112;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[12]";
+		INDEX = 113;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[11]";
+		INDEX = 114;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[10]";
+		INDEX = 115;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[9]";
+		INDEX = 116;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[8]";
+		INDEX = 117;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[7]";
+		INDEX = 118;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[6]";
+		INDEX = 119;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[5]";
+		INDEX = 120;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[4]";
+		INDEX = 121;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[3]";
+		INDEX = 122;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[2]";
+		INDEX = 123;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[1]";
+		INDEX = 124;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "STACK:inst|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[0]";
+		INDEX = 125;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2648,16 +2957,8 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "fce";
-		INDEX = 67;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "flag";
-		INDEX = 68;
+		INDEX = 67;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2665,7 +2966,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "flag[2]";
-		INDEX = 69;
+		INDEX = 68;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2673,7 +2974,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "flag[1]";
-		INDEX = 70;
+		INDEX = 69;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2681,167 +2982,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "flag[0]";
-		INDEX = 71;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "mov_sp";
-		INDEX = 72;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "pop";
-		INDEX = 73;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "push";
-		INDEX = 74;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 75;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 76;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 77;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 78;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 79;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 80;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 81;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 82;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 83;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 84;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 85;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 86;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 87;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 88;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 89;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 90;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 91;
+		INDEX = 70;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2849,7 +2990,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 92;
+		INDEX = 71;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2857,7 +2998,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 93;
+		INDEX = 72;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2865,7 +3006,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 94;
+		INDEX = 73;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2873,7 +3014,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 95;
+		INDEX = 74;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2881,7 +3022,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 96;
+		INDEX = 75;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2889,7 +3030,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 97;
+		INDEX = 76;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2897,7 +3038,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 98;
+		INDEX = 77;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2905,7 +3046,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 99;
+		INDEX = 78;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2913,7 +3054,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 100;
+		INDEX = 79;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2921,7 +3062,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 101;
+		INDEX = 80;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2929,7 +3070,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 102;
+		INDEX = 81;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2937,7 +3078,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 103;
+		INDEX = 82;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2945,7 +3086,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 104;
+		INDEX = 83;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2953,7 +3094,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 105;
+		INDEX = 84;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2961,7 +3102,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 106;
+		INDEX = 85;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2969,7 +3110,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 107;
+		INDEX = 86;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -2977,143 +3118,143 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:al|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 108;
+		INDEX = 87;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 109;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs";
+		INDEX = 88;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 110;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[15]";
+		INDEX = 89;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 111;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[14]";
+		INDEX = 90;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 112;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[13]";
+		INDEX = 91;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 113;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[12]";
+		INDEX = 92;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 114;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[11]";
+		INDEX = 93;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 115;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[10]";
+		INDEX = 94;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 116;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[9]";
+		INDEX = 95;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 117;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[8]";
+		INDEX = 96;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 118;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[7]";
+		INDEX = 97;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 119;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[6]";
+		INDEX = 98;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 120;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[5]";
+		INDEX = 99;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 121;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[4]";
+		INDEX = 100;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 122;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[3]";
+		INDEX = 101;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 123;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[2]";
+		INDEX = 102;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 124;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[1]";
+		INDEX = 103;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 125;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ah|lpm_ff:lpm_ff_component|dffs[0]";
+		INDEX = 104;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3121,7 +3262,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 126;
+		INDEX = 105;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3129,7 +3270,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 127;
+		INDEX = 106;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3137,7 +3278,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 128;
+		INDEX = 107;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3145,7 +3286,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 129;
+		INDEX = 108;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3153,7 +3294,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 130;
+		INDEX = 109;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3161,7 +3302,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 131;
+		INDEX = 110;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3169,7 +3310,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 132;
+		INDEX = 111;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3177,7 +3318,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 133;
+		INDEX = 112;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3185,7 +3326,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 134;
+		INDEX = 113;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3193,7 +3334,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 135;
+		INDEX = 114;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3201,7 +3342,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 136;
+		INDEX = 115;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3209,7 +3350,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 137;
+		INDEX = 116;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3217,7 +3358,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 138;
+		INDEX = 117;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3225,7 +3366,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 139;
+		INDEX = 118;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3233,7 +3374,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 140;
+		INDEX = 119;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3241,7 +3382,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 141;
+		INDEX = 120;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3249,143 +3390,143 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bl|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 142;
+		INDEX = 121;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 143;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs";
+		INDEX = 122;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 144;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[15]";
+		INDEX = 123;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 145;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[14]";
+		INDEX = 124;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 146;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[13]";
+		INDEX = 125;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 147;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[12]";
+		INDEX = 126;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 148;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[11]";
+		INDEX = 127;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 149;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[10]";
+		INDEX = 128;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 150;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[9]";
+		INDEX = 129;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 151;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[8]";
+		INDEX = 130;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 152;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[7]";
+		INDEX = 131;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 153;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[6]";
+		INDEX = 132;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 154;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[5]";
+		INDEX = 133;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 155;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[4]";
+		INDEX = 134;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 156;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[3]";
+		INDEX = 135;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 157;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[2]";
+		INDEX = 136;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 158;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[1]";
+		INDEX = 137;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 159;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:bh|lpm_ff:lpm_ff_component|dffs[0]";
+		INDEX = 138;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3393,7 +3534,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 160;
+		INDEX = 139;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3401,7 +3542,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 161;
+		INDEX = 140;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3409,7 +3550,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 162;
+		INDEX = 141;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3417,7 +3558,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 163;
+		INDEX = 142;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3425,7 +3566,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 164;
+		INDEX = 143;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3433,7 +3574,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 165;
+		INDEX = 144;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3441,7 +3582,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 166;
+		INDEX = 145;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3449,7 +3590,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 167;
+		INDEX = 146;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3457,7 +3598,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 168;
+		INDEX = 147;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3465,7 +3606,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 169;
+		INDEX = 148;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3473,7 +3614,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 170;
+		INDEX = 149;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3481,7 +3622,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 171;
+		INDEX = 150;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3489,7 +3630,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 172;
+		INDEX = 151;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3497,7 +3638,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 173;
+		INDEX = 152;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3505,7 +3646,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 174;
+		INDEX = 153;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3513,7 +3654,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 175;
+		INDEX = 154;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3521,143 +3662,143 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:cl|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 176;
+		INDEX = 155;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 177;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs";
+		INDEX = 156;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 178;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[15]";
+		INDEX = 157;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 179;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[14]";
+		INDEX = 158;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 180;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[13]";
+		INDEX = 159;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 181;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[12]";
+		INDEX = 160;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 182;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[11]";
+		INDEX = 161;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 183;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[10]";
+		INDEX = 162;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 184;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[9]";
+		INDEX = 163;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 185;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[8]";
+		INDEX = 164;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 186;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[7]";
+		INDEX = 165;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 187;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[6]";
+		INDEX = 166;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 188;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[5]";
+		INDEX = 167;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 189;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[4]";
+		INDEX = 168;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 190;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[3]";
+		INDEX = 169;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 191;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[2]";
+		INDEX = 170;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 192;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[1]";
+		INDEX = 171;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 193;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:ch|lpm_ff:lpm_ff_component|dffs[0]";
+		INDEX = 172;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3665,7 +3806,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 194;
+		INDEX = 173;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3673,7 +3814,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 195;
+		INDEX = 174;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3681,7 +3822,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 196;
+		INDEX = 175;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3689,7 +3830,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 197;
+		INDEX = 176;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3697,7 +3838,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 198;
+		INDEX = 177;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3705,7 +3846,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 199;
+		INDEX = 178;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3713,7 +3854,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 200;
+		INDEX = 179;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3721,7 +3862,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 201;
+		INDEX = 180;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3729,7 +3870,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 202;
+		INDEX = 181;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3737,7 +3878,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 203;
+		INDEX = 182;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3745,7 +3886,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 204;
+		INDEX = 183;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3753,7 +3894,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 205;
+		INDEX = 184;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3761,7 +3902,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 206;
+		INDEX = 185;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3769,7 +3910,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 207;
+		INDEX = 186;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3777,7 +3918,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 208;
+		INDEX = 187;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3785,7 +3926,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 209;
+		INDEX = 188;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3793,143 +3934,143 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dl|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 210;
+		INDEX = 189;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 211;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs";
+		INDEX = 190;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 212;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[15]";
+		INDEX = 191;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 213;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[14]";
+		INDEX = 192;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 214;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[13]";
+		INDEX = 193;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 215;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[12]";
+		INDEX = 194;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 216;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[11]";
+		INDEX = 195;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 217;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[10]";
+		INDEX = 196;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 218;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[9]";
+		INDEX = 197;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 219;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[8]";
+		INDEX = 198;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 220;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[7]";
+		INDEX = 199;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 221;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[6]";
+		INDEX = 200;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 222;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[5]";
+		INDEX = 201;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 223;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[4]";
+		INDEX = 202;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 224;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[3]";
+		INDEX = 203;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 225;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[2]";
+		INDEX = 204;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 226;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[1]";
+		INDEX = 205;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 227;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:dh|lpm_ff:lpm_ff_component|dffs[0]";
+		INDEX = 206;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3937,7 +4078,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 228;
+		INDEX = 207;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3945,7 +4086,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 229;
+		INDEX = 208;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3953,7 +4094,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 230;
+		INDEX = 209;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3961,7 +4102,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 231;
+		INDEX = 210;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3969,7 +4110,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 232;
+		INDEX = 211;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3977,7 +4118,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 233;
+		INDEX = 212;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3985,7 +4126,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 234;
+		INDEX = 213;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -3993,7 +4134,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 235;
+		INDEX = 214;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4001,7 +4142,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 236;
+		INDEX = 215;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4009,7 +4150,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 237;
+		INDEX = 216;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4017,7 +4158,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 238;
+		INDEX = 217;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4025,7 +4166,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 239;
+		INDEX = 218;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4033,7 +4174,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 240;
+		INDEX = 219;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4041,7 +4182,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 241;
+		INDEX = 220;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4049,7 +4190,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 242;
+		INDEX = 221;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4057,7 +4198,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 243;
+		INDEX = 222;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4065,143 +4206,143 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:el|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 244;
+		INDEX = 223;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 245;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs";
+		INDEX = 224;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 246;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[15]";
+		INDEX = 225;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 247;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[14]";
+		INDEX = 226;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 248;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[13]";
+		INDEX = 227;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 249;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[12]";
+		INDEX = 228;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 250;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[11]";
+		INDEX = 229;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 251;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[10]";
+		INDEX = 230;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 252;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[9]";
+		INDEX = 231;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 253;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[8]";
+		INDEX = 232;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 254;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[7]";
+		INDEX = 233;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 255;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[6]";
+		INDEX = 234;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 256;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[5]";
+		INDEX = 235;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 257;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[4]";
+		INDEX = 236;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 258;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[3]";
+		INDEX = 237;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 259;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[2]";
+		INDEX = 238;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 260;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[1]";
+		INDEX = 239;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 261;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:eh|lpm_ff:lpm_ff_component|dffs[0]";
+		INDEX = 240;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4209,7 +4350,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 262;
+		INDEX = 241;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4217,7 +4358,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 263;
+		INDEX = 242;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4225,7 +4366,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 264;
+		INDEX = 243;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4233,7 +4374,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 265;
+		INDEX = 244;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4241,7 +4382,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 266;
+		INDEX = 245;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4249,7 +4390,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 267;
+		INDEX = 246;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4257,7 +4398,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 268;
+		INDEX = 247;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4265,7 +4406,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 269;
+		INDEX = 248;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4273,7 +4414,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 270;
+		INDEX = 249;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4281,7 +4422,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 271;
+		INDEX = 250;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4289,7 +4430,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 272;
+		INDEX = 251;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4297,7 +4438,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 273;
+		INDEX = 252;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4305,7 +4446,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 274;
+		INDEX = 253;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4313,7 +4454,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 275;
+		INDEX = 254;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4321,7 +4462,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 276;
+		INDEX = 255;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4329,7 +4470,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 277;
+		INDEX = 256;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4337,143 +4478,143 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fl|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 278;
+		INDEX = 257;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 279;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs";
+		INDEX = 258;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 280;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[15]";
+		INDEX = 259;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 281;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[14]";
+		INDEX = 260;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 282;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[13]";
+		INDEX = 261;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 283;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[12]";
+		INDEX = 262;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 284;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[11]";
+		INDEX = 263;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 285;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[10]";
+		INDEX = 264;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 286;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[9]";
+		INDEX = 265;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 287;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[8]";
+		INDEX = 266;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 288;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[7]";
+		INDEX = 267;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 289;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[6]";
+		INDEX = 268;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 290;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[5]";
+		INDEX = 269;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 291;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[4]";
+		INDEX = 270;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 292;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[3]";
+		INDEX = 271;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 293;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[2]";
+		INDEX = 272;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 294;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[1]";
+		INDEX = 273;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 295;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:fh|lpm_ff:lpm_ff_component|dffs[0]";
+		INDEX = 274;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4481,7 +4622,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 296;
+		INDEX = 275;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4489,7 +4630,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 297;
+		INDEX = 276;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4497,7 +4638,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 298;
+		INDEX = 277;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4505,7 +4646,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 299;
+		INDEX = 278;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4513,7 +4654,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 300;
+		INDEX = 279;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4521,7 +4662,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 301;
+		INDEX = 280;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4529,7 +4670,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 302;
+		INDEX = 281;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4537,7 +4678,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 303;
+		INDEX = 282;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4545,7 +4686,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 304;
+		INDEX = 283;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4553,7 +4694,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 305;
+		INDEX = 284;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4561,7 +4702,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 306;
+		INDEX = 285;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4569,7 +4710,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 307;
+		INDEX = 286;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4577,7 +4718,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 308;
+		INDEX = 287;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4585,7 +4726,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 309;
+		INDEX = 288;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4593,7 +4734,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 310;
+		INDEX = 289;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4601,7 +4742,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 311;
+		INDEX = 290;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4609,143 +4750,143 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gl|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 312;
+		INDEX = 291;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 313;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs";
+		INDEX = 292;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 314;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[15]";
+		INDEX = 293;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 315;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[14]";
+		INDEX = 294;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 316;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[13]";
+		INDEX = 295;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 317;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[12]";
+		INDEX = 296;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 318;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[11]";
+		INDEX = 297;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 319;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[10]";
+		INDEX = 298;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 320;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[9]";
+		INDEX = 299;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 321;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[8]";
+		INDEX = 300;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 322;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[7]";
+		INDEX = 301;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 323;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[6]";
+		INDEX = 302;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 324;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[5]";
+		INDEX = 303;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 325;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[4]";
+		INDEX = 304;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 326;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[3]";
+		INDEX = 305;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 327;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[2]";
+		INDEX = 306;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 328;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[1]";
+		INDEX = 307;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 329;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:gh|lpm_ff:lpm_ff_component|dffs[0]";
+		INDEX = 308;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4753,7 +4894,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 330;
+		INDEX = 309;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4761,7 +4902,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 331;
+		INDEX = 310;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4769,7 +4910,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 332;
+		INDEX = 311;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4777,7 +4918,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 333;
+		INDEX = 312;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4785,7 +4926,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 334;
+		INDEX = 313;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4793,7 +4934,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 335;
+		INDEX = 314;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4801,7 +4942,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 336;
+		INDEX = 315;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4809,7 +4950,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 337;
+		INDEX = 316;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4817,7 +4958,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 338;
+		INDEX = 317;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4825,7 +4966,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 339;
+		INDEX = 318;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4833,7 +4974,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 340;
+		INDEX = 319;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4841,7 +4982,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 341;
+		INDEX = 320;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4849,7 +4990,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 342;
+		INDEX = 321;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4857,7 +4998,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 343;
+		INDEX = 322;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4865,7 +5006,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 344;
+		INDEX = 323;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4873,7 +5014,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 345;
+		INDEX = 324;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4881,687 +5022,143 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hl|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 346;
+		INDEX = 325;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 347;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs";
+		INDEX = 326;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 348;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[15]";
+		INDEX = 327;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 349;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[14]";
+		INDEX = 328;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 350;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[13]";
+		INDEX = 329;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 351;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[12]";
+		INDEX = 330;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 352;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[11]";
+		INDEX = 331;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 353;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[10]";
+		INDEX = 332;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 354;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[9]";
+		INDEX = 333;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 355;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[8]";
+		INDEX = 334;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 356;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[7]";
+		INDEX = 335;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 357;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[6]";
+		INDEX = 336;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 358;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[5]";
+		INDEX = 337;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 359;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[4]";
+		INDEX = 338;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 360;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[3]";
+		INDEX = 339;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 361;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[2]";
+		INDEX = 340;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 362;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[1]";
+		INDEX = 341;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst4|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 363;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 364;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 365;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 366;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 367;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 368;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 369;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 370;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 371;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 372;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 373;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 374;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 375;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 376;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 377;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 378;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 379;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst5|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 380;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 381;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 382;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 383;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 384;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 385;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 386;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 387;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 388;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 389;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 390;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 391;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 392;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 393;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 394;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 395;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 396;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst6|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 397;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 398;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 399;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 400;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 401;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 402;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 403;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 404;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 405;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 406;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 407;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 408;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 409;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 410;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 411;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 412;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 413;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst7|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 414;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 415;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[15]";
-		INDEX = 416;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[14]";
-		INDEX = 417;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[13]";
-		INDEX = 418;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[12]";
-		INDEX = 419;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[11]";
-		INDEX = 420;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[10]";
-		INDEX = 421;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[9]";
-		INDEX = 422;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[8]";
-		INDEX = 423;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[7]";
-		INDEX = 424;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[6]";
-		INDEX = 425;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[5]";
-		INDEX = 426;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[4]";
-		INDEX = 427;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 428;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 429;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 430;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "CPU:inst2|STACK:inst27|STACK_REGISTER:inst8|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 431;
+		SIGNAL = "CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER:hh|lpm_ff:lpm_ff_component|dffs[0]";
+		INDEX = 342;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5569,7 +5166,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q";
-		INDEX = 432;
+		INDEX = 343;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5577,7 +5174,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q[2]";
-		INDEX = 433;
+		INDEX = 344;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5585,7 +5182,7 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q[1]";
-		INDEX = 434;
+		INDEX = 345;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5593,7 +5190,1181 @@ VECTOR("D:/University/6th sem/SiFO/kursach/CPU_WITH_MEMORY.vwf")
 	}
 	LINE{
 		SIGNAL = "CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_afi:auto_generated|safe_q[0]";
-		INDEX = 435;
+		INDEX = 346;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
+VECTOR("D:/University/6th sem/SiFO/kursach/GEN_REG_TEST.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 67626;
+		NUMERATOR = 719;
+		DENOMINATOR = 67626;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "clk";
+		INDEX = 0;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus";
+		INDEX = 1;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[15]";
+		INDEX = 2;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[14]";
+		INDEX = 3;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[13]";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[12]";
+		INDEX = 5;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[11]";
+		INDEX = 6;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[10]";
+		INDEX = 7;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[9]";
+		INDEX = 8;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[8]";
+		INDEX = 9;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[7]";
+		INDEX = 10;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[6]";
+		INDEX = 11;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[5]";
+		INDEX = 12;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[4]";
+		INDEX = 13;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[3]";
+		INDEX = 14;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[2]";
+		INDEX = 15;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[1]";
+		INDEX = 16;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_bus[0]";
+		INDEX = 17;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "is_read";
+		INDEX = 18;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "is_second_read";
+		INDEX = 19;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "is_write";
+		INDEX = 20;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_id";
+		INDEX = 21;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_id[3]";
+		INDEX = 22;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_id[2]";
+		INDEX = 23;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_id[1]";
+		INDEX = 24;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_id[0]";
+		INDEX = 25;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand_id";
+		INDEX = 26;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand_id[3]";
+		INDEX = 27;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand_id[2]";
+		INDEX = 28;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand_id[1]";
+		INDEX = 29;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand_id[0]";
+		INDEX = 30;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data";
+		INDEX = 31;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[15]";
+		INDEX = 32;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[14]";
+		INDEX = 33;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[13]";
+		INDEX = 34;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[12]";
+		INDEX = 35;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[11]";
+		INDEX = 36;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[10]";
+		INDEX = 37;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[9]";
+		INDEX = 38;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[8]";
+		INDEX = 39;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[7]";
+		INDEX = 40;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[6]";
+		INDEX = 41;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[5]";
+		INDEX = 42;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[4]";
+		INDEX = 43;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[3]";
+		INDEX = 44;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[2]";
+		INDEX = 45;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[1]";
+		INDEX = 46;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reg_data[0]";
+		INDEX = 47;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand";
+		INDEX = 48;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[15]";
+		INDEX = 49;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[14]";
+		INDEX = 50;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[13]";
+		INDEX = 51;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[12]";
+		INDEX = 52;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[11]";
+		INDEX = 53;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[10]";
+		INDEX = 54;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[9]";
+		INDEX = 55;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[8]";
+		INDEX = 56;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[7]";
+		INDEX = 57;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[6]";
+		INDEX = 58;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[5]";
+		INDEX = 59;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[4]";
+		INDEX = 60;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[3]";
+		INDEX = 61;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[2]";
+		INDEX = 62;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[1]";
+		INDEX = 63;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "second_operand[0]";
+		INDEX = 64;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
+VECTOR("D:/University/6th sem/SiFO/kursach/ALU_TEST.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 173712;
+		NUMERATOR = 887;
+		DENOMINATOR = 173712;
+		TOP_INDEX = 18;
+	}
+	CLOCK{
+		PERIOD = 20000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "clk";
+		INDEX = 0;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand";
+		INDEX = 1;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[15]";
+		INDEX = 2;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[14]";
+		INDEX = 3;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[13]";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[12]";
+		INDEX = 5;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[11]";
+		INDEX = 6;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[10]";
+		INDEX = 7;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[9]";
+		INDEX = 8;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[8]";
+		INDEX = 9;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[7]";
+		INDEX = 10;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[6]";
+		INDEX = 11;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[5]";
+		INDEX = 12;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[4]";
+		INDEX = 13;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[3]";
+		INDEX = 14;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[2]";
+		INDEX = 15;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[1]";
+		INDEX = 16;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "first_operand[0]";
+		INDEX = 17;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand";
+		INDEX = 18;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[15]";
+		INDEX = 19;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[14]";
+		INDEX = 20;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[13]";
+		INDEX = 21;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[12]";
+		INDEX = 22;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[11]";
+		INDEX = 23;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[10]";
+		INDEX = 24;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[9]";
+		INDEX = 25;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[8]";
+		INDEX = 26;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[7]";
+		INDEX = 27;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[6]";
+		INDEX = 28;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[5]";
+		INDEX = 29;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[4]";
+		INDEX = 30;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[3]";
+		INDEX = 31;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[2]";
+		INDEX = 32;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[1]";
+		INDEX = 33;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sec_operand[0]";
+		INDEX = 34;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "distance";
+		INDEX = 35;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "distance[3]";
+		INDEX = 36;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "distance[2]";
+		INDEX = 37;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "distance[1]";
+		INDEX = 38;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "distance[0]";
+		INDEX = 39;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "flags_calc_en";
+		INDEX = 40;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "incs_clock";
+		INDEX = 41;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "incs_clock_en";
+		INDEX = 42;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "incs_sload";
+		INDEX = 43;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "INCS";
+		INDEX = 44;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "notz_clock";
+		INDEX = 45;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "notz_clock_en";
+		INDEX = 46;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "NOTZ";
+		INDEX = 47;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "nxor_first_clk";
+		INDEX = 48;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "nxor_first_clk_en";
+		INDEX = 49;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "nxor_sec_clk";
+		INDEX = 50;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "nxor_sec_clk_en";
+		INDEX = 51;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "NXOR";
+		INDEX = 52;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sra_clk_en";
+		INDEX = 53;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "sra_clock";
+		INDEX = 54;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "SRA";
+		INDEX = 55;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "flag";
+		INDEX = 56;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "flag[2]";
+		INDEX = 57;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "flag[1]";
+		INDEX = 58;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "flag[0]";
+		INDEX = 59;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result";
+		INDEX = 60;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[15]";
+		INDEX = 61;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[14]";
+		INDEX = 62;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[13]";
+		INDEX = 63;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[12]";
+		INDEX = 64;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[11]";
+		INDEX = 65;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[10]";
+		INDEX = 66;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[9]";
+		INDEX = 67;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[8]";
+		INDEX = 68;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[7]";
+		INDEX = 69;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[6]";
+		INDEX = 70;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[5]";
+		INDEX = 71;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[4]";
+		INDEX = 72;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[3]";
+		INDEX = 73;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[2]";
+		INDEX = 74;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[1]";
+		INDEX = 75;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "result[0]";
+		INDEX = 76;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

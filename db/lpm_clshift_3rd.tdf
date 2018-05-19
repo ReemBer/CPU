@@ -1,0 +1,52 @@
+--lpm_clshift CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" LPM_SHIFTTYPE="ARITHMETIC" LPM_WIDTH=16 LPM_WIDTHDIST=4 data direction distance overflow result
+--VERSION_BEGIN 9.1 cbx_lpm_clshift 2009:10:21:21:22:16:SJ cbx_mgl 2009:10:21:21:37:49:SJ  VERSION_END
+
+
+-- Copyright (C) 1991-2009 Altera Corporation
+--  Your use of Altera Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Altera Program License 
+--  Subscription Agreement, Altera MegaCore Function License 
+--  Agreement, or other applicable license agreement, including, 
+--  without limitation, that your use is for the sole purpose of 
+--  programming logic devices manufactured by Altera and sold by 
+--  Altera or its authorized distributors.  Please refer to the 
+--  applicable agreement for further details.
+
+
+
+--synthesis_resources = 
+SUBDESIGN lpm_clshift_3rd
+( 
+	data[15..0]	:	input;
+	direction	:	input;
+	distance[3..0]	:	input;
+	overflow	:	output;
+	result[15..0]	:	output;
+) 
+VARIABLE 
+	direction_w[0..0]	: WIRE;
+	ov_w[15..0]	: WIRE;
+	pad_left_w[7..0]	: WIRE;
+	pad_right_w0w[1..0]	: WIRE;
+	pad_right_w1w[2..0]	: WIRE;
+	pad_right_w2w[4..0]	: WIRE;
+	pad_right_w3w[8..0]	: WIRE;
+	sbit_w[79..0]	: WIRE;
+
+BEGIN 
+	direction_w[] = ( direction);
+	ov_w[] = ( ((distance[3..3] & (sbit_w[63..63] $ sbit_w[55..55])) # ov_w[14..14]), ((distance[3..3] & (sbit_w[63..63] $ sbit_w[56..56])) # ov_w[13..13]), ((distance[3..3] & (sbit_w[63..63] $ sbit_w[57..57])) # ov_w[12..12]), ((distance[3..3] & (sbit_w[63..63] $ sbit_w[58..58])) # ov_w[11..11]), ((distance[3..3] & (sbit_w[63..63] $ sbit_w[59..59])) # ov_w[10..10]), ((distance[3..3] & (sbit_w[63..63] $ sbit_w[60..60])) # ov_w[9..9]), ((distance[3..3] & (sbit_w[63..63] $ sbit_w[61..61])) # ov_w[8..8]), ((distance[3..3] & (sbit_w[63..63] $ sbit_w[62..62])) # ov_w[7..7]), ((distance[2..2] & (sbit_w[47..47] $ sbit_w[43..43])) # ov_w[6..6]), ((distance[2..2] & (sbit_w[47..47] $ sbit_w[44..44])) # ov_w[5..5]), ((distance[2..2] & (sbit_w[47..47] $ sbit_w[45..45])) # ov_w[4..4]), ((distance[2..2] & (sbit_w[47..47] $ sbit_w[46..46])) # ov_w[3..3]), ((distance[1..1] & (sbit_w[31..31] $ sbit_w[29..29])) # ov_w[2..2]), ((distance[1..1] & (sbit_w[31..31] $ sbit_w[30..30])) # ov_w[1..1]), ((distance[0..0] & (sbit_w[15..15] $ sbit_w[14..14])) # ov_w[0..0]), B"0");
+	overflow = (ov_w[15..15] & (! direction_w[0..0]));
+	pad_left_w[] = B"00000000";
+	pad_right_w0w[] = ( sbit_w[15..15], sbit_w[15..15]);
+	pad_right_w1w[] = ( sbit_w[31..31], sbit_w[31..31], sbit_w[31..31]);
+	pad_right_w2w[] = ( sbit_w[47..47], sbit_w[47..47], sbit_w[47..47], sbit_w[47..47], sbit_w[47..47]);
+	pad_right_w3w[] = ( sbit_w[63..63], sbit_w[63..63], sbit_w[63..63], sbit_w[63..63], sbit_w[63..63], sbit_w[63..63], sbit_w[63..63], sbit_w[63..63], sbit_w[63..63]);
+	result[15..0] = sbit_w[79..64];
+	sbit_w[] = ( ((((distance[3..3] & (! direction_w[])) & ( sbit_w[55..48], pad_left_w[7..0])) # ((distance[3..3] & direction_w[]) & ( pad_right_w3w[7..0], sbit_w[63..56]))) # ((! distance[3..3]) & sbit_w[63..48])), ((((distance[2..2] & (! direction_w[])) & ( sbit_w[43..32], pad_left_w[3..0])) # ((distance[2..2] & direction_w[]) & ( pad_right_w2w[3..0], sbit_w[47..36]))) # ((! distance[2..2]) & sbit_w[47..32])), ((((distance[1..1] & (! direction_w[])) & ( sbit_w[29..16], pad_left_w[1..0])) # ((distance[1..1] & direction_w[]) & ( pad_right_w1w[1..0], sbit_w[31..18]))) # ((! distance[1..1]) & sbit_w[31..16])), ((((distance[0..0] & (! direction_w[])) & ( sbit_w[14..0], pad_left_w[0..0])) # ((distance[0..0] & direction_w[]) & ( pad_right_w0w[0..0], sbit_w[15..1]))) # ((! distance[0..0]) & sbit_w[15..0])), data[]);
+END;
+--VALID FILE

@@ -38,12 +38,11 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY CPU_WITH_MEMORY
+set_global_assignment -name TOP_LEVEL_ENTITY ALU_TEST
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:17:55  MAY 08, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION 9.1
 set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
-set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
 set_global_assignment -name HEX_FILE ROM_INIT.hex
 set_global_assignment -name QIP_FILE ROM.qip
 set_global_assignment -name HEX_FILE RAM_INIT.hex
@@ -67,7 +66,7 @@ set_global_assignment -name QIP_FILE ROM_OUT_BUSTRI.qip
 set_global_assignment -name QIP_FILE IP_REGISTER.qip
 set_global_assignment -name QIP_FILE IP_COUNTER.qip
 set_global_assignment -name QIP_FILE NEW_IP_TEST.qip
-set_global_assignment -name END_TIME "2 us"
+set_global_assignment -name END_TIME "5 us"
 set_global_assignment -name BDF_FILE GENERAL_REGISTERS.bdf
 set_global_assignment -name QIP_FILE GENERAL_REGISTER.qip
 set_global_assignment -name QIP_FILE GENERAL_REGISTERS_DECODER.qip
@@ -120,9 +119,11 @@ set_global_assignment -name QIP_FILE ALU_SRA_SHIFT_REGISTER.qip
 set_global_assignment -name QIP_FILE ALU_SRA_REGISTER.qip
 set_global_assignment -name QIP_FILE SRA_DISTANCE_REGISTER.qip
 set_global_assignment -name QIP_FILE SRA_DISTANCE_MUX.qip
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE CPU_WITH_MEMORY.vwf
+set_global_assignment -name BDF_FILE GENERAL_REGISTERS_TEST.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE GEN_REG_TEST.vwf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE ALU_TEST.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
