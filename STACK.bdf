@@ -22,7 +22,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.3"))
 (pin
 	(input)
-	(rect 216 192 384 208)
+	(rect 296 312 464 328)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "PUSH" (rect 9 0 39 12)(font "Arial" ))
 	(pt 168 8)
@@ -38,7 +38,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 216 224 384 240)
+	(rect 296 344 464 360)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "POP" (rect 9 0 31 12)(font "Arial" ))
 	(pt 168 8)
@@ -54,7 +54,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 216 128 384 144)
+	(rect 296 248 464 264)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "data_in[15..0]" (rect 9 0 76 12)(font "Arial" ))
 	(pt 168 8)
@@ -70,7 +70,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 216 160 384 176)
+	(rect 296 280 464 296)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "move_sp" (rect 5 0 51 12)(font "Arial" ))
 	(pt 168 8)
@@ -86,7 +86,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1856 432 2032 448)
+	(rect 1816 432 1992 448)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "data_out[15..0]" (rect 90 0 164 12)(font "Arial" ))
 	(pt 0 8)
@@ -102,7 +102,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1856 312 2032 328)
+	(rect 1816 312 1992 328)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "SP[2..0]" (rect 90 0 130 12)(font "Arial" ))
 	(pt 0 8)
@@ -171,7 +171,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1248 208 1392 304)
+	(rect 1224 208 1368 304)
 	(text "STACK_REGISTER" (rect 15 1 150 17)(font "Arial" (font_size 10)))
 	(text "inst4" (rect 8 80 31 92)(font "Arial" ))
 	(port
@@ -213,7 +213,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1248 304 1392 400)
+	(rect 1224 304 1368 400)
 	(text "STACK_REGISTER" (rect 15 1 150 17)(font "Arial" (font_size 10)))
 	(text "inst5" (rect 8 80 31 92)(font "Arial" ))
 	(port
@@ -255,7 +255,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1248 400 1392 496)
+	(rect 1224 400 1368 496)
 	(text "STACK_REGISTER" (rect 15 1 150 17)(font "Arial" (font_size 10)))
 	(text "inst6" (rect 8 80 31 92)(font "Arial" ))
 	(port
@@ -297,7 +297,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1248 496 1392 592)
+	(rect 1224 496 1368 592)
 	(text "STACK_REGISTER" (rect 15 1 150 17)(font "Arial" (font_size 10)))
 	(text "inst7" (rect 8 80 31 92)(font "Arial" ))
 	(port
@@ -339,7 +339,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1248 592 1392 688)
+	(rect 1224 592 1368 688)
 	(text "STACK_REGISTER" (rect 15 1 150 17)(font "Arial" (font_size 10)))
 	(text "inst8" (rect 8 80 31 92)(font "Arial" ))
 	(port
@@ -381,7 +381,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1568 368 1720 496)
+	(rect 1528 368 1680 496)
 	(text "STACK_OUTPUT_MUX" (rect 13 2 172 18)(font "Arial" (font_size 10)))
 	(text "inst10" (rect 8 112 37 124)(font "Arial" ))
 	(port
@@ -441,7 +441,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1720 416 1856 456)
+	(rect 1680 416 1816 456)
 	(text "STACK_OUT_BUSTRI" (rect 4 1 156 17)(font "Arial" (font_size 10)))
 	(text "inst11" (rect 8 24 37 36)(font "Arial" ))
 	(port
@@ -476,7 +476,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 928 288 1112 416)
+	(rect 896 288 1080 416)
 	(text "STACK_POINTER_DECODER" (rect 4 1 212 17)(font "Arial" (font_size 10)))
 	(text "inst9" (rect 8 112 31 124)(font "Arial" ))
 	(port
@@ -579,22 +579,6 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(text "data_in[15..0]" (rect 392 120 459 132)(font "Arial" ))
-	(pt 384 136)
-	(pt 448 136)
-	(bus)
-)
-(connector
-	(text "PUSH" (rect 392 184 422 196)(font "Arial" ))
-	(pt 384 200)
-	(pt 448 200)
-)
-(connector
-	(text "POP" (rect 392 216 414 228)(font "Arial" ))
-	(pt 384 232)
-	(pt 448 232)
-)
-(connector
 	(text "SP[2..0]" (rect 304 440 344 452)(font "Arial" ))
 	(pt 352 456)
 	(pt 296 456)
@@ -628,209 +612,225 @@ applicable agreement for further details.
 	(pt 584 328)
 )
 (connector
-	(text "q[0][15..0]" (rect 1400 248 1450 260)(font "Arial" ))
-	(pt 1456 264)
-	(pt 1392 264)
-	(bus)
-)
-(connector
-	(text "q[1][15..0]" (rect 1400 344 1450 356)(font "Arial" ))
-	(pt 1456 360)
-	(pt 1392 360)
-	(bus)
-)
-(connector
-	(text "q[2][15..0]" (rect 1400 440 1450 452)(font "Arial" ))
-	(pt 1456 456)
-	(pt 1392 456)
-	(bus)
-)
-(connector
-	(text "q[3][15..0]" (rect 1400 536 1450 548)(font "Arial" ))
-	(pt 1456 552)
-	(pt 1392 552)
-	(bus)
-)
-(connector
-	(text "q[4][15..0]" (rect 1400 632 1450 644)(font "Arial" ))
-	(pt 1456 648)
-	(pt 1392 648)
-	(bus)
-)
-(connector
-	(pt 1648 496)
-	(pt 1648 512)
-	(bus)
-)
-(connector
-	(text "SP[2..0]" (rect 1512 496 1552 508)(font "Arial" ))
-	(pt 1648 512)
-	(pt 1504 512)
-	(bus)
-)
-(connector
-	(text "data_in[15..0]" (rect 1192 224 1259 236)(font "Arial" ))
-	(pt 1184 240)
-	(pt 1248 240)
-	(bus)
-)
-(connector
-	(text "R[4]" (rect 1216 256 1237 268)(font "Arial" ))
-	(pt 1208 272)
-	(pt 1248 272)
-)
-(connector
-	(text "R[3]" (rect 1216 352 1237 364)(font "Arial" ))
-	(pt 1208 368)
-	(pt 1248 368)
-)
-(connector
-	(text "R[2]" (rect 1216 448 1237 460)(font "Arial" ))
-	(pt 1208 464)
-	(pt 1248 464)
-)
-(connector
-	(text "R[1]" (rect 1216 544 1237 556)(font "Arial" ))
-	(pt 1208 560)
-	(pt 1248 560)
-)
-(connector
-	(text "R[0]" (rect 1216 640 1237 652)(font "Arial" ))
-	(pt 1208 656)
-	(pt 1248 656)
-)
-(connector
-	(text "q[0][15..0]" (rect 1512 392 1562 404)(font "Arial" ))
-	(pt 1504 408)
-	(pt 1568 408)
-	(bus)
-)
-(connector
-	(text "q[1][15..0]" (rect 1512 408 1562 420)(font "Arial" ))
-	(pt 1504 424)
-	(pt 1568 424)
-	(bus)
-)
-(connector
-	(text "q[2][15..0]" (rect 1512 424 1562 436)(font "Arial" ))
-	(pt 1504 440)
-	(pt 1568 440)
-	(bus)
-)
-(connector
-	(text "q[3][15..0]" (rect 1512 440 1562 452)(font "Arial" ))
-	(pt 1504 456)
-	(pt 1568 456)
-	(bus)
-)
-(connector
-	(text "q[4][15..0]" (rect 1512 456 1562 468)(font "Arial" ))
-	(pt 1504 472)
-	(pt 1568 472)
-	(bus)
-)
-(connector
-	(text "data_in[15..0]" (rect 1192 320 1259 332)(font "Arial" ))
-	(pt 1184 336)
-	(pt 1248 336)
-	(bus)
-)
-(connector
-	(text "data_in[15..0]" (rect 1192 416 1259 428)(font "Arial" ))
-	(pt 1184 432)
-	(pt 1248 432)
-	(bus)
-)
-(connector
-	(text "data_in[15..0]" (rect 1192 512 1259 524)(font "Arial" ))
-	(pt 1184 528)
-	(pt 1248 528)
-	(bus)
-)
-(connector
-	(text "data_in[15..0]" (rect 1192 608 1259 620)(font "Arial" ))
-	(pt 1184 624)
-	(pt 1248 624)
-	(bus)
-)
-(connector
-	(text "POP" (rect 1728 496 1750 508)(font "Arial" ))
-	(pt 1720 512)
-	(pt 1760 512)
-)
-(connector
-	(pt 1760 456)
-	(pt 1760 512)
-)
-(connector
-	(text "PUSH" (rect 1192 240 1222 252)(font "Arial" ))
-	(pt 1248 256)
-	(pt 1184 256)
-)
-(connector
-	(text "PUSH" (rect 1192 432 1222 444)(font "Arial" ))
-	(pt 1248 448)
-	(pt 1184 448)
-)
-(connector
-	(text "PUSH" (rect 1192 528 1222 540)(font "Arial" ))
-	(pt 1248 544)
-	(pt 1184 544)
-)
-(connector
-	(text "PUSH" (rect 1192 624 1222 636)(font "Arial" ))
-	(pt 1248 640)
-	(pt 1184 640)
-)
-(connector
-	(text "SP[2..0]" (rect 888 336 928 348)(font "Arial" ))
-	(pt 848 352)
-	(pt 928 352)
-	(bus)
-)
-(connector
-	(text "PUSH" (rect 1192 336 1222 348)(font "Arial" ))
-	(pt 1248 352)
-	(pt 1176 352)
-)
-(connector
-	(text "R[4]" (rect 1120 368 1141 380)(font "Arial" ))
-	(pt 1152 384)
-	(pt 1112 384)
-)
-(connector
-	(text "R[0]" (rect 1120 304 1141 316)(font "Arial" ))
-	(pt 1152 320)
-	(pt 1112 320)
-)
-(connector
-	(text "R[1]" (rect 1120 320 1141 332)(font "Arial" ))
-	(pt 1152 336)
-	(pt 1112 336)
-)
-(connector
-	(text "R[2]" (rect 1120 336 1141 348)(font "Arial" ))
-	(pt 1152 352)
-	(pt 1112 352)
-)
-(connector
-	(text "R[3]" (rect 1120 352 1141 364)(font "Arial" ))
-	(pt 1112 368)
-	(pt 1152 368)
-)
-(connector
-	(text "SP[2..0]" (rect 1800 304 1840 316)(font "Arial" ))
-	(pt 1856 320)
-	(pt 1792 320)
-	(bus)
-)
-(connector
-	(text "move_sp" (rect 392 152 438 164)(font "Arial" ))
-	(pt 384 168)
-	(pt 448 168)
-)
-(connector
 	(text "move_sp" (rect 592 328 638 340)(font "Arial" ))
 	(pt 584 344)
 	(pt 664 344)
+)
+(connector
+	(text "data_in[15..0]" (rect 472 240 539 252)(font "Arial" ))
+	(pt 464 256)
+	(pt 528 256)
+	(bus)
+)
+(connector
+	(text "PUSH" (rect 472 304 502 316)(font "Arial" ))
+	(pt 464 320)
+	(pt 528 320)
+)
+(connector
+	(text "POP" (rect 472 336 494 348)(font "Arial" ))
+	(pt 464 352)
+	(pt 528 352)
+)
+(connector
+	(text "move_sp" (rect 472 272 518 284)(font "Arial" ))
+	(pt 464 288)
+	(pt 528 288)
+)
+(connector
+	(text "SP[2..0]" (rect 856 336 896 348)(font "Arial" ))
+	(pt 848 352)
+	(pt 896 352)
+	(bus)
+)
+(connector
+	(text "R[0]" (rect 1088 304 1109 316)(font "Arial" ))
+	(pt 1080 320)
+	(pt 1120 320)
+)
+(connector
+	(text "R[1]" (rect 1088 320 1109 332)(font "Arial" ))
+	(pt 1080 336)
+	(pt 1120 336)
+)
+(connector
+	(text "R[2]" (rect 1088 336 1109 348)(font "Arial" ))
+	(pt 1080 352)
+	(pt 1120 352)
+)
+(connector
+	(text "R[3]" (rect 1088 352 1109 364)(font "Arial" ))
+	(pt 1080 368)
+	(pt 1120 368)
+)
+(connector
+	(text "R[4]" (rect 1088 368 1109 380)(font "Arial" ))
+	(pt 1080 384)
+	(pt 1120 384)
+)
+(connector
+	(text "data_in[15..0]" (rect 1168 224 1235 236)(font "Arial" ))
+	(pt 1160 240)
+	(pt 1224 240)
+	(bus)
+)
+(connector
+	(text "R[4]" (rect 1192 256 1213 268)(font "Arial" ))
+	(pt 1184 272)
+	(pt 1224 272)
+)
+(connector
+	(text "R[3]" (rect 1192 352 1213 364)(font "Arial" ))
+	(pt 1184 368)
+	(pt 1224 368)
+)
+(connector
+	(text "R[2]" (rect 1192 448 1213 460)(font "Arial" ))
+	(pt 1184 464)
+	(pt 1224 464)
+)
+(connector
+	(text "R[1]" (rect 1192 544 1213 556)(font "Arial" ))
+	(pt 1184 560)
+	(pt 1224 560)
+)
+(connector
+	(text "R[0]" (rect 1192 640 1213 652)(font "Arial" ))
+	(pt 1184 656)
+	(pt 1224 656)
+)
+(connector
+	(text "data_in[15..0]" (rect 1168 320 1235 332)(font "Arial" ))
+	(pt 1160 336)
+	(pt 1224 336)
+	(bus)
+)
+(connector
+	(text "data_in[15..0]" (rect 1168 416 1235 428)(font "Arial" ))
+	(pt 1160 432)
+	(pt 1224 432)
+	(bus)
+)
+(connector
+	(text "data_in[15..0]" (rect 1168 512 1235 524)(font "Arial" ))
+	(pt 1160 528)
+	(pt 1224 528)
+	(bus)
+)
+(connector
+	(text "data_in[15..0]" (rect 1168 608 1235 620)(font "Arial" ))
+	(pt 1160 624)
+	(pt 1224 624)
+	(bus)
+)
+(connector
+	(text "PUSH" (rect 1168 240 1198 252)(font "Arial" ))
+	(pt 1224 256)
+	(pt 1160 256)
+)
+(connector
+	(text "PUSH" (rect 1168 432 1198 444)(font "Arial" ))
+	(pt 1224 448)
+	(pt 1160 448)
+)
+(connector
+	(text "PUSH" (rect 1168 528 1198 540)(font "Arial" ))
+	(pt 1224 544)
+	(pt 1160 544)
+)
+(connector
+	(text "PUSH" (rect 1168 624 1198 636)(font "Arial" ))
+	(pt 1224 640)
+	(pt 1160 640)
+)
+(connector
+	(text "PUSH" (rect 1168 336 1198 348)(font "Arial" ))
+	(pt 1224 352)
+	(pt 1152 352)
+)
+(connector
+	(text "q[0][15..0]" (rect 1376 248 1426 260)(font "Arial" ))
+	(pt 1368 264)
+	(pt 1432 264)
+	(bus)
+)
+(connector
+	(text "q[1][15..0]" (rect 1376 344 1426 356)(font "Arial" ))
+	(pt 1368 360)
+	(pt 1432 360)
+	(bus)
+)
+(connector
+	(text "q[2][15..0]" (rect 1376 440 1426 452)(font "Arial" ))
+	(pt 1368 456)
+	(pt 1432 456)
+	(bus)
+)
+(connector
+	(text "q[3][15..0]" (rect 1376 536 1426 548)(font "Arial" ))
+	(pt 1368 552)
+	(pt 1432 552)
+	(bus)
+)
+(connector
+	(text "q[4][15..0]" (rect 1376 632 1426 644)(font "Arial" ))
+	(pt 1368 648)
+	(pt 1432 648)
+	(bus)
+)
+(connector
+	(pt 1608 496)
+	(pt 1608 512)
+	(bus)
+)
+(connector
+	(text "SP[2..0]" (rect 1472 496 1512 508)(font "Arial" ))
+	(pt 1608 512)
+	(pt 1464 512)
+	(bus)
+)
+(connector
+	(text "q[0][15..0]" (rect 1472 392 1522 404)(font "Arial" ))
+	(pt 1464 408)
+	(pt 1528 408)
+	(bus)
+)
+(connector
+	(text "q[1][15..0]" (rect 1472 408 1522 420)(font "Arial" ))
+	(pt 1464 424)
+	(pt 1528 424)
+	(bus)
+)
+(connector
+	(text "q[2][15..0]" (rect 1472 424 1522 436)(font "Arial" ))
+	(pt 1464 440)
+	(pt 1528 440)
+	(bus)
+)
+(connector
+	(text "q[3][15..0]" (rect 1472 440 1522 452)(font "Arial" ))
+	(pt 1464 456)
+	(pt 1528 456)
+	(bus)
+)
+(connector
+	(text "q[4][15..0]" (rect 1472 456 1522 468)(font "Arial" ))
+	(pt 1464 472)
+	(pt 1528 472)
+	(bus)
+)
+(connector
+	(text "POP" (rect 1688 496 1710 508)(font "Arial" ))
+	(pt 1680 512)
+	(pt 1720 512)
+)
+(connector
+	(pt 1720 456)
+	(pt 1720 512)
+)
+(connector
+	(text "SP[2..0]" (rect 1760 304 1800 316)(font "Arial" ))
+	(pt 1816 320)
+	(pt 1752 320)
+	(bus)
 )

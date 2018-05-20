@@ -2,65 +2,35 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
-Type           : Worst-case tsu
-Slack          : N/A
-Required Time  : None
-Actual Time    : 6.989 ns
-From           : distance[1]
-To             : ALU:inst|Z_FLAG:inst3|lpm_ff:lpm_ff_component|dffs[0]
-From Clock     : --
-To Clock       : clk
-Failed Paths   : 0
-
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 9.690 ns
-From           : ALU:inst|ALU_SRA_REGISTER:inst44|lpm_ff:lpm_ff_component|dffs[11]
-To             : result[3]
-From Clock     : sra_clock
+Actual Time    : 17.204 ns
+From           : lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_21a1:auto_generated|ram_block1a57
+To             : data_bus_test[9]
+From Clock     : clk
 To Clock       : --
-Failed Paths   : 0
-
-Type           : Worst-case tpd
-Slack          : N/A
-Required Time  : None
-Actual Time    : 11.914 ns
-From           : distance[1]
-To             : result[3]
-From Clock     : --
-To Clock       : --
-Failed Paths   : 0
-
-Type           : Worst-case th
-Slack          : N/A
-Required Time  : None
-Actual Time    : -2.206 ns
-From           : sec_operand[2]
-To             : ALU:inst|ALU_NXOR_SECOND_REGISTER:inst37|lpm_ff:lpm_ff_component|dffs[2]
-From Clock     : --
-To Clock       : nxor_sec_clk
 Failed Paths   : 0
 
 Type           : Clock Setup: 'clk'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 385.80 MHz ( period = 2.592 ns )
-From           : ALU:inst|Z_FLAG:inst3|lpm_ff:lpm_ff_component|dffs[0]
-To             : ALU:inst|Z_FLAG:inst3|lpm_ff:lpm_ff_component|dffs[0]
+Actual Time    : 72.10 MHz ( period = 13.869 ns )
+From           : CPU:inst2|ALU:inst18|ALU_SRA_REGISTER:inst44|lpm_ff:lpm_ff_component|dffs[13]
+To             : CPU:inst2|CONTROL_DEVICE:inst|SRA_DISTANCE_REGISTER:inst241|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : clk
 To Clock       : clk
 Failed Paths   : 0
 
-Type           : Clock Setup: 'incs_clock'
-Slack          : N/A
+Type           : Clock Hold: 'clk'
+Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
-Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
-From           : ALU:inst|INCS_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated|safe_q[0]
-To             : ALU:inst|INCS_COUNTER:inst|lpm_counter:lpm_counter_component|cntr_6bj:auto_generated|safe_q[15]
-From Clock     : incs_clock
-To Clock       : incs_clock
-Failed Paths   : 0
+Actual Time    : N/A
+From           : CPU:inst2|CONTROL_DEVICE:inst|RAM_DIRECT_ADDRESS:inst5|lpm_ff:lpm_ff_component|dffs[5]
+To             : lpm_ram_io:inst1|altram:sram|altsyncram:ram_block|altsyncram_21a1:auto_generated|ram_block1a54~porta_address_reg5
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 10000
 
 Type           : Total number of failed paths
 Slack          : 
@@ -70,7 +40,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 0
+Failed Paths   : 10000
 
 --------------------------------------------------------------------------------------
 

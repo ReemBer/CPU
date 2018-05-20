@@ -1,8 +1,26 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="CPU_WITH_MEMORY">
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU_TEST|ALU:inst|ALU_NOTZ_OUT_MUX:inst35|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_o5e.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU_TEST|ALU:inst|ALU_SRA_SHIFT_REGISTER:inst42|lpm_clshift:lpm_clshift_component" CBX_FILE_NAME="lpm_clshift_5ud.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU_TEST|ALU:inst|INCS_COUNTER:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_6bj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_NOTZ_OUT_MUX:inst35|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_o5e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|ALU_SRA_SHIFT_REGISTER:inst42|lpm_clshift:lpm_clshift_component" CBX_FILE_NAME="lpm_clshift_5ud.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|STACK:inst27|STACK_OUTPUT_MUX:inst10|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_t5e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|STACK:inst27|STACK_POINTER_DECODER:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_u7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_DECODER:inst|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|STACK:inst27|STACK_POINTER_COUNTER:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_afi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|COMMAND_DECODER:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_d9f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NEW_IP_TEST:inst39|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_6bj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|SRA_DISTANCE_MUX:inst242|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_54e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst18|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_g7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_SET_COMPARATOR:inst3|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_h8j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|INDIRECT_ADDRESSING_MUX:inst17|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_o5e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|NXOR_SECOND_OPERAND_ID_MUX:inst199|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_54e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|lpm_ff0:inst105|lpm_ff:lpm_ff_component|lpm_constant:ac" CBX_FILE_NAME="lpm_constant_t64.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|LPM_RAM_IO:inst1|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_21a1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|ALU:inst18|INCS_COUNTER:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_6bj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|STACK:inst27|STACK_POINTER_ASYNC_CLEAR_COMPARATOR:inst2|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_h8j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|CONTROL_DEVICE:inst|CPU_CYCLE_COUNTER:inst2|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t6j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTERS_DECODER:inst|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|CPU:inst2|GENERAL_REGISTERS:inst1|GENERAL_REGISTER_READ_MUX:inst17|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_g7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_WITH_MEMORY|ROM:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_cg71.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
